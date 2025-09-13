@@ -117,7 +117,7 @@ export default function Home() {
   // 🚀 初期データ読み込み
   useEffect(() => {
     loadWordlist(selectedWordlist);
-  }, []);
+  }, [selectedWordlist]);
 
   // ⭐️ フィルターされた単語リストの更新（showStarredOnly または wordsData が変更された場合）
   useEffect(() => {
