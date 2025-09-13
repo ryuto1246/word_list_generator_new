@@ -1,0 +1,43 @@
+/**
+ * 概要: Vercelデプロイ設定ファイル
+ * 機能:
+ * - ビルドコマンドの指定
+ * - 環境変数の設定
+ * - リダイレクト・リライト設定
+ * 
+ * TODO:
+ * - 本番環境での環境変数設定を確認
+ * - カスタムドメイン設定時にリダイレクト設定を調整
+ */
+
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["nrt1"],
+  "functions": {
+    "pages/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}
