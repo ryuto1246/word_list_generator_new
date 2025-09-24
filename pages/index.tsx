@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { WordEntry } from "@/types/word";
 import WordCard from "@/components/WordCard";
 
@@ -45,6 +45,25 @@ export default function Home() {
 
   // 🔀 現在表示されている単語リストの順序を管理するstate
   const [displayEntries, setDisplayEntries] = useState<WordEntry[]>([]);
+
+  // ⭐️ 星つき状態の変更を検知するためのstate
+  const [starredUpdateTrigger, setStarredUpdateTrigger] = useState<number>(0);
+
+  // ⭐️ 星つき単語数を計算する関数
+  const getStarredCount = () => {
+    return wordsData.filter((entry) => {
+      const IS_NOCH_NICHT_GELERNT_KEY = `nochNichtGelernt_${entry.word}`;
+      const storedIsNochNichtGelernt = localStorage.getItem(
+        IS_NOCH_NICHT_GELERNT_KEY
+      );
+      return storedIsNochNichtGelernt === "true";
+    }).length;
+  };
+
+  // ⭐️ 星つき状態が変更されたときの処理（useCallbackでメモ化）
+  const handleStarredChange = useCallback(() => {
+    setStarredUpdateTrigger((prev) => prev + 1);
+  }, []);
 
   // 📂 単語ファイルを動的に読み込む関数
   const loadWordlist = async (wordlistId: string) => {
@@ -119,7 +138,7 @@ export default function Home() {
     loadWordlist(selectedWordlist);
   }, [selectedWordlist]);
 
-  // ⭐️ フィルターされた単語リストの更新（showStarredOnly または wordsData が変更された場合）
+  // ⭐️ フィルターされた単語リストの更新（showStarredOnly、wordsData、または星つき状態が変更された場合）
   useEffect(() => {
     const filtered = showStarredOnly
       ? wordsData.filter((entry) => {
@@ -131,7 +150,7 @@ export default function Home() {
         })
       : wordsData;
     setDisplayEntries(filtered); // フィルター結果を displayEntries にセット
-  }, [showStarredOnly, wordsData]); // 依存配列に showStarredOnly と wordsData を追加
+  }, [showStarredOnly, wordsData, starredUpdateTrigger]); // 依存配列に starredUpdateTrigger を追加
 
   if (isLoading) {
     return (
@@ -169,7 +188,7 @@ export default function Home() {
           ))}
         </select>
         <p className="mt-1 text-sm text-gray-500">
-          現在の単語数: {wordsData.length}語
+          markiert {getStarredCount()} / alle Wörter {wordsData.length}
         </p>
       </div>
 
@@ -209,6 +228,7 @@ export default function Home() {
             entry={entry}
             showMeaning={shownStates[entry.id]}
             toggleShowMeaning={() => toggleMeaning(entry.id)}
+            onStarredChange={handleStarredChange}
           />
         ))}
       </div>

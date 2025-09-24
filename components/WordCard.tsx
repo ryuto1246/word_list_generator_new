@@ -1,38 +1,44 @@
 import { WordEntry } from "@/types/word";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 type WordCardProps = {
   entry: WordEntry;
   showMeaning: boolean;
   toggleShowMeaning: () => void;
+  onStarredChange?: () => void; // 星つき状態変更時のコールバック
 };
 
 export default function WordCard({
   entry,
   showMeaning,
   toggleShowMeaning,
+  onStarredChange,
 }: WordCardProps) {
   const IS_NOCH_NICHT_GELERNT_KEY = `nochNichtGelernt_${entry.word}`;
   // const SHOW_MEANING_KEY = `showMeaning_${entry.word}`; // 今回の修正では不要なためコメントアウト
 
-  const [isNochNichtGelernt, setIsnochNichtGelernt] = useState<boolean>(false);
+  const [isNochNichtGelernt, setIsnochNichtGelernt] = useState<boolean>(() => {
+    // 初期値をlocalStorageから直接読み込む
+    try {
+      const stored = localStorage.getItem(`nochNichtGelernt_${entry.word}`);
+      return stored === "true";
+    } catch {
+      return false;
+    }
+  });
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
+  const onStarredChangeRef = useRef(onStarredChange);
+
+  // onStarredChangeが変更されたらrefを更新
+  useEffect(() => {
+    onStarredChangeRef.current = onStarredChange;
+  }, [onStarredChange]);
 
   useEffect(() => {
-    try {
-      const storedIsNochNichtGelernt = localStorage.getItem(
-        IS_NOCH_NICHT_GELERNT_KEY
-      );
-      if (storedIsNochNichtGelernt !== null) {
-        setIsnochNichtGelernt(storedIsNochNichtGelernt === "true");
-      }
-    } catch (error) {
-      console.error(
-        "Error reading isNochNichtGelernt from localStorage:",
-        error
-      );
-    }
-  }, [IS_NOCH_NICHT_GELERNT_KEY]); // ⭐️ 依存配列からSHOW_MEANING_KEYを削除し、IS_NOCH_NICHT_GELERNT_KEYのみにする
+    // コンポーネントがマウントされたら初期化完了をマーク
+    setIsInitialized(true);
+  }, []);
 
   useEffect(() => {
     try {
@@ -44,15 +50,36 @@ export default function WordCard({
   }, [showMeaning /*, entry.word, SHOW_MEANING_KEY */]); // ⭐️ 依存配列をshowMeaningのみにするか、このuseEffect自体を削除
 
   useEffect(() => {
-    try {
-      localStorage.setItem(
-        IS_NOCH_NICHT_GELERNT_KEY,
-        String(isNochNichtGelernt)
-      );
-    } catch (error) {
-      console.error("Error saving isNochNichtGelernt to localStorage:", error);
+    // 初期化完了後のみ保存処理を実行
+    if (isInitialized) {
+      try {
+        localStorage.setItem(
+          IS_NOCH_NICHT_GELERNT_KEY,
+          String(isNochNichtGelernt)
+        );
+      } catch (error) {
+        console.error(
+          "Error saving isNochNichtGelernt to localStorage:",
+          error
+        );
+      }
     }
-  }, [isNochNichtGelernt, IS_NOCH_NICHT_GELERNT_KEY]); // ⭐️ entry.wordはIS_NOCH_NICHT_GELERNT_KEYに含まれるので不要
+  }, [isNochNichtGelernt, IS_NOCH_NICHT_GELERNT_KEY, isInitialized]);
+
+  // 初期値を保持して変更を検知
+  const initialValueRef = useRef(isNochNichtGelernt);
+
+  // 星つき状態変更時のコールバックを別のuseEffectで処理（実際の変更のみ）
+  useEffect(() => {
+    if (
+      isInitialized &&
+      isNochNichtGelernt !== initialValueRef.current &&
+      onStarredChangeRef.current
+    ) {
+      onStarredChangeRef.current();
+      initialValueRef.current = isNochNichtGelernt; // 現在の値を記録
+    }
+  }, [isNochNichtGelernt, isInitialized]); // refを使用するため、onStarredChangeは依存配列から除外
 
   const genderClass =
     entry.gender === "masculine"
