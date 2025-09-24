@@ -2528,24 +2528,7 @@
     },
     "tags": ["action", "avoidance"]
   },
-  {
-    "id": "ausser-nicht",
-    "word": "außer nicht",
-    "partOfSpeech": "phrase",
-    "meanings": [
-      {
-        "ja": "〜を除いては（〜しない）",
-        "en": "except not..."
-      }
-    ],
-    "examples": [
-      {
-        "de": "Ich kann alles essen, außer nicht scharf.",
-        "ja": "辛いもの以外なら何でも食べられる。"
-      }
-    ],
-    "tags": ["exception", "negation"]
-  },
+
   {
     "id": "banal",
     "word": "banal",
@@ -4180,6 +4163,27 @@
         "ja": "私有財産は保護されている。"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "eigen",
+          "meaning": {
+            "ja": "自身の、固有の",
+            "en": "own, proper"
+          },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "-tum",
+          "meaning": {
+            "ja": "状態・概念を表す名詞化接尾辞",
+            "en": "suffix forming abstract nouns indicating state or condition"
+          },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
     "tags": ["legal", "possession"]
   },
   {
@@ -4559,19 +4563,29 @@
     "tags": ["quality", "uniqueness"]
   },
   {
-    "id": "ekelt-sich-vor",
-    "word": "ekelt sich vor",
-    "partOfSpeech": "phrase",
+    "id": "sich-vor-etw-ekeln",
+    "word": "sich vor etw3 ekeln",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "sich vor etw3 ekeln",
+      "preterite": "ekelte sich vor etw3",
+      "pastParticiple": "sich vor etw3 geekelt",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
         "ja": "〜に嫌悪感を抱く、〜を気持ち悪がる",
-        "en": "is disgusted by, is repulsed by"
+        "en": "to be disgusted by, to be repulsed by"
       }
     ],
     "examples": [
       {
-        "de": "Er ekelt sich vor Spinnen.",
-        "ja": "彼はクモを気持ち悪がる。"
+        "de": "Ich ekle mich vor Spinnen.",
+        "ja": "私はクモを気持ち悪がる。"
+      },
+      {
+        "de": "Sie ekelt sich vor dem Anblick von Blut.",
+        "ja": "彼女は血を見ることに嫌悪感を抱く。"
       }
     ],
     "tags": ["emotion", "disgust"]
@@ -5043,29 +5057,47 @@
     "tags": ["acquisition", "employment"]
   },
   {
-    "id": "erwiesen",
-    "word": "erwiesen",
-    "partOfSpeech": "adjective",
+    "id": "erweisen",
+    "word": "erweisen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erweisen",
+      "preterite": "erwies",
+      "pastParticiple": "erwiesen",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "証明された、実証された",
-        "en": "proven, demonstrated, established"
+        "ja": "証明する、示す、明らかにする",
+        "en": "to prove, to show, to demonstrate"
       }
     ],
     "examples": [
       {
-        "de": "Seine Unschuld wurde erwiesen.",
-        "ja": "彼の無実は証明された。"
+        "de": "Er muss seine Unschuld erweisen.",
+        "ja": "彼は自分の無実を証明しなければならない。"
+      },
+      {
+        "de": "Die Theorie erwies sich als falsch.",
+        "ja": "その理論は間違いであることが判明した。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound",
       "components": [
         {
-          "form": "erweisen",
+          "form": "er-",
           "meaning": {
-            "ja": "証明する",
-            "en": "to prove"
+            "ja": "強調・完了を表す接頭辞",
+            "en": "prefix indicating emphasis or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "weisen",
+          "meaning": {
+            "ja": "示す、指し示す",
+            "en": "to show, to point"
           },
           "partOfSpeech": "verb"
         }
@@ -5102,29 +5134,47 @@
     "tags": ["action", "surprise", "transport"]
   },
   {
-    "id": "erwaehnt",
-    "word": "erwähnt",
-    "partOfSpeech": "adjective",
+    "id": "erwaehnen",
+    "word": "erwähnen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erwähnen",
+      "preterite": "erwähnte",
+      "pastParticiple": "erwähnt",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "言及された、述べられた",
-        "en": "mentioned, referred to"
+        "ja": "言及する、述べる、触れる",
+        "en": "to mention, to refer to, to bring up"
       }
     ],
     "examples": [
       {
-        "de": "Die bereits erwähnten Punkte sind wichtig.",
-        "ja": "すでに言及された点は重要です。"
+        "de": "Er erwähnte das Problem in seinem Bericht.",
+        "ja": "彼はその問題を報告書で言及した。"
+      },
+      {
+        "de": "Darf ich erwähnen, dass wir noch Zeit haben?",
+        "ja": "まだ時間があることに触れてもよろしいでしょうか？"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound",
       "components": [
         {
-          "form": "erwähnen",
+          "form": "er-",
           "meaning": {
-            "ja": "言及する",
-            "en": "to mention"
+            "ja": "強調・完了を表す接頭辞",
+            "en": "prefix indicating emphasis or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "wähnen",
+          "meaning": {
+            "ja": "思う、想像する（古語）",
+            "en": "to think, to imagine (archaic)"
           },
           "partOfSpeech": "verb"
         }
@@ -6020,29 +6070,39 @@
     "tags": ["permission", "rule"]
   },
   {
-    "id": "gesteuert",
-    "word": "gesteuert",
-    "partOfSpeech": "adjective",
+    "id": "steuern",
+    "word": "steuern",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "steuern",
+      "preterite": "steuerte",
+      "pastParticiple": "gesteuert",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "制御された、操縦された",
-        "en": "controlled, steered, managed"
+        "ja": "操縦する、制御する、舵を取る",
+        "en": "to steer, to control, to navigate"
       }
     ],
     "examples": [
       {
-        "de": "Das Flugzeug wird automatisch gesteuert.",
-        "ja": "その飛行機は自動的に操縦される。"
+        "de": "Er steuert das Auto vorsichtig durch die Stadt.",
+        "ja": "彼は慎重に車を街中で運転する。"
+      },
+      {
+        "de": "Der Pilot steuert das Flugzeug manuell.",
+        "ja": "パイロットは飛行機を手動で操縦する。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "other",
       "components": [
         {
           "form": "steuern",
           "meaning": {
-            "ja": "操縦する",
-            "en": "to steer, to control"
+            "ja": "舵を取る、方向を定める（古高ドイツ語 stiurren より）",
+            "en": "to steer, to direct (from Old High German stiurren)"
           },
           "partOfSpeech": "verb"
         }
@@ -6585,6 +6645,19 @@
         "ja": "彼は優れた仕事をした。"
       }
     ],
+    "etymology": {
+      "type": "past-participle",
+      "components": [
+        {
+          "form": "hervorragen",
+          "meaning": {
+            "ja": "突き出る、際立つ",
+            "en": "to protrude, to stand out"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["quality", "praise"]
   },
   {
@@ -7662,18 +7735,18 @@
         {
           "form": "rechnen",
           "meaning": {
-            "ja": "計算する",
-            "en": "to calculate"
+            "ja": "計算する、数える",
+            "en": "to calculate, to count"
           },
           "partOfSpeech": "verb"
         },
         {
-          "form": "Schaft",
+          "form": "-schaft",
           "meaning": {
-            "ja": "柄",
-            "en": "shaft"
+            "ja": "状態・性質を表す名詞化接尾辞",
+            "en": "suffix forming nouns indicating state or quality"
           },
-          "partOfSpeech": "noun"
+          "partOfSpeech": "suffix"
         }
       ]
     },
@@ -8322,6 +8395,14 @@
             "en": "to satiate, to saturate"
           },
           "partOfSpeech": "verb"
+        },
+        {
+          "form": "-ung",
+          "meaning": {
+            "ja": "行為・状態を表す名詞化接尾辞",
+            "en": "noun-forming suffix indicating action or state"
+          },
+          "partOfSpeech": "suffix"
         }
       ]
     },
@@ -9421,6 +9502,27 @@
         "ja": "何が事故を引き起こしたのですか？"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "変化・完了を表す接頭辞",
+            "en": "prefix indicating change or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "Ursache",
+          "meaning": {
+            "ja": "原因、要因",
+            "en": "cause, reason"
+          },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["causality", "action"]
   },
   {
@@ -9485,29 +9587,47 @@
     "tags": ["use", "function"]
   },
   {
-    "id": "verwiesen",
-    "word": "verwiesen",
-    "partOfSpeech": "adjective",
+    "id": "verweisen",
+    "word": "verweisen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verweisen",
+      "preterite": "verwies",
+      "pastParticiple": "verwiesen",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "参照された、言及された；追放された",
-        "en": "referred, referenced; expelled"
+        "ja": "参照する、言及する；追放する、退学させる",
+        "en": "to refer to, to point to; to expel, to dismiss"
       }
     ],
     "examples": [
       {
-        "de": "Siehe die verwiesenen Seiten.",
-        "ja": "参照されたページを参照してください。"
+        "de": "Ich verweise Sie auf Seite 15.",
+        "ja": "15ページを参照してください。"
+      },
+      {
+        "de": "Der Schüler wurde von der Schule verwiesen.",
+        "ja": "その生徒は学校から退学させられた。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound",
       "components": [
         {
-          "form": "verweisen",
+          "form": "ver-",
           "meaning": {
-            "ja": "参照する、追放する",
-            "en": "to refer, to expel"
+            "ja": "変化・完了を表す接頭辞",
+            "en": "prefix indicating change or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "weisen",
+          "meaning": {
+            "ja": "示す、指し示す",
+            "en": "to show, to point"
           },
           "partOfSpeech": "verb"
         }

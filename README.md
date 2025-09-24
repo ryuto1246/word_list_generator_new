@@ -149,6 +149,29 @@ interface EtymologyComponent {
 - `phrase` - 成句・慣用表現
 - `filler` - 繋ぎ語・フィラー語
 
+#### 動詞の語順ガイドライン
+
+**再帰動詞・前置詞動詞の標準形式**：
+
+再帰動詞や前置詞動詞は、辞書的な不定形の語順で記録します：
+
+- ✅ **推奨**: `sich3 vor etw3 ekeln` （再帰代名詞＋前置詞＋目的語＋動詞）
+- ❌ **非推奨**: `sich ekeln vor` （動詞＋前置詞の語順）
+
+**格変化の表記**：
+
+- `sich3` = 再帰代名詞 3 格（Dativ）
+- `etw3` = etwas（何か）+ 3 格（Dativ）
+- `jdn4` = jemanden（誰か）+ 4 格（Akkusativ）
+
+**例**：
+
+- `sich3 vor etw3 ekeln` → "〜に嫌悪感を抱く"
+- `jdm3 bei etw3 helfen` → "（誰かの）〜を手伝う"
+- `sich4 für etw4 interessieren` → "〜に興味を持つ"
+
+この形式により、ドイツ語学習者は正しい格変化と語順を同時に学習できます。
+
 #### タグシステム
 
 語彙をカテゴリ別に分類：
@@ -175,6 +198,7 @@ interface EtymologyComponent {
 3. 実用的な例文（日常・ビジネス・学術文脈）
 4. 正確な文法情報（活用、性、複数形等）
 5. 語源・成り立ちの詳細説明
+6. **動詞語順**: 再帰動詞・前置詞動詞は辞書的語順で記録（例: `sich3 vor etw3 ekeln`）
 
 **出力形式**: 以下の TypeScript インターフェースに準拠
 [WordEntry 型定義を挿入]
@@ -236,6 +260,8 @@ interface EtymologyComponent {
 2. **文法正確性**
 
    - 動詞活用形（不定詞、過去形、過去分詞、助動詞）
+   - **動詞語順**: 再帰動詞・前置詞動詞は辞書的語順（`sich3 vor etw3 ekeln`形式）
+   - 格変化の正確な表記（sich3, etw3, jdn4 等）
    - 名詞の性（der/die/das）と複数形
    - 形容詞の語尾変化情報
 
