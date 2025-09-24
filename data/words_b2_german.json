@@ -4599,22 +4599,26 @@
     "tags": ["emotion", "condition"]
   },
   {
-    "id": "empfindet-als",
-    "word": "empfindet ... als",
+    "id": "empfinden-etw-als",
+    "word": "etw4 als ... empfinden",
     "partOfSpeech": "phrase",
     "meanings": [
       {
-        "ja": "〜を〜とみなす、〜と感じる",
-        "en": "perceives ... as, feels ... as"
+        "ja": "（何かを）〜として感じる、〜とみなす",
+        "en": "to perceive something as, to feel something as"
       }
     ],
     "examples": [
       {
-        "de": "Sie empfindet das als ungerecht.",
-        "ja": "彼女はそれを不公平だと感じている。"
+        "de": "Ich empfinde diese Kritik als unfair.",
+        "ja": "私はこの批判を不公平だと感じる。"
+      },
+      {
+        "de": "Viele Menschen empfinden Lärm als störend.",
+        "ja": "多くの人々は騒音を迷惑なものと感じる。"
       }
     ],
-    "tags": ["perception", "opinion"]
+    "tags": ["perception", "opinion", "emotion"]
   },
   {
     "id": "empoeren",
@@ -4679,7 +4683,7 @@
   },
   {
     "id": "entsagen",
-    "word": "ent|sagen",
+    "word": "entsagen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "entsagen",
@@ -4752,6 +4756,27 @@
         "ja": "古い電池はどこで処分できますか？"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ent-",
+          "meaning": {
+            "ja": "除去・分離を表す接頭辞",
+            "en": "prefix indicating removal or separation"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "sorgen",
+          "meaning": {
+            "ja": "心配する、世話をする",
+            "en": "to care for, to worry about"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["environment", "waste-management"]
   },
   {
@@ -5108,33 +5133,56 @@
     "tags": ["communication", "reference"]
   },
   {
-    "id": "erzeugt",
-    "word": "erzeugt",
-    "partOfSpeech": "adjective",
+    "id": "erzeugen",
+    "word": "erzeugen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erzeugen",
+      "preterite": "erzeugte",
+      "pastParticiple": "erzeugt",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "生成された、生産された",
-        "en": "generated, produced, created"
+        "ja": "生成する、生産する、作り出す",
+        "en": "to generate, to produce, to create"
       }
     ],
     "examples": [
       {
-        "de": "Die Wärme wird durch Reibung erzeugt.",
-        "ja": "熱は摩擦によって生成される。"
+        "de": "Diese Maschine erzeugt Strom aus Windkraft.",
+        "ja": "この機械は風力から電気を生成する。"
+      },
+      {
+        "de": "Reibung erzeugt Wärme.",
+        "ja": "摩擦は熱を生成する。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound-verb",
+      "origin": "Middle High German 'ziugen' (to create, to prove)",
       "components": [
         {
-          "form": "erzeugen",
+          "form": "er-",
           "meaning": {
-            "ja": "生成する",
-            "en": "to produce, to generate"
+            "ja": "完了・結果を表す接頭辞",
+            "en": "prefix indicating completion or result"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "zeugen",
+          "meaning": {
+            "ja": "生む、証明する（古高ドイツ語 ziugōn より）",
+            "en": "to beget, to testify (from Old High German ziugōn)"
           },
           "partOfSpeech": "verb"
         }
-      ]
+      ],
+      "historicalDevelopment": {
+        "ja": "17世紀以降「生み出す・生産する」の意味で使用。語根は名詞Zeug（道具）と関連。",
+        "en": "Since 17th century used primarily meaning 'to produce, to generate'. Root related to noun Zeug (tool, implement)."
+      }
     },
     "tags": ["production", "creation"]
   },
@@ -5176,6 +5224,27 @@
         "ja": "彼は過失により事故を引き起こした。"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "fahren",
+          "meaning": {
+            "ja": "行く、進む、運転する（古高ドイツ語faran）",
+            "en": "to go, to travel, to drive (Old High German faran)"
+          },
+          "partOfSpeech": "verb"
+        },
+        {
+          "form": "lässig",
+          "meaning": {
+            "ja": "放置する、怠る（lassenから派生）",
+            "en": "letting go, neglecting (derived from lassen)"
+          },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["legal", "responsibility"]
   },
   {
@@ -8167,8 +8236,8 @@
     "tags": ["geography", "travel"]
   },
   {
-    "id": "stoert",
-    "word": "stört",
+    "id": "stoeren",
+    "word": "stören",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "stören",
@@ -8178,14 +8247,18 @@
     },
     "meanings": [
       {
-        "ja": "邪魔をする、妨害する、気に障る",
-        "en": "disturbs, bothers, interferes (present tense of 'stören')"
+        "ja": "邪魔する、妨害する、乱す",
+        "en": "to disturb, to bother, to interfere"
       }
     ],
     "examples": [
       {
-        "de": "Es stört mich, wenn du so laut sprichst.",
-        "ja": "あなたがそんなに大声で話すと気になる（邪魔だ）。"
+        "de": "Bitte störe mich nicht bei der Arbeit.",
+        "ja": "仕事中は邪魔しないでください。"
+      },
+      {
+        "de": "Das Geräusch stört meinen Schlaf.",
+        "ja": "その音が私の睡眠を妨げる。"
       }
     ],
     "tags": ["emotion", "disturbance"]
@@ -9443,35 +9516,57 @@
     "tags": ["information", "legal"]
   },
   {
-    "id": "verwoehnt",
-    "word": "verwöhnt",
-    "partOfSpeech": "adjective",
+    "id": "verwoehnen",
+    "word": "verwöhnen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verwöhnen",
+      "preterite": "verwöhnte",
+      "pastParticiple": "verwöhnt",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "甘やかされた",
-        "en": "spoiled, pampered"
+        "ja": "甘やかす、溺愛する；贅沢をさせる",
+        "en": "to spoil, to pamper; to indulge"
       }
     ],
     "examples": [
       {
-        "de": "Das Kind ist sehr verwöhnt.",
-        "ja": "その子供はとても甘やかされている。"
+        "de": "Die Großeltern verwöhnen ihre Enkelkinder oft.",
+        "ja": "祖父母はしばしば孫たちを甘やかす。"
+      },
+      {
+        "de": "Er verwöhnt seine Frau mit Geschenken.",
+        "ja": "彼は贈り物で妻を甘やかしている。"
+      },
+      {
+        "de": "Sie ließ sich im Spa verwöhnen.",
+        "ja": "彼女はスパで贅沢な時間を過ごした。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound",
       "components": [
         {
-          "form": "verwöhnen",
+          "form": "ver-",
           "meaning": {
-            "ja": "甘やかす",
-            "en": "to spoil"
+            "ja": "動作の強調・変化を表す接頭辞",
+            "en": "prefix indicating intensification or change"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "wöhnen",
+          "meaning": {
+            "ja": "慣れさせる（古語）",
+            "en": "to accustom (archaic)"
           },
           "partOfSpeech": "verb"
         }
       ]
     },
-    "tags": ["character", "behavior"]
+    "tags": ["care", "behavior", "indulgence"]
   },
   {
     "id": "verzug",
