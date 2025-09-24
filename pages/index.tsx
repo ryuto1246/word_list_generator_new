@@ -5,14 +5,14 @@ import WordCard from "@/components/WordCard";
 // 利用可能な単語ファイルの定義
 const AVAILABLE_WORDLISTS = [
   {
-    id: "words_2505",
-    name: "基本単語 (2505語)",
-    filename: "words_2505.json",
+    id: "words_b2_german",
+    name: "ドイツ語B2 Lesen",
+    filename: "words_b2_german.json",
   },
   {
-    id: "words_b2_german",
-    name: "ドイツ語B2レベル",
-    filename: "words_b2_german.json",
+    id: "words_b2_sprechen_fillers",
+    name: "ドイツ語B2 Sprechen",
+    filename: "words_b2_sprechen_fillers.json",
   },
 ];
 
@@ -29,7 +29,7 @@ const shuffleArray = (array: WordEntry[]) => {
 export default function Home() {
   // 📂 選択された単語帳のstate
   const [selectedWordlist, setSelectedWordlist] =
-    useState<string>("words_2505");
+    useState<string>("words_b2_german");
 
   // 📚 読み込まれた単語データのstate
   const [wordsData, setWordsData] = useState<WordEntry[]>([]);

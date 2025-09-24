@@ -1,0 +1,876 @@
+[
+  {
+    "id": "also",
+    "word": "also",
+    "partOfSpeech": "filler",
+    "meanings": [
+      {
+        "ja": "ええと、それで、つまり",
+        "en": "well, so, like..."
+      }
+    ],
+    "examples": [
+      {
+        "de": "Also, ich denke, dass...",
+        "ja": "ええと、私は〜だと思います..."
+      },
+      {
+        "de": "Also, was ich sagen möchte ist...",
+        "ja": "つまり、私が言いたいのは..."
+      }
+    ],
+    "usageNotes": "文の始めや、考えをまとめる時間を稼ぐときに使用。最も一般的なフィラー。",
+    "tags": ["filler", "speaking", "b2", "hesitation"]
+  },
+  {
+    "id": "sozusagen",
+    "word": "sozusagen",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "いわば、言ってみれば、ある意味で",
+        "en": "so to speak, kind of, in a way"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist sozusagen ein neuer Trend.",
+        "ja": "それはいわば新しいトレンドです。"
+      },
+      {
+        "de": "Er ist sozusagen mein bester Freund.",
+        "ja": "彼は言ってみれば私の親友です。"
+      }
+    ],
+    "usageNotes": "不正確さや曖昧さを表現するときに使用。英語の「kind of」に相当。",
+    "tags": ["filler", "speaking", "b2", "approximation"]
+  },
+  {
+    "id": "ich_meine",
+    "word": "ich meine",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "つまり、要するに、というのは",
+        "en": "I mean, what I mean is"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist schwierig, ich meine, nicht unmöglich.",
+        "ja": "それは難しいです、つまり、不可能ではないということです。"
+      },
+      {
+        "de": "Ich meine, was ich damit sagen will ist...",
+        "ja": "つまり、私がそれで言いたいのは..."
+      }
+    ],
+    "usageNotes": "自分の発言を明確化したり、修正したりするときに使用。",
+    "tags": ["filler", "speaking", "b2", "clarification"]
+  },
+  {
+    "id": "ehrlich_gesagt",
+    "word": "ehrlich gesagt",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "正直に言うと、率直に言って",
+        "en": "honestly speaking, to be honest"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ehrlich gesagt, weiß ich es nicht genau.",
+        "ja": "正直に言うと、よく分からないです。"
+      },
+      {
+        "de": "Ehrlich gesagt bin ich nicht sicher.",
+        "ja": "率直に言って、確信がありません。"
+      }
+    ],
+    "usageNotes": "個人的な意見や不確実性を表現するときに使用。",
+    "tags": ["filler", "speaking", "b2", "honesty"]
+  },
+  {
+    "id": "wie_soll_ich_sagen",
+    "word": "wie soll ich sagen",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "何と言えばいいか、どう言ったらいいか",
+        "en": "how should I put it, how can I say"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er ist, wie soll ich sagen, etwas seltsam.",
+        "ja": "彼は、何と言えばいいか、ちょっと変わっています。"
+      },
+      {
+        "de": "Das Problem ist, wie soll ich sagen, kompliziert.",
+        "ja": "その問題は、どう言ったらいいか、複雑です。"
+      }
+    ],
+    "usageNotes": "適切な言葉を探している時や、慎重に表現したい時に使用。",
+    "tags": ["filler", "speaking", "b2", "hesitation"]
+  },
+  {
+    "id": "naja",
+    "word": "naja",
+    "partOfSpeech": "interjection",
+    "meanings": [
+      {
+        "ja": "まあ、そうですね、うーん",
+        "en": "well, hmm, sort of"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Naja, das ist eine schwierige Frage.",
+        "ja": "まあ、それは難しい質問ですね。"
+      },
+      {
+        "de": "Findest du das gut? - Naja, es geht.",
+        "ja": "それをいいと思う？ - まあ、そこそこかな。"
+      }
+    ],
+    "usageNotes": "躊躇や中立的な立場を表現するときに使用。カジュアルな表現。",
+    "tags": ["filler", "speaking", "b2", "hesitation", "casual"]
+  },
+  {
+    "id": "quasi",
+    "word": "quasi",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "いわば、ほとんど、準〜",
+        "en": "quasi, almost, kind of"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist quasi unmöglich.",
+        "ja": "それはいわば不可能です。"
+      },
+      {
+        "de": "Er ist quasi mein Chef.",
+        "ja": "彼はいわば私の上司です。"
+      }
+    ],
+    "usageNotes": "不完全性や近似性を表現するときに使用。",
+    "tags": ["filler", "speaking", "b2", "approximation"]
+  },
+  {
+    "id": "gewissermassen",
+    "word": "gewissermaßen",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "ある意味で、いくぶんか、言ってみれば",
+        "en": "in a way, to some extent, sort of"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist gewissermaßen richtig.",
+        "ja": "それはある意味で正しいです。"
+      },
+      {
+        "de": "Er ist gewissermaßen verantwortlich.",
+        "ja": "彼はいくぶんか責任があります。"
+      }
+    ],
+    "usageNotes": "部分的な同意や限定的な表現をするときに使用。",
+    "tags": ["filler", "speaking", "b2", "qualification"]
+  },
+  {
+    "id": "um_es_mal_so_zu_sagen",
+    "word": "um es mal so zu sagen",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "こう言ってみれば、言い方を変えれば",
+        "en": "to put it this way, if I may say so"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er ist, um es mal so zu sagen, nicht sehr hilfsbereit.",
+        "ja": "彼は、こう言ってみれば、あまり親切ではありません。"
+      },
+      {
+        "de": "Das war, um es mal so zu sagen, ein Desaster.",
+        "ja": "それは、言い方を変えれば、大惨事でした。"
+      }
+    ],
+    "usageNotes": "婉曲的に何かを表現したい時や、言い方を和らげたい時に使用。",
+    "tags": ["filler", "speaking", "b2", "euphemism"]
+  },
+  {
+    "id": "wenn_man_so_will",
+    "word": "wenn man so will",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "言ってみれば、もしそう言うなら",
+        "en": "if you will, so to speak"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist, wenn man so will, ein Fortschritt.",
+        "ja": "それは、言ってみれば、進歩です。"
+      },
+      {
+        "de": "Er ist, wenn man so will, ein Experte.",
+        "ja": "彼は、もしそう言うなら、専門家です。"
+      }
+    ],
+    "usageNotes": "相手に判断を委ねるような表現をするときに使用。",
+    "tags": ["filler", "speaking", "b2", "deference"]
+  },
+  {
+    "id": "eigentlich",
+    "word": "eigentlich",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "実際は、本当は、実のところ",
+        "en": "actually, really, in fact"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Eigentlich bin ich müde.",
+        "ja": "実際のところ、疲れています。"
+      },
+      {
+        "de": "Das ist eigentlich eine gute Idee.",
+        "ja": "それは実のところ良いアイデアです。"
+      }
+    ],
+    "usageNotes": "予想と異なることや、本音を表現するときに使用。",
+    "tags": ["filler", "speaking", "b2", "contradiction"]
+  },
+  {
+    "id": "wie_gesagt",
+    "word": "wie gesagt",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "先ほど言ったように、前述の通り",
+        "en": "as I said, as mentioned"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wie gesagt, das ist nicht einfach.",
+        "ja": "先ほど言ったように、それは簡単ではありません。"
+      },
+      {
+        "de": "Wie gesagt bin ich dagegen.",
+        "ja": "前述の通り、私は反対です。"
+      }
+    ],
+    "usageNotes": "以前の発言を参照するときに使用。繰り返しを示す。",
+    "tags": ["filler", "speaking", "b2", "reference"]
+  },
+  {
+    "id": "so",
+    "word": "so",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "それで、そう、このように",
+        "en": "so, thus, like this"
+      }
+    ],
+    "examples": [
+      {
+        "de": "So, was denkst du darüber?",
+        "ja": "それで、それについてどう思いますか？"
+      },
+      {
+        "de": "So ist das nun mal.",
+        "ja": "そういうものです。"
+      }
+    ],
+    "usageNotes": "話題転換や結論への導入として使用。非常に頻繁に使われる。",
+    "tags": ["filler", "speaking", "b2", "transition"]
+  },
+  {
+    "id": "genau",
+    "word": "genau",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "そうですね、その通り、正確に",
+        "en": "exactly, that's right, precisely"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist ein Problem. - Genau!",
+        "ja": "それは問題ですね。- その通りです！"
+      },
+      {
+        "de": "Genau das wollte ich sagen.",
+        "ja": "まさにそれを言いたかったのです。"
+      }
+    ],
+    "usageNotes": "同意や確認を示すときに使用。会話の相槌としても使える。",
+    "tags": ["filler", "speaking", "b2", "agreement"]
+  },
+  {
+    "id": "irgendwie",
+    "word": "irgendwie",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "なんとなく、どういうわけか、何となく",
+        "en": "somehow, kind of, in some way"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist irgendwie seltsam.",
+        "ja": "それはなんとなく変です。"
+      },
+      {
+        "de": "Ich fühle mich irgendwie unwohl.",
+        "ja": "何となく気分が悪いです。"
+      }
+    ],
+    "usageNotes": "曖昧な感情や状況を表現するときに使用。",
+    "tags": ["filler", "speaking", "b2", "vagueness"]
+  },
+  {
+    "id": "das_wort_faellt_mir_nicht_ein",
+    "word": "das Wort fällt mir gerade nicht ein",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "今その言葉が思い出せません",
+        "en": "I can't think of the word right now"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Wort fällt mir gerade nicht ein, aber Sie wissen schon...",
+        "ja": "今その言葉が思い出せませんが、あなたもご存知の..."
+      },
+      {
+        "de": "Wie nennt man das? Das Wort fällt mir nicht ein.",
+        "ja": "それを何と呼びますか？その言葉が思い出せません。"
+      }
+    ],
+    "usageNotes": "適切な単語が思い浮かばないときに使用。語彙不足を補うフィラー。",
+    "tags": ["filler", "speaking", "b2", "vocabulary", "hesitation"]
+  },
+  {
+    "id": "ich_weiss_nicht_genau_wie_man_das_nennt",
+    "word": "ich weiß nicht genau, wie man das nennt",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "それを何と呼ぶか正確には分かりません",
+        "en": "I don't know exactly what to call it"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich weiß nicht genau, wie man das nennt, aber es ist so ein Gerät...",
+        "ja": "それを何と呼ぶか正確には分かりませんが、そのような装置で..."
+      },
+      {
+        "de": "Es ist, ich weiß nicht genau, wie man das nennt, eine Art Computer.",
+        "ja": "それは、何と呼ぶか正確には分かりませんが、コンピューターの一種です。"
+      }
+    ],
+    "usageNotes": "正確な用語が分からないときに使用。専門用語を避けて説明する際に便利。",
+    "tags": ["filler", "speaking", "b2", "terminology", "uncertainty"]
+  },
+  {
+    "id": "meiner_meinung_nach",
+    "word": "meiner Meinung nach",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私の意見では、私としては",
+        "en": "in my opinion, from my point of view"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Meiner Meinung nach ist das eine gute Lösung.",
+        "ja": "私の意見では、それは良い解決策です。"
+      },
+      {
+        "de": "Meiner Meinung nach sollten wir vorsichtig sein.",
+        "ja": "私としては、慎重になるべきだと思います。"
+      }
+    ],
+    "usageNotes": "個人的な意見を表明するときの標準的な表現。プレゼンテーションで頻繁に使用。",
+    "tags": ["speaking", "b2", "opinion", "presentation"]
+  },
+  {
+    "id": "ich_bin_der_ansicht",
+    "word": "ich bin der Ansicht",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私は〜という見解です、私は〜と考えています",
+        "en": "I am of the view that, I believe that"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich bin der Ansicht, dass wir mehr Zeit brauchen.",
+        "ja": "私はもっと時間が必要だという見解です。"
+      },
+      {
+        "de": "Ich bin der Ansicht, dass das funktionieren könnte.",
+        "ja": "私はそれがうまくいくかもしれないと考えています。"
+      }
+    ],
+    "usageNotes": "フォーマルな意見表明。議論やディスカッションで使用。",
+    "tags": ["speaking", "b2", "opinion", "formal", "discussion"]
+  },
+  {
+    "id": "was_mich_betrifft",
+    "word": "was mich betrifft",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私に関して言えば、私の場合は",
+        "en": "as far as I'm concerned, regarding myself"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Was mich betrifft, bin ich damit einverstanden.",
+        "ja": "私に関して言えば、それに同意します。"
+      },
+      {
+        "de": "Was mich betrifft, habe ich keine Probleme damit.",
+        "ja": "私の場合は、それに問題はありません。"
+      }
+    ],
+    "usageNotes": "個人的な立場や経験を表現するときに使用。",
+    "tags": ["speaking", "b2", "personal", "opinion"]
+  },
+  {
+    "id": "auf_der_einen_seite",
+    "word": "auf der einen Seite",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "一方では、片方では",
+        "en": "on the one hand, on one side"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Auf der einen Seite ist es teuer, auf der anderen Seite ist es qualitativ hochwertig.",
+        "ja": "一方では高価ですが、他方では高品質です。"
+      },
+      {
+        "de": "Auf der einen Seite verstehe ich das, aber...",
+        "ja": "一方では理解できますが..."
+      }
+    ],
+    "usageNotes": "対比や両面性を表現するときに使用。必ず「auf der anderen Seite」とペアで使う。",
+    "tags": ["speaking", "b2", "contrast", "argumentation"]
+  },
+  {
+    "id": "auf_der_anderen_seite",
+    "word": "auf der anderen Seite",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "他方では、反対に",
+        "en": "on the other hand, on the other side"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Auf der anderen Seite müssen wir auch die Kosten bedenken.",
+        "ja": "他方では、コストも考慮しなければなりません。"
+      },
+      {
+        "de": "Auf der anderen Seite gibt es auch Nachteile.",
+        "ja": "反対に、デメリットもあります。"
+      }
+    ],
+    "usageNotes": "「auf der einen Seite」の対として使用。議論の反対側を示す。",
+    "tags": ["speaking", "b2", "contrast", "argumentation"]
+  },
+  {
+    "id": "erstens_zweitens",
+    "word": "erstens, zweitens, drittens",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "第一に、第二に、第三に",
+        "en": "firstly, secondly, thirdly"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Erstens ist es billig, zweitens ist es praktisch.",
+        "ja": "第一に安く、第二に実用的です。"
+      },
+      {
+        "de": "Ich habe drei Gründe: erstens..., zweitens..., drittens...",
+        "ja": "三つの理由があります：第一に...、第二に...、第三に..."
+      }
+    ],
+    "usageNotes": "論点を整理して順序立てて説明するときに使用。プレゼンテーションで重要。",
+    "tags": ["speaking", "b2", "enumeration", "presentation", "structure"]
+  },
+  {
+    "id": "ausserdem",
+    "word": "außerdem",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "その上、さらに、また",
+        "en": "furthermore, in addition, moreover"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist teuer. Außerdem ist es nicht sehr praktisch.",
+        "ja": "それは高価です。その上、あまり実用的ではありません。"
+      },
+      {
+        "de": "Außerdem sollten wir bedenken, dass...",
+        "ja": "さらに、〜ということを考慮すべきです。"
+      }
+    ],
+    "usageNotes": "追加の情報や理由を提示するときに使用。",
+    "tags": ["speaking", "b2", "addition", "argumentation"]
+  },
+  {
+    "id": "trotzdem",
+    "word": "trotzdem",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "それでも、それにもかかわらず",
+        "en": "nevertheless, still, anyway"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es ist schwierig, aber trotzdem möglich.",
+        "ja": "難しいですが、それでも可能です。"
+      },
+      {
+        "de": "Ich bin müde, trotzdem arbeite ich weiter.",
+        "ja": "疲れていますが、それでも働き続けます。"
+      }
+    ],
+    "usageNotes": "逆接や対比を表現するときに使用。",
+    "tags": ["speaking", "b2", "contrast", "concession"]
+  },
+  {
+    "id": "allerdings",
+    "word": "allerdings",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "ただし、もっとも、確かに",
+        "en": "however, though, indeed"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist eine gute Idee, allerdings sehr teuer.",
+        "ja": "それは良いアイデアですが、ただし非常に高価です。"
+      },
+      {
+        "de": "Allerdings muss man auch bedenken, dass...",
+        "ja": "もっとも、〜ということも考慮しなければなりません。"
+      }
+    ],
+    "usageNotes": "制限や条件を付け加えるときに使用。",
+    "tags": ["speaking", "b2", "limitation", "qualification"]
+  },
+  {
+    "id": "deshalb",
+    "word": "deshalb",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "そのため、従って、だから",
+        "en": "therefore, for that reason, that's why"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, deshalb bleibe ich zu Hause.",
+        "ja": "雨が降っているので、家にいます。"
+      },
+      {
+        "de": "Deshalb denke ich, dass wir vorsichtig sein sollten.",
+        "ja": "そのため、慎重になるべきだと思います。"
+      }
+    ],
+    "usageNotes": "原因と結果の関係を示すときに使用。論理的な結論を導く。",
+    "tags": ["speaking", "b2", "causality", "conclusion"]
+  },
+  {
+    "id": "zusammenfassend",
+    "word": "zusammenfassend",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "要約すると、まとめると",
+        "en": "in summary, to summarize"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Zusammenfassend kann man sagen, dass...",
+        "ja": "要約すると、〜と言えます。"
+      },
+      {
+        "de": "Zusammenfassend bin ich der Meinung, dass...",
+        "ja": "まとめると、私は〜という意見です。"
+      }
+    ],
+    "usageNotes": "プレゼンテーションや議論の最後に結論をまとめるときに使用。",
+    "tags": ["speaking", "b2", "summary", "conclusion", "presentation"]
+  },
+  {
+    "id": "abschliessend",
+    "word": "abschließend",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "最後に、結論として",
+        "en": "in conclusion, finally"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Abschließend möchte ich sagen, dass...",
+        "ja": "最後に、〜と言いたいと思います。"
+      },
+      {
+        "de": "Abschließend kann man feststellen, dass...",
+        "ja": "結論として、〜と確認できます。"
+      }
+    ],
+    "usageNotes": "発表やプレゼンテーションの最終的な結論を示すときに使用。",
+    "tags": ["speaking", "b2", "conclusion", "presentation", "final"]
+  },
+  {
+    "id": "im_vergleich_zu",
+    "word": "im Vergleich zu",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜と比較して、〜に比べて",
+        "en": "compared to, in comparison with"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Im Vergleich zu letztem Jahr ist das besser.",
+        "ja": "昨年と比較して、それは良くなっています。"
+      },
+      {
+        "de": "Im Vergleich zu anderen Ländern haben wir Glück.",
+        "ja": "他の国と比べて、私たちは幸運です。"
+      }
+    ],
+    "usageNotes": "比較や対比を表現するときに使用。データや状況を比較する際に重要。",
+    "tags": ["speaking", "b2", "comparison", "analysis"]
+  },
+  {
+    "id": "beispielsweise",
+    "word": "beispielsweise",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "例えば、たとえば",
+        "en": "for example, for instance"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es gibt viele Möglichkeiten, beispielsweise...",
+        "ja": "多くの可能性があります、例えば..."
+      },
+      {
+        "de": "Beispielsweise könnte man das so machen.",
+        "ja": "たとえば、そのようにできるかもしれません。"
+      }
+    ],
+    "usageNotes": "具体例を示すときに使用。説明を明確にするために重要。",
+    "tags": ["speaking", "b2", "example", "illustration"]
+  },
+  {
+    "id": "was_die_vor_und_nachteile_betrifft",
+    "word": "was die Vor- und Nachteile betrifft",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "メリットとデメリットに関して言えば",
+        "en": "regarding the advantages and disadvantages"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Was die Vor- und Nachteile betrifft, muss man abwägen.",
+        "ja": "メリットとデメリットに関して言えば、比較検討しなければなりません。"
+      },
+      {
+        "de": "Was die Vor- und Nachteile betrifft, sehe ich es so...",
+        "ja": "メリットとデメリットに関して言えば、私はこう見ています..."
+      }
+    ],
+    "usageNotes": "議論でよく使われる表現。バランスの取れた分析を示す。",
+    "tags": ["speaking", "b2", "analysis", "evaluation", "discussion"]
+  },
+  {
+    "id": "man_sollte_bedenken",
+    "word": "man sollte bedenken",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "考慮すべきである、念頭に置くべきである",
+        "en": "one should consider, one should bear in mind"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Man sollte bedenken, dass das Zeit braucht.",
+        "ja": "それには時間がかかることを考慮すべきです。"
+      },
+      {
+        "de": "Dabei sollte man bedenken, dass...",
+        "ja": "その際、〜ということを念頭に置くべきです。"
+      }
+    ],
+    "usageNotes": "重要な点や注意事項を指摘するときに使用。",
+    "tags": ["speaking", "b2", "consideration", "advice"]
+  },
+  {
+    "id": "es_ist_wichtig_zu_erwähnen",
+    "word": "es ist wichtig zu erwähnen",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "言及することが重要である、強調すべきである",
+        "en": "it's important to mention, it should be noted"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es ist wichtig zu erwähnen, dass das nicht immer so ist.",
+        "ja": "常にそうとは限らないということを言及することが重要です。"
+      },
+      {
+        "de": "Es ist wichtig zu erwähnen, dass wir Alternativen haben.",
+        "ja": "代替案があることを強調すべきです。"
+      }
+    ],
+    "usageNotes": "重要なポイントを強調するときに使用。",
+    "tags": ["speaking", "b2", "emphasis", "important"]
+  },
+  {
+    "id": "wenn_ich_das_richtig_verstehe",
+    "word": "wenn ich das richtig verstehe",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "もし私が正しく理解しているなら",
+        "en": "if I understand correctly"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wenn ich das richtig verstehe, bedeutet das...",
+        "ja": "もし私が正しく理解しているなら、それは〜を意味します。"
+      },
+      {
+        "de": "Wenn ich das richtig verstehe, sind Sie dagegen?",
+        "ja": "もし私が正しく理解しているなら、あなたは反対ですか？"
+      }
+    ],
+    "usageNotes": "確認や明確化を求めるときに使用。議論で重要。",
+    "tags": ["speaking", "b2", "clarification", "confirmation"]
+  },
+  {
+    "id": "soweit_ich_weiss",
+    "word": "soweit ich weiß",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "私の知る限りでは、私が知っている範囲では",
+        "en": "as far as I know, to my knowledge"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Soweit ich weiß, ist das noch nicht entschieden.",
+        "ja": "私の知る限りでは、それはまだ決まっていません。"
+      },
+      {
+        "de": "Soweit ich weiß, gibt es keine Probleme.",
+        "ja": "私が知っている範囲では、問題はありません。"
+      }
+    ],
+    "usageNotes": "知識の限界を示しながら情報を提供するときに使用。",
+    "tags": ["speaking", "b2", "knowledge", "limitation"]
+  },
+  {
+    "id": "es_kommt_darauf_an",
+    "word": "es kommt darauf an",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "それは〜による、場合による",
+        "en": "it depends on, that depends"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es kommt darauf an, wie viel Zeit wir haben.",
+        "ja": "どれくらい時間があるかによります。"
+      },
+      {
+        "de": "Ist das eine gute Idee? - Es kommt darauf an.",
+        "ja": "それは良いアイデアですか？ - 場合によります。"
+      }
+    ],
+    "usageNotes": "条件や状況に依存することを表現するときに使用。",
+    "tags": ["speaking", "b2", "condition", "dependency"]
+  },
+  {
+    "id": "ich_kenne_das_wort_nicht_aber",
+    "word": "ich kenne das Wort nicht, aber ich meine",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "その単語は知りませんが、私が言いたいのは",
+        "en": "I don't know the word, but what I mean is"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich kenne das Wort nicht, aber ich meine diese große Maschine.",
+        "ja": "その単語は知りませんが、私が言いたいのはその大きな機械のことです。"
+      },
+      {
+        "de": "Ich kenne das Wort nicht, aber ich meine das Ding, das man zum Kochen braucht.",
+        "ja": "その単語は知りませんが、私が言いたいのは料理に必要なあれのことです。"
+      }
+    ],
+    "usageNotes": "正確な用語を知らないが概念を説明したいときに使用。語彙不足を補いながら会話を続ける重要な表現。",
+    "tags": ["speaking", "b2", "explanation", "vocabulary", "circumlocution"]
+  }
+]

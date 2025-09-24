@@ -4835,34 +4835,7 @@
     ],
     "tags": ["requirement"]
   },
-  {
-    "id": "erfuhr",
-    "word": "erfuhr",
-    "partOfSpeech": "verb",
-    "conjugation": {
-      "infinitive": "erfahren",
-      "preterite": "erfuhr",
-      "pastParticiple": "erfahren",
-      "auxiliary": "haben"
-    },
-    "meanings": [
-      {
-        "ja": "知る、経験する（erfahrenの過去形）",
-        "en": "learned, experienced (preterite of 'erfahren')"
-      }
-    ],
-    "examples": [
-      {
-        "de": "Ich erfuhr die Nachricht gestern.",
-        "ja": "昨日そのニュースを知った。"
-      },
-      {
-        "de": "Sie erfuhr viel Unterstützung.",
-        "ja": "彼女は多くの支援を受けた。"
-      }
-    ],
-    "tags": ["knowledge", "experience"]
-  },
+
   {
     "id": "erheblich",
     "word": "erheblich",
@@ -6009,39 +5982,36 @@
     "tags": ["control", "technology"]
   },
   {
-    "id": "gestrichen",
-    "word": "gestrichen",
-    "partOfSpeech": "adjective",
+    "id": "streichen",
+    "word": "streichen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "streichen",
+      "preterite": "strich",
+      "pastParticiple": "gestrichen",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "取り消された、削除された；塗装された",
-        "en": "cancelled, deleted; painted"
+        "ja": "塗る、塗装する；削除する、取り消す；撫でる",
+        "en": "to paint, to coat; to delete, to cancel; to stroke"
       }
     ],
     "examples": [
       {
-        "de": "Der Flug wurde gestrichen.",
-        "ja": "フライトはキャンセルされた。"
+        "de": "Ich streiche die Wand weiß.",
+        "ja": "私は壁を白く塗る。"
       },
       {
-        "de": "Die Wände wurden frisch gestrichen.",
-        "ja": "壁は新しく塗装された。"
+        "de": "Bitte streichen Sie meinen Namen von der Liste.",
+        "ja": "リストから私の名前を削除してください。"
+      },
+      {
+        "de": "Sie strich sanft über das Haar des Kindes.",
+        "ja": "彼女は子供の髪を優しく撫でた。"
       }
     ],
-    "etymology": {
-      "type": "past-participle",
-      "components": [
-        {
-          "form": "streichen",
-          "meaning": {
-            "ja": "削除する、塗る",
-            "en": "to cancel, to paint"
-          },
-          "partOfSpeech": "verb"
-        }
-      ]
-    },
-    "tags": ["status", "change", "art"]
+    "tags": ["action", "change", "art", "physical"]
   },
   {
     "id": "getreide",
@@ -8114,8 +8084,8 @@
     "tags": ["emotion", "physics"]
   },
   {
-    "id": "spricht-fuer",
-    "word": "spricht für",
+    "id": "sprechen-fuer",
+    "word": "sprechen für",
     "partOfSpeech": "phrase",
     "meanings": [
       {
@@ -8221,8 +8191,8 @@
     "tags": ["emotion", "disturbance"]
   },
   {
-    "id": "stoesst",
-    "word": "stößt",
+    "id": "stossen",
+    "word": "stoßen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "stoßen",
