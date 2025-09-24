@@ -2899,6 +2899,27 @@
         "ja": "そのホテルは100人の客を収容できる。"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "be-",
+          "meaning": {
+            "ja": "動作の完了・結果を表す接頭辞",
+            "en": "prefix indicating completion or result of action"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "Herberge",
+          "meaning": {
+            "ja": "宿、宿屋",
+            "en": "inn, lodging, shelter"
+          },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["hospitality", "shelter"]
   },
   {
@@ -5017,6 +5038,27 @@
         "ja": "もうこの騒音には耐えられない。"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "er-",
+          "meaning": {
+            "ja": "強調・完了を表す接頭辞",
+            "en": "prefix indicating emphasis or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "tragen",
+          "meaning": {
+            "ja": "運ぶ、支える、背負う",
+            "en": "to carry, to bear, to support"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["emotion", "resilience"]
   },
   {
@@ -8817,6 +8859,27 @@
         "ja": "何が彼にこの行為を促したのですか？"
       }
     ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "変化・完了を表す接頭辞",
+            "en": "prefix indicating change or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "anlassen",
+          "meaning": {
+            "ja": "始めさせる、きっかけを与える",
+            "en": "to start, to give occasion"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "causality"]
   },
   {
@@ -9364,29 +9427,47 @@
     "tags": ["economy", "social-service"]
   },
   {
-    "id": "versoehnt",
-    "word": "versöhnt",
-    "partOfSpeech": "adjective",
+    "id": "versoehnen",
+    "word": "versöhnen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "versöhnen",
+      "preterite": "versöhnte",
+      "pastParticiple": "versöhnt",
+      "auxiliary": "haben"
+    },
     "meanings": [
       {
-        "ja": "和解した、仲直りした",
-        "en": "reconciled, appeased"
+        "ja": "和解させる、仲直りさせる、慰める",
+        "en": "to reconcile, to appease, to make peace"
       }
     ],
     "examples": [
       {
-        "de": "Sie haben sich wieder versöhnt.",
-        "ja": "彼らは再び仲直りした。"
+        "de": "Er möchte seine Freunde wieder versöhnen.",
+        "ja": "彼は友人たちを再び仲直りさせたい。"
+      },
+      {
+        "de": "Sie haben sich nach dem Streit versöhnt.",
+        "ja": "彼らは喧嘩の後で仲直りした。"
       }
     ],
     "etymology": {
-      "type": "past-participle",
+      "type": "compound",
       "components": [
         {
-          "form": "versöhnen",
+          "form": "ver-",
           "meaning": {
-            "ja": "和解させる",
-            "en": "to reconcile"
+            "ja": "変化・完了を表す接頭辞",
+            "en": "prefix indicating change or completion"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "söhnen",
+          "meaning": {
+            "ja": "慰める、なだめる（古語）",
+            "en": "to soothe, to appease (archaic)"
           },
           "partOfSpeech": "verb"
         }
