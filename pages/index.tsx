@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { WordEntry } from "@/types/word";
 import WordCard from "@/components/WordCard";
 
@@ -46,8 +46,14 @@ export default function Home() {
   // 🔀 現在表示されている単語リストの順序を管理するstate
   const [displayEntries, setDisplayEntries] = useState<WordEntry[]>([]);
 
+  // 🔀 シャッフル状態を管理するstate
+  const [isShuffled, setIsShuffled] = useState<boolean>(false);
+
   // ⭐️ 星つき状態の変更を検知するためのstate
   const [starredUpdateTrigger, setStarredUpdateTrigger] = useState<number>(0);
+
+  // 🔀 前回のdisplayEntriesを保持するためのref
+  const prevDisplayEntriesRef = useRef<WordEntry[]>([]);
 
   // ⭐️ 星つき単語数を計算する関数
   const getStarredCount = () => {
@@ -84,8 +90,9 @@ export default function Home() {
       const initialStates = Object.fromEntries(data.map((e) => [e.id, true]));
       setShownStates(initialStates);
 
-      // フィルターをリセット
+      // フィルターとシャッフル状態をリセット
       setShowStarredOnly(false);
+      setIsShuffled(false);
     } catch (error) {
       console.error("Failed to load wordlist:", error);
       alert(`単語ファイルの読み込みに失敗しました: ${error}`);
@@ -124,6 +131,7 @@ export default function Home() {
   // 🔀 シャッフル機能
   const shuffleWords = () => {
     setDisplayEntries(shuffleArray(displayEntries)); // 現在表示されている単語リストをシャッフル
+    setIsShuffled(true); // シャッフル状態をtrueに設定
   };
 
   // 🔀 元の順序に戻す機能
@@ -131,6 +139,7 @@ export default function Home() {
     // フィルターが適用されている場合は、フィルターを解除してから元の順序に戻す
     setShowStarredOnly(false); // フィルターを解除
     setDisplayEntries(wordsData); // 元の順序に戻す
+    setIsShuffled(false); // シャッフル状態をfalseに設定
   };
 
   // 🚀 初期データ読み込み
@@ -149,8 +158,23 @@ export default function Home() {
           return storedIsNochNichtGelernt === "true";
         })
       : wordsData;
-    setDisplayEntries(filtered); // フィルター結果を displayEntries にセット
-  }, [showStarredOnly, wordsData, starredUpdateTrigger]); // 依存配列に starredUpdateTrigger を追加
+
+    // シャッフル状態を保持するため、前回のdisplayEntriesから該当する単語のみを抽出
+    if (isShuffled && prevDisplayEntriesRef.current.length > 0) {
+      const currentOrder = prevDisplayEntriesRef.current;
+      const newDisplayEntries = currentOrder.filter((entry) =>
+        filtered.some((filteredEntry) => filteredEntry.id === entry.id)
+      );
+      setDisplayEntries(newDisplayEntries);
+    } else {
+      setDisplayEntries(filtered); // シャッフルされていない場合は通常のフィルター結果をセット
+    }
+  }, [showStarredOnly, wordsData, starredUpdateTrigger, isShuffled]); // displayEntriesを依存配列から削除
+
+  // 🔀 displayEntriesが変更されたときにrefを更新
+  useEffect(() => {
+    prevDisplayEntriesRef.current = displayEntries;
+  }, [displayEntries]);
 
   if (isLoading) {
     return (
