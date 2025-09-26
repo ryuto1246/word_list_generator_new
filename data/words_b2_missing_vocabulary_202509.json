@@ -89,7 +89,7 @@
   },
   {
     "id": "sich_erholen",
-    "word": "sich3 er|holen",
+    "word": "sich3 erholen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "sich erholen",
@@ -118,12 +118,18 @@
       "components": [
         {
           "form": "er",
-          "meaning": { "ja": "完全に、〜しきる", "en": "completely, thoroughly" },
+          "meaning": {
+            "ja": "完全に、〜しきる",
+            "en": "completely, thoroughly"
+          },
           "partOfSpeech": "prefix"
         },
         {
           "form": "holen",
-          "meaning": { "ja": "取りに行く、持ってくる", "en": "to fetch, to get" },
+          "meaning": {
+            "ja": "取りに行く、持ってくる",
+            "en": "to fetch, to get"
+          },
           "partOfSpeech": "verb"
         }
       ]
@@ -161,7 +167,10 @@
         },
         {
           "form": "-sam",
-          "meaning": { "ja": "〜しやすい、〜に適した", "en": "prone to, suitable for" },
+          "meaning": {
+            "ja": "〜しやすい、〜に適した",
+            "en": "prone to, suitable for"
+          },
           "partOfSpeech": "suffix"
         }
       ]
@@ -268,7 +277,10 @@
       "components": [
         {
           "form": "klagen",
-          "meaning": { "ja": "苦情を言う、訴える", "en": "to complain, to sue" },
+          "meaning": {
+            "ja": "苦情を言う、訴える",
+            "en": "to complain, to sue"
+          },
           "partOfSpeech": "verb"
         }
       ]
@@ -348,8 +360,8 @@
     "tags": ["action", "physical", "b2"]
   },
   {
-    "id": "kohlen",
-    "word": "Kohlen",
+    "id": "kohle",
+    "word": "Kohle",
     "partOfSpeech": "noun",
     "gender": "die",
     "plural": "Kohlen",
@@ -450,12 +462,18 @@
       "components": [
         {
           "form": "ver",
-          "meaning": { "ja": "完全に、〜しきる", "en": "completely, thoroughly" },
+          "meaning": {
+            "ja": "完全に、〜しきる",
+            "en": "completely, thoroughly"
+          },
           "partOfSpeech": "prefix"
         },
         {
           "form": "wenden",
-          "meaning": { "ja": "向きを変える、振り向く", "en": "to turn, to turn around" },
+          "meaning": {
+            "ja": "向きを変える、振り向く",
+            "en": "to turn, to turn around"
+          },
           "partOfSpeech": "verb"
         }
       ]
@@ -670,5 +688,3460 @@
       ]
     },
     "tags": ["object", "container", "b2"]
+  },
+  {
+    "id": "zahlen",
+    "word": "zählen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "zählen",
+      "preterite": "zählte",
+      "pastParticiple": "gezählt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "数える、計算する、重要である",
+        "en": "to count, to calculate, to matter"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Kannst du bis zehn zählen?",
+        "ja": "10まで数えられますか？"
+      },
+      {
+        "de": "Das zählt nicht als Entschuldigung.",
+        "ja": "それは言い訳にはならない。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "zählen",
+          "meaning": { "ja": "数える", "en": "to count" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "mathematics", "b2"]
+  },
+  {
+    "id": "besitz",
+    "word": "Besitz",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Besitze",
+    "meanings": [
+      {
+        "ja": "所有、財産、持ち物",
+        "en": "possession, property, ownership"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist in seinem Besitz.",
+        "ja": "その家は彼の所有物だ。"
+      },
+      {
+        "de": "Er hat viel Besitz geerbt.",
+        "ja": "彼は多くの財産を相続した。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "besitzen",
+          "meaning": { "ja": "所有する", "en": "to possess" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "property", "b2"]
+  },
+  {
+    "id": "leistung",
+    "word": "Leistung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Leistungen",
+    "meanings": [
+      {
+        "ja": "成果、業績、能力、サービス",
+        "en": "performance, achievement, service"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Seine Leistung in der Prüfung war ausgezeichnet.",
+        "ja": "彼の試験での成績は優秀だった。"
+      },
+      {
+        "de": "Die Leistung des Computers ist beeindruckend.",
+        "ja": "そのコンピューターの性能は印象的だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "leisten",
+          "meaning": {
+            "ja": "成し遂げる、提供する",
+            "en": "to achieve, to provide"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "achievement", "b2"]
+  },
+  {
+    "id": "uberfluss",
+    "word": "Überfluss",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Überflüsse",
+    "meanings": [
+      {
+        "ja": "過剰、豊富、余分",
+        "en": "abundance, excess, surplus"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir leben im Überfluss.",
+        "ja": "私たちは豊かに暮らしている。"
+      },
+      {
+        "de": "Der Überfluss an Informationen ist verwirrend.",
+        "ja": "情報の過剰は混乱を招く。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "上に、過度に", "en": "over, excessive" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "Fluss",
+          "meaning": { "ja": "流れ", "en": "flow" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "quantity", "b2"]
+  },
+  {
+    "id": "sache",
+    "word": "Sache",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Sachen",
+    "meanings": [
+      {
+        "ja": "物、事柄、問題、案件",
+        "en": "thing, matter, issue, case"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist eine wichtige Sache.",
+        "ja": "それは重要な問題だ。"
+      },
+      {
+        "de": "Wo sind meine Sachen?",
+        "ja": "私の物はどこにありますか？"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Sache",
+          "meaning": { "ja": "物、事柄", "en": "thing, matter" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "general", "b2"]
+  },
+  {
+    "id": "bevorzugen",
+    "word": "bevorzugen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "bevorzugen",
+      "preterite": "bevorzugte",
+      "pastParticiple": "bevorzugt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "好む、優先する、偏愛する",
+        "en": "to prefer, to favor, to give preference to"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich bevorzuge Tee statt Kaffee.",
+        "ja": "私はコーヒーより紅茶を好む。"
+      },
+      {
+        "de": "Der Lehrer bevorzugt fleißige Schüler.",
+        "ja": "その先生は勤勉な生徒を優遇する。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "be",
+          "meaning": { "ja": "〜する", "en": "to do" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "vorzugen",
+          "meaning": { "ja": "好む", "en": "to prefer" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "preference", "b2"]
+  },
+  {
+    "id": "gebrauch",
+    "word": "Gebrauch",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Gebräuche",
+    "meanings": [
+      {
+        "ja": "使用、利用、慣習、風習",
+        "en": "use, usage, custom, tradition"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Gebrauch von Handys ist weit verbreitet.",
+        "ja": "携帯電話の使用は広く普及している。"
+      },
+      {
+        "de": "Das ist ein alter Gebrauch in dieser Region.",
+        "ja": "それはこの地域の古い慣習だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "gebrauchen",
+          "meaning": { "ja": "使用する", "en": "to use" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "usage", "b2"]
+  },
+  {
+    "id": "genussvoll",
+    "word": "genussvoll",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "楽しみに満ちた、快楽的な、美味しい",
+        "en": "enjoyable, pleasurable, delicious"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das war ein genussvolles Essen.",
+        "ja": "それはとても美味しい食事だった。"
+      },
+      {
+        "de": "Sie verbrachte einen genussvollen Abend.",
+        "ja": "彼女は楽しい夜を過ごした。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Genuss",
+          "meaning": { "ja": "楽しみ、快楽", "en": "enjoyment, pleasure" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "voll",
+          "meaning": { "ja": "満ちた", "en": "full of" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "emotion", "b2"]
+  },
+  {
+    "id": "schnickschnack",
+    "word": "Schnickschnack",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Schnickschnacks",
+    "meanings": [
+      {
+        "ja": "装飾品、不要な物、無駄な物",
+        "en": "ornament, trinket, unnecessary things"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Viel Schnickschnack brauche ich nicht.",
+        "ja": "私は多くの装飾品は必要ない。"
+      },
+      {
+        "de": "Das Zimmer ist voller Schnickschnack.",
+        "ja": "その部屋は装飾品でいっぱいだ。"
+      }
+    ],
+    "etymology": {
+      "type": "reduplication",
+      "components": [
+        {
+          "form": "Schnick",
+          "meaning": { "ja": "装飾", "en": "ornament" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Schnack",
+          "meaning": { "ja": "装飾", "en": "ornament" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "decoration", "b2"]
+  },
+  {
+    "id": "daheim",
+    "word": "daheim",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "家で、自宅で、故郷で",
+        "en": "at home, in one's hometown"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich fühle mich daheim am wohlsten.",
+        "ja": "私は家にいる時が一番落ち着く。"
+      },
+      {
+        "de": "Er ist daheim in Berlin.",
+        "ja": "彼はベルリンに住んでいる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "da",
+          "meaning": { "ja": "そこに", "en": "there" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "Heim",
+          "meaning": { "ja": "家", "en": "home" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["place", "home", "b2"]
+  },
+  {
+    "id": "verzichten",
+    "word": "verzichten",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verzichten",
+      "preterite": "verzichtete",
+      "pastParticiple": "verzichtet",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "諦める、放棄する、控える",
+        "en": "to renounce, to give up, to abstain from"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich verzichte auf das Dessert.",
+        "ja": "私はデザートは控えます。"
+      },
+      {
+        "de": "Sie verzichtete auf ihren Urlaub.",
+        "ja": "彼女は休暇を諦めた。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ver",
+          "meaning": { "ja": "完全に", "en": "completely" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "zeigen",
+          "meaning": { "ja": "示す", "en": "to show" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "abstinence", "b2"]
+  },
+  {
+    "id": "nebenwache",
+    "word": "Nebenwache",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Nebenwachen",
+    "meanings": [
+      {
+        "ja": "副警備、補助警備、予備警備",
+        "en": "auxiliary guard, backup security, secondary watch"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Nebenwache übernimmt die Nachtschicht.",
+        "ja": "副警備が夜勤を担当する。"
+      },
+      {
+        "de": "Er arbeitet als Nebenwache im Museum.",
+        "ja": "彼は博物館で副警備として働いている。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "neben",
+          "meaning": { "ja": "隣に、副の", "en": "next to, auxiliary" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Wache",
+          "meaning": { "ja": "警備、見張り", "en": "guard, watch" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["profession", "security", "b2"]
+  },
+  {
+    "id": "studienordnung",
+    "word": "Studienordnung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Studienordnungen",
+    "meanings": [
+      {
+        "ja": "学習規定、カリキュラム、履修規則",
+        "en": "study regulations, curriculum, academic regulations"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die neue Studienordnung tritt nächstes Semester in Kraft.",
+        "ja": "新しい学習規定は来学期から施行される。"
+      },
+      {
+        "de": "Bitte lesen Sie die Studienordnung sorgfältig.",
+        "ja": "学習規定を注意深く読んでください。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Studium",
+          "meaning": { "ja": "学習、研究", "en": "study, research" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Ordnung",
+          "meaning": { "ja": "規則、秩序", "en": "regulation, order" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["education", "regulation", "b2"]
+  },
+  {
+    "id": "inhaltsverzeichnis",
+    "word": "Inhaltsverzeichnis",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Inhaltsverzeichnisse",
+    "meanings": [
+      {
+        "ja": "目次、内容一覧",
+        "en": "table of contents, index"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Inhaltsverzeichnis steht am Anfang des Buches.",
+        "ja": "目次は本の最初にある。"
+      },
+      {
+        "de": "Schauen Sie ins Inhaltsverzeichnis, um das Kapitel zu finden.",
+        "ja": "章を見つけるために目次を確認してください。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Inhalt",
+          "meaning": { "ja": "内容", "en": "content" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Verzeichnis",
+          "meaning": { "ja": "一覧、リスト", "en": "list, directory" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["book", "organization", "b2"]
+  },
+  {
+    "id": "uberschrift",
+    "word": "Überschrift",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Überschriften",
+    "meanings": [
+      {
+        "ja": "見出し、タイトル、標題",
+        "en": "heading, title, headline"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Überschrift des Artikels ist sehr interessant.",
+        "ja": "その記事の見出しはとても興味深い。"
+      },
+      {
+        "de": "Schreiben Sie eine passende Überschrift.",
+        "ja": "適切な見出しを書いてください。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "上に", "en": "over" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Schrift",
+          "meaning": { "ja": "文字、文章", "en": "writing, text" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["text", "communication", "b2"]
+  },
+  {
+    "id": "heutzutage",
+    "word": "heutzutage",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "今日では、現在では、この頃は",
+        "en": "nowadays, these days, today"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Heutzutage nutzen viele Menschen das Internet.",
+        "ja": "今日では多くの人がインターネットを利用している。"
+      },
+      {
+        "de": "Heutzutage ist alles teurer geworden.",
+        "ja": "この頃はすべてが高くなった。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "heute",
+          "meaning": { "ja": "今日", "en": "today" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "zu Tage",
+          "meaning": { "ja": "明るみに", "en": "to light" },
+          "partOfSpeech": "phrase"
+        }
+      ]
+    },
+    "tags": ["time", "present", "b2"]
+  },
+  {
+    "id": "lucke",
+    "word": "Lücke",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Lücken",
+    "meanings": [
+      {
+        "ja": "隙間、空白、欠落、穴",
+        "en": "gap, blank, missing part, hole"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es gibt eine Lücke in der Mauer.",
+        "ja": "壁に隙間がある。"
+      },
+      {
+        "de": "In meinem Wissen gibt es noch Lücken.",
+        "ja": "私の知識にはまだ空白がある。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Lücke",
+          "meaning": { "ja": "隙間、空白", "en": "gap, blank" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "space", "b2"]
+  },
+  {
+    "id": "dies",
+    "word": "dies",
+    "partOfSpeech": "pronoun",
+    "meanings": [
+      {
+        "ja": "これ、この",
+        "en": "this, this one"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Dies ist mein Buch.",
+        "ja": "これは私の本です。"
+      },
+      {
+        "de": "Ich mag dies hier.",
+        "ja": "私はここのこれが好きです。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "dies",
+          "meaning": { "ja": "これ、この", "en": "this" },
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    },
+    "tags": ["pronoun", "demonstrative", "b2"]
+  },
+  {
+    "id": "gebrauchsgegenstand",
+    "word": "Gebrauchsgegenstand",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Gebrauchsgegenstände",
+    "meanings": [
+      {
+        "ja": "日用品、実用品、使用品",
+        "en": "utility item, everyday object, article of daily use"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Küchengeräte sind wichtige Gebrauchsgegenstände.",
+        "ja": "キッチン用品は重要な日用品です。"
+      },
+      {
+        "de": "Dieser Gebrauchsgegenstand ist sehr praktisch.",
+        "ja": "この実用品はとても実用的です。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Gebrauch",
+          "meaning": { "ja": "使用、利用", "en": "use, usage" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Gegenstand",
+          "meaning": { "ja": "物、対象", "en": "object, item" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "daily", "b2"]
+  },
+  {
+    "id": "lage",
+    "word": "Lage",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Lagen",
+    "meanings": [
+      {
+        "ja": "状況、位置、状態、立地",
+        "en": "situation, position, condition, location"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die aktuelle Lage ist schwierig.",
+        "ja": "現在の状況は困難です。"
+      },
+      {
+        "de": "Das Hotel hat eine gute Lage.",
+        "ja": "そのホテルは良い立地にあります。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "liegen",
+          "meaning": {
+            "ja": "横たわる、位置する",
+            "en": "to lie, to be located"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "situation", "b2"]
+  },
+  {
+    "id": "uberflussig",
+    "word": "überflüssig",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "不要な、余分な、無駄な",
+        "en": "unnecessary, superfluous, redundant"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Diese Information ist überflüssig.",
+        "ja": "この情報は不要です。"
+      },
+      {
+        "de": "Er hat überflüssige Sachen weggeworfen.",
+        "ja": "彼は不要な物を捨てた。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "上に、過度に", "en": "over, excessive" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "flüssig",
+          "meaning": { "ja": "流れる", "en": "flowing" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "quantity", "b2"]
+  },
+  {
+    "id": "sowohl",
+    "word": "sowohl",
+    "partOfSpeech": "conjunction",
+    "meanings": [
+      {
+        "ja": "〜も〜も、両方とも",
+        "en": "both, as well as"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Sowohl er als auch sie kommen mit.",
+        "ja": "彼も彼女も一緒に来ます。"
+      },
+      {
+        "de": "Das ist sowohl teuer als auch unpraktisch.",
+        "ja": "それは高価でもあり、実用的でもありません。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "so",
+          "meaning": { "ja": "そのように", "en": "so, thus" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "wohl",
+          "meaning": { "ja": "よく、確かに", "en": "well, indeed" },
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    "tags": ["conjunction", "logic", "b2"]
+  },
+  {
+    "id": "gesellschaft",
+    "word": "Gesellschaft",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Gesellschaften",
+    "meanings": [
+      {
+        "ja": "社会、会社、集まり、社交",
+        "en": "society, company, gathering, social circle"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die moderne Gesellschaft ist komplex.",
+        "ja": "現代社会は複雑です。"
+      },
+      {
+        "de": "Wir haben eine nette Gesellschaft heute Abend.",
+        "ja": "今夜は素敵な集まりがあります。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Geselle",
+          "meaning": { "ja": "仲間、同僚", "en": "companion, fellow" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "-schaft",
+          "meaning": { "ja": "〜関係、〜状態", "en": "-ship, -hood" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["abstract", "social", "b2"]
+  },
+  {
+    "id": "garderobe",
+    "word": "Garderobe",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Garderoben",
+    "meanings": [
+      {
+        "ja": "クローゼット、衣類、受付",
+        "en": "wardrobe, clothes, cloakroom"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Garderobe ist im Flur.",
+        "ja": "クローゼットは廊下にあります。"
+      },
+      {
+        "de": "Bitte hängen Sie Ihre Jacke in die Garderobe.",
+        "ja": "ジャケットをクローゼットに掛けてください。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Garderobe",
+          "meaning": { "ja": "クローゼット、衣類", "en": "wardrobe, clothes" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "clothing", "b2"]
+  },
+  {
+    "id": "geiz",
+    "word": "Geiz",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Geize",
+    "meanings": [
+      {
+        "ja": "けち、吝嗇、節約",
+        "en": "stinginess, miserliness, thrift"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Sein Geiz ist sprichwörtlich.",
+        "ja": "彼のけちは有名だ。"
+      },
+      {
+        "de": "Geiz ist nicht immer schlecht.",
+        "ja": "節約は必ずしも悪いことではない。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Geiz",
+          "meaning": { "ja": "けち、吝嗇", "en": "stinginess" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "character", "b2"]
+  },
+  {
+    "id": "mit_etw_angeben",
+    "word": "mit etw angeben",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜で自慢する、〜を誇る",
+        "en": "to show off with something, to boast about something"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er gibt gerne mit seinem Auto an.",
+        "ja": "彼は自分の車で自慢するのが好きだ。"
+      },
+      {
+        "de": "Sie gibt mit ihren Erfolgen an.",
+        "ja": "彼女は自分の成功を自慢している。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "mit",
+          "meaning": { "ja": "〜で", "en": "with" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "etwas",
+          "meaning": { "ja": "何か", "en": "something" },
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "form": "angeben",
+          "meaning": { "ja": "自慢する", "en": "to show off" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["phrase", "behavior", "b2"]
+  },
+  {
+    "id": "nebensache",
+    "word": "Nebensache",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Nebensachen",
+    "meanings": [
+      {
+        "ja": "副次的な事柄、些細なこと、脇役",
+        "en": "secondary matter, minor issue, side issue"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist nur eine Nebensache.",
+        "ja": "それはただの副次的な事柄です。"
+      },
+      {
+        "de": "Nebensachen sind nicht wichtig.",
+        "ja": "些細なことは重要ではない。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "neben",
+          "meaning": { "ja": "隣に、副の", "en": "next to, secondary" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Sache",
+          "meaning": { "ja": "事柄、物", "en": "matter, thing" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "importance", "b2"]
+  },
+  {
+    "id": "heimkehren",
+    "word": "heimkehren",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "heimkehren",
+      "preterite": "kehrte heim",
+      "pastParticiple": "heimgekehrt",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      {
+        "ja": "帰宅する、故郷に戻る",
+        "en": "to return home, to come back home"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er kehrte spät heim.",
+        "ja": "彼は遅く帰宅した。"
+      },
+      {
+        "de": "Nach dem Urlaub kehren wir heim.",
+        "ja": "休暇の後、私たちは帰宅する。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "heim",
+          "meaning": { "ja": "家に", "en": "home" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "kehren",
+          "meaning": { "ja": "向きを変える", "en": "to turn" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "movement", "b2"]
+  },
+  {
+    "id": "abmühen",
+    "word": "abmühen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "abmühen",
+      "preterite": "mühte ab",
+      "pastParticiple": "abgemüht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "苦労して成し遂げる、努力して達成する",
+        "en": "to struggle to achieve, to work hard to accomplish"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er mühte sich ab, die Aufgabe zu lösen.",
+        "ja": "彼は課題を解決するために苦労した。"
+      },
+      {
+        "de": "Sie mühte sich ab, die Prüfung zu bestehen.",
+        "ja": "彼女は試験に合格するために努力した。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ab",
+          "meaning": { "ja": "完全に", "en": "completely" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "mühen",
+          "meaning": { "ja": "苦労する", "en": "to toil" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "effort", "b2"]
+  },
+  {
+    "id": "wohlfuhlen",
+    "word": "wohlfühlen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "wohlfühlen",
+      "preterite": "fühlte wohl",
+      "pastParticiple": "wohlgefühlt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "快適に感じる、心地よく感じる",
+        "en": "to feel comfortable, to feel at ease"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich fühle mich hier sehr wohl.",
+        "ja": "私はここでとても快適に感じます。"
+      },
+      {
+        "de": "Sie fühlt sich in ihrer neuen Wohnung wohl.",
+        "ja": "彼女は新しいアパートで心地よく感じている。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "wohl",
+          "meaning": { "ja": "快適に、よく", "en": "well, comfortably" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "fühlen",
+          "meaning": { "ja": "感じる", "en": "to feel" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "emotion", "b2"]
+  },
+  {
+    "id": "grossstadt",
+    "word": "Großstadt",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Großstädte",
+    "meanings": [
+      {
+        "ja": "大都市、大都会",
+        "en": "big city, metropolis"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Berlin ist eine große Großstadt.",
+        "ja": "ベルリンは大きな大都市です。"
+      },
+      {
+        "de": "Das Leben in der Großstadt ist hektisch.",
+        "ja": "大都市での生活は忙しい。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "groß",
+          "meaning": { "ja": "大きい", "en": "big, large" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Stadt",
+          "meaning": { "ja": "都市", "en": "city" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["place", "urban", "b2"]
+  },
+  {
+    "id": "schick",
+    "word": "schick",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "おしゃれな、スタイリッシュな、洗練された",
+        "en": "stylish, chic, elegant"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Sie trägt ein schickes Kleid.",
+        "ja": "彼女はおしゃれなドレスを着ている。"
+      },
+      {
+        "de": "Das Restaurant hat eine schicke Einrichtung.",
+        "ja": "そのレストランは洗練された内装だ。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "schick",
+          "meaning": { "ja": "おしゃれな", "en": "stylish" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "appearance", "b2"]
+  },
+  {
+    "id": "zahl",
+    "word": "Zahl",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Zahlen",
+    "meanings": [
+      {
+        "ja": "数、数字、数量",
+        "en": "number, figure, quantity"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Zahl der Teilnehmer ist gestiegen.",
+        "ja": "参加者の数が増えた。"
+      },
+      {
+        "de": "Diese Zahl ist sehr groß.",
+        "ja": "この数字はとても大きい。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Zahl",
+          "meaning": { "ja": "数、数字", "en": "number" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["mathematics", "quantity", "b2"]
+  },
+  {
+    "id": "vielzahl",
+    "word": "Vielzahl",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Vielzahlen",
+    "meanings": [
+      {
+        "ja": "多数、たくさん、多様性",
+        "en": "multitude, large number, variety"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Eine Vielzahl von Menschen kam zur Veranstaltung.",
+        "ja": "多数の人々がイベントに来ました。"
+      },
+      {
+        "de": "Es gibt eine Vielzahl von Möglichkeiten.",
+        "ja": "たくさんの可能性があります。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "viel",
+          "meaning": { "ja": "たくさんの", "en": "many, much" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Zahl",
+          "meaning": { "ja": "数", "en": "number" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["quantity", "abstract", "b2"]
+  },
+  {
+    "id": "deswegen_weil",
+    "word": "deswegen… weil",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜だから、〜の理由で",
+        "en": "because of that, for that reason"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Deswegen bin ich gekommen, weil ich dich sehen wollte.",
+        "ja": "君に会いたかったから、そのために来ました。"
+      },
+      {
+        "de": "Deswegen ist er traurig, weil er seine Arbeit verloren hat.",
+        "ja": "仕事を失ったから、そのために彼は悲しんでいます。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "deswegen",
+          "meaning": { "ja": "そのために", "en": "therefore, for that reason" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "weil",
+          "meaning": { "ja": "なぜなら", "en": "because" },
+          "partOfSpeech": "conjunction"
+        }
+      ]
+    },
+    "tags": ["phrase", "logic", "b2"]
+  },
+  {
+    "id": "cabriolet",
+    "word": "Cabriolet",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Cabriolets",
+    "meanings": [
+      {
+        "ja": "オープンカー、カブリオレ",
+        "en": "convertible car, cabriolet"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er fährt ein rotes Cabriolet.",
+        "ja": "彼は赤いオープンカーを運転している。"
+      },
+      {
+        "de": "Im Sommer fahren wir gerne mit dem Cabriolet.",
+        "ja": "夏はオープンカーでドライブするのが好きです。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Cabriolet",
+          "meaning": { "ja": "オープンカー", "en": "convertible" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["vehicle", "object", "b2"]
+  },
+  {
+    "id": "bescheiden",
+    "word": "bescheiden",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "控えめな、謙虚な、質素な",
+        "en": "modest, humble, simple"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Sie ist sehr bescheiden trotz ihrer Erfolge.",
+        "ja": "彼女は成功にもかかわらずとても謙虚です。"
+      },
+      {
+        "de": "Er lebt in bescheidenen Verhältnissen.",
+        "ja": "彼は質素な生活をしている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "bescheiden",
+          "meaning": { "ja": "控えめな", "en": "modest" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "character", "b2"]
+  },
+  {
+    "id": "leisten",
+    "word": "leisten",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "leisten",
+      "preterite": "leistete",
+      "pastParticiple": "geleistet",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "成し遂げる、提供する、支払う",
+        "en": "to achieve, to provide, to pay"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er hat gute Arbeit geleistet.",
+        "ja": "彼は良い仕事を成し遂げた。"
+      },
+      {
+        "de": "Ich kann mir das nicht leisten.",
+        "ja": "私はそれを支払う余裕がない。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "leisten",
+          "meaning": { "ja": "成し遂げる", "en": "to achieve" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "achievement", "b2"]
+  },
+  {
+    "id": "krauterfein",
+    "word": "Kräuterfein",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Kräuterfeine",
+    "meanings": [
+      {
+        "ja": "ハーブティー、薬草茶",
+        "en": "herbal tea, herb infusion"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich trinke gerne Kräuterfein vor dem Schlafen.",
+        "ja": "私は寝る前にハーブティーを飲むのが好きです。"
+      },
+      {
+        "de": "Dieser Kräuterfein ist sehr beruhigend.",
+        "ja": "このハーブティーはとてもリラックス効果があります。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Kräuter",
+          "meaning": { "ja": "ハーブ、薬草", "en": "herbs" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "fein",
+          "meaning": { "ja": "細かい、上品な", "en": "fine, delicate" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["food", "beverage", "b2"]
+  },
+  {
+    "id": "ab_und_zu",
+    "word": "ab und zu",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "時々、たまに、時折",
+        "en": "now and then, occasionally, from time to time"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ab und zu gehe ich ins Kino.",
+        "ja": "時々映画館に行きます。"
+      },
+      {
+        "de": "Ab und zu besucht er seine Großeltern.",
+        "ja": "彼は時々祖父母を訪ねます。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "ab",
+          "meaning": { "ja": "から", "en": "from" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "und",
+          "meaning": { "ja": "と", "en": "and" },
+          "partOfSpeech": "conjunction"
+        },
+        {
+          "form": "zu",
+          "meaning": { "ja": "まで", "en": "to" },
+          "partOfSpeech": "preposition"
+        }
+      ]
+    },
+    "tags": ["phrase", "time", "b2"]
+  },
+  {
+    "id": "halten",
+    "word": "halten",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "halten",
+      "preterite": "hielt",
+      "pastParticiple": "gehalten",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "持つ、保つ、開催する、〜と考える",
+        "en": "to hold, to keep, to organize, to consider"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich halte das Buch in der Hand.",
+        "ja": "私は本を手に持っています。"
+      },
+      {
+        "de": "Er hält das für eine gute Idee.",
+        "ja": "彼はそれを良いアイデアだと考えている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "halten",
+          "meaning": { "ja": "持つ、保つ", "en": "to hold, to keep" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "general", "b2"]
+  },
+  {
+    "id": "jmd_etw_adj_halten",
+    "word": "jmd/etw adj halten",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜を〜と考える、〜を〜と見なす",
+        "en": "to consider someone/something as, to regard as"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich halte ihn für intelligent.",
+        "ja": "私は彼を賢いと考えています。"
+      },
+      {
+        "de": "Sie hält das Projekt für wichtig.",
+        "ja": "彼女はそのプロジェクトを重要だと考えています。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "jemand/etwas",
+          "meaning": { "ja": "誰か/何か", "en": "someone/something" },
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "form": "halten",
+          "meaning": { "ja": "考える", "en": "to consider" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["phrase", "opinion", "b2"]
+  },
+  {
+    "id": "nebenbei",
+    "word": "nebenbei",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "ついでに、副次的に、片手間に",
+        "en": "incidentally, on the side, as a side job"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Nebenbei arbeitet er als Übersetzer.",
+        "ja": "彼はついでに翻訳者として働いている。"
+      },
+      {
+        "de": "Nebenbei erwähnt, das war eine gute Idee.",
+        "ja": "ついでに言うと、それは良いアイデアでした。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "neben",
+          "meaning": { "ja": "隣に", "en": "next to" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "bei",
+          "meaning": { "ja": "〜の時に", "en": "at, during" },
+          "partOfSpeech": "preposition"
+        }
+      ]
+    },
+    "tags": ["adverb", "time", "b2"]
+  },
+  {
+    "id": "angenehm",
+    "word": "angenehm",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "快適な、心地よい、好ましい",
+        "en": "pleasant, comfortable, agreeable"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Wetter ist heute sehr angenehm.",
+        "ja": "今日の天気はとても快適です。"
+      },
+      {
+        "de": "Sie ist eine angenehme Person.",
+        "ja": "彼女は心地よい人です。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "an",
+          "meaning": { "ja": "〜に", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "genehm",
+          "meaning": { "ja": "好ましい", "en": "agreeable" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "emotion", "b2"]
+  },
+  {
+    "id": "strassenrand",
+    "word": "Straßenrand",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Straßenränder",
+    "meanings": [
+      {
+        "ja": "道路の端、路肩",
+        "en": "roadside, edge of the road"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Auto steht am Straßenrand.",
+        "ja": "車が道路の端に停まっている。"
+      },
+      {
+        "de": "Am Straßenrand wachsen Blumen.",
+        "ja": "道路の端に花が咲いている。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Straße",
+          "meaning": { "ja": "道路", "en": "street, road" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Rand",
+          "meaning": { "ja": "端、縁", "en": "edge, rim" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["place", "transport", "b2"]
+  },
+  {
+    "id": "gonnen",
+    "word": "gönnen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "gönnen",
+      "preterite": "gönnte",
+      "pastParticiple": "gegönnt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "〜に〜を許す、〜に〜を与える、〜を楽しむ",
+        "en": "to grant, to allow, to enjoy"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich gönne ihm den Erfolg.",
+        "ja": "私は彼の成功を喜んでいる。"
+      },
+      {
+        "de": "Gönn dir eine Pause.",
+        "ja": "休憩を取ってください。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "gönnen",
+          "meaning": { "ja": "許す、与える", "en": "to grant, to allow" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "emotion", "b2"]
+  },
+  {
+    "id": "jedoch",
+    "word": "jedoch",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "しかし、ただし、でも",
+        "en": "however, but, nevertheless"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, jedoch gehen wir spazieren.",
+        "ja": "雨が降っているが、私たちは散歩に行く。"
+      },
+      {
+        "de": "Das ist teuer, jedoch lohnt es sich.",
+        "ja": "それは高いが、価値がある。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "jedoch",
+          "meaning": { "ja": "しかし", "en": "however" },
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    "tags": ["adverb", "logic", "b2"]
+  },
+  {
+    "id": "entdecken",
+    "word": "entdecken",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "entdecken",
+      "preterite": "entdeckte",
+      "pastParticiple": "entdeckt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "発見する、見つける、気づく",
+        "en": "to discover, to find, to notice"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er entdeckte ein neues Land.",
+        "ja": "彼は新しい国を発見した。"
+      },
+      {
+        "de": "Ich entdecke immer neue Seiten an dir.",
+        "ja": "私は君の新しい面をいつも発見している。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ent",
+          "meaning": { "ja": "取り除く、解放する", "en": "away, removal" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "decken",
+          "meaning": { "ja": "覆う", "en": "to cover" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "discovery", "b2"]
+  },
+  {
+    "id": "erkunden",
+    "word": "erkunden",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erkunden",
+      "preterite": "erkundete",
+      "pastParticiple": "erkundet",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "探検する、調査する、探索する",
+        "en": "to explore, to investigate, to scout"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir erkunden die neue Stadt.",
+        "ja": "私たちは新しい街を探検している。"
+      },
+      {
+        "de": "Er erkundet die Möglichkeiten.",
+        "ja": "彼は可能性を調査している。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "er",
+          "meaning": { "ja": "完全に", "en": "completely" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "kunden",
+          "meaning": { "ja": "知らせる", "en": "to announce" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "exploration", "b2"]
+  },
+  {
+    "id": "a_fur_b_halten",
+    "word": "A für B halten",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "AをBと間違える、AをBと勘違いする",
+        "en": "to mistake A for B, to confuse A with B"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich hielt ihn für seinen Bruder.",
+        "ja": "私は彼を彼の兄弟と間違えた。"
+      },
+      {
+        "de": "Sie hielt das für einen Scherz.",
+        "ja": "彼女はそれを冗談だと思った。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "A",
+          "meaning": { "ja": "A", "en": "A" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "für",
+          "meaning": { "ja": "〜として", "en": "for, as" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "B",
+          "meaning": { "ja": "B", "en": "B" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "halten",
+          "meaning": { "ja": "考える", "en": "to consider" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["phrase", "mistake", "b2"]
+  },
+  {
+    "id": "schaden",
+    "word": "schaden",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "schaden",
+      "preterite": "schadete",
+      "pastParticiple": "geschadet",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "害する、損害を与える、悪影響を与える",
+        "en": "to harm, to damage, to hurt"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das schadet der Gesundheit.",
+        "ja": "それは健康に害を与える。"
+      },
+      {
+        "de": "Es schadet nicht, zu fragen.",
+        "ja": "質問することは害にならない。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "schaden",
+          "meaning": { "ja": "害する", "en": "to harm" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "negative", "b2"]
+  },
+  {
+    "id": "bauernhof",
+    "word": "Bauernhof",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Bauernhöfe",
+    "meanings": [
+      {
+        "ja": "農場、農家",
+        "en": "farm, farmhouse"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Bauernhof liegt außerhalb der Stadt.",
+        "ja": "その農場は街の外にある。"
+      },
+      {
+        "de": "Auf dem Bauernhof leben viele Tiere.",
+        "ja": "農場には多くの動物が住んでいる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Bauer",
+          "meaning": { "ja": "農夫", "en": "farmer" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Hof",
+          "meaning": { "ja": "中庭、農場", "en": "courtyard, farm" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["place", "agriculture", "b2"]
+  },
+  {
+    "id": "jmd_etw_zuliebe",
+    "word": "jmd/etw zuliebe",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜のために、〜を喜ばせるために",
+        "en": "for the sake of someone/something, to please someone"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich tue es dir zuliebe.",
+        "ja": "私は君のためにそれをします。"
+      },
+      {
+        "de": "Zuliebe der Kinder blieben wir zu Hause.",
+        "ja": "子供たちのために私たちは家にいました。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "jemand/etwas",
+          "meaning": { "ja": "誰か/何か", "en": "someone/something" },
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "form": "zuliebe",
+          "meaning": { "ja": "〜のために", "en": "for the sake of" },
+          "partOfSpeech": "preposition"
+        }
+      ]
+    },
+    "tags": ["phrase", "purpose", "b2"]
+  },
+  {
+    "id": "sowieso",
+    "word": "sowieso",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "どうせ、とにかく、元々",
+        "en": "anyway, in any case, originally"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe sowieso nach Hause.",
+        "ja": "私はどうせ家に帰ります。"
+      },
+      {
+        "de": "Das war sowieso geplant.",
+        "ja": "それは元々予定されていました。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "so",
+          "meaning": { "ja": "そのように", "en": "so, thus" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "wie",
+          "meaning": { "ja": "どのように", "en": "how" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "so",
+          "meaning": { "ja": "そのように", "en": "so, thus" },
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    "tags": ["adverb", "logic", "b2"]
+  },
+  {
+    "id": "kostengunstig",
+    "word": "kostengünstig",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "費用が安い、コストパフォーマンスが良い",
+        "en": "cost-effective, inexpensive, economical"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist eine kostengünstige Lösung.",
+        "ja": "それは費用が安い解決策です。"
+      },
+      {
+        "de": "Wir suchen kostengünstige Alternativen.",
+        "ja": "私たちは費用が安い代替案を探している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Kosten",
+          "meaning": { "ja": "費用", "en": "costs" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "günstig",
+          "meaning": { "ja": "有利な、安い", "en": "favorable, cheap" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "economy", "b2"]
+  },
+  {
+    "id": "ideologisch",
+    "word": "ideologisch",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "イデオロギー的な、思想的な、理念的な",
+        "en": "ideological, ideological, theoretical"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist eine ideologische Frage.",
+        "ja": "それはイデオロギー的な問題です。"
+      },
+      {
+        "de": "Er hat ideologische Gründe.",
+        "ja": "彼には思想的な理由があります。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-adjective",
+      "components": [
+        {
+          "form": "Ideologie",
+          "meaning": { "ja": "イデオロギー", "en": "ideology" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "-isch",
+          "meaning": { "ja": "〜的な", "en": "-ic, -ical" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["adjective", "politics", "b2"]
+  },
+  {
+    "id": "in_erster_linie",
+    "word": "in erster Linie",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "第一に、主に、まず第一に",
+        "en": "first and foremost, primarily, mainly"
+      }
+    ],
+    "examples": [
+      {
+        "de": "In erster Linie geht es um die Sicherheit.",
+        "ja": "第一に安全が重要です。"
+      },
+      {
+        "de": "Das ist in erster Linie deine Verantwortung.",
+        "ja": "それは主に君の責任です。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "in",
+          "meaning": { "ja": "〜で", "en": "in" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "erster",
+          "meaning": { "ja": "第一の", "en": "first" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Linie",
+          "meaning": { "ja": "線、列", "en": "line, row" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["phrase", "priority", "b2"]
+  },
+  {
+    "id": "fortbewegungsmittel",
+    "word": "Fortbewegungsmittel",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Fortbewegungsmittel",
+    "meanings": [
+      {
+        "ja": "交通手段、移動手段",
+        "en": "means of transportation, mode of transport"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Auto ist ein wichtiges Fortbewegungsmittel.",
+        "ja": "車は重要な交通手段です。"
+      },
+      {
+        "de": "Welches Fortbewegungsmittel nutzt du?",
+        "ja": "どの交通手段を使いますか？"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Fortbewegung",
+          "meaning": { "ja": "移動", "en": "movement, locomotion" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Mittel",
+          "meaning": { "ja": "手段", "en": "means, method" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["transport", "object", "b2"]
+  },
+  {
+    "id": "bequem",
+    "word": "bequem",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "快適な、楽な、便利な",
+        "en": "comfortable, convenient, easy"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Dieser Stuhl ist sehr bequem.",
+        "ja": "この椅子はとても快適です。"
+      },
+      {
+        "de": "Es ist bequem, mit dem Auto zu fahren.",
+        "ja": "車で行くのは便利です。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "bequem",
+          "meaning": { "ja": "快適な", "en": "comfortable" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "comfort", "b2"]
+  },
+  {
+    "id": "vollig",
+    "word": "völlig",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "完全に、全く、すっかり",
+        "en": "completely, totally, entirely"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist völlig in Ordnung.",
+        "ja": "それは全く問題ありません。"
+      },
+      {
+        "de": "Ich bin völlig einverstanden.",
+        "ja": "私は完全に同意します。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-adverb",
+      "components": [
+        {
+          "form": "voll",
+          "meaning": { "ja": "満ちた", "en": "full" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "-ig",
+          "meaning": { "ja": "〜的な", "en": "-y, -ly" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["adverb", "degree", "b2"]
+  },
+  {
+    "id": "notig",
+    "word": "nötig",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "必要な、不可欠な、必須の",
+        "en": "necessary, essential, required"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist nötig für den Erfolg.",
+        "ja": "それは成功のために必要です。"
+      },
+      {
+        "de": "Ich habe alles Nötige dabei.",
+        "ja": "私は必要なものはすべて持っています。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "nötig",
+          "meaning": { "ja": "必要な", "en": "necessary" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "necessity", "b2"]
+  },
+  {
+    "id": "unterwegs",
+    "word": "unterwegs",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "途中で、移動中で、外出中で",
+        "en": "on the way, traveling, out and about"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich bin gerade unterwegs zur Arbeit.",
+        "ja": "私は今仕事に向かっている途中です。"
+      },
+      {
+        "de": "Unterwegs traf ich einen alten Freund.",
+        "ja": "途中で古い友人に会いました。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "unter",
+          "meaning": { "ja": "〜の下に", "en": "under, below" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Weg",
+          "meaning": { "ja": "道、経路", "en": "way, path" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["adverb", "movement", "b2"]
+  },
+  {
+    "id": "wirtschaftszweig",
+    "word": "Wirtschaftszweig",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Wirtschaftszweige",
+    "meanings": [
+      {
+        "ja": "経済部門、産業分野、業界",
+        "en": "economic sector, industry branch, business sector"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Automobilindustrie ist ein wichtiger Wirtschaftszweig.",
+        "ja": "自動車産業は重要な経済部門です。"
+      },
+      {
+        "de": "Dieser Wirtschaftszweig wächst schnell.",
+        "ja": "この産業分野は急速に成長している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Wirtschaft",
+          "meaning": { "ja": "経済", "en": "economy" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Zweig",
+          "meaning": { "ja": "枝、部門", "en": "branch, sector" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["economy", "business", "b2"]
+  },
+  {
+    "id": "wachen",
+    "word": "wachen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "wachen",
+      "preterite": "wachte",
+      "pastParticiple": "gewacht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "見張る、監視する、目を覚ましている",
+        "en": "to watch, to guard, to be awake"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Polizei wacht über die Sicherheit.",
+        "ja": "警察は安全を見張っている。"
+      },
+      {
+        "de": "Ich wache die ganze Nacht.",
+        "ja": "私は一晩中起きている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "wachen",
+          "meaning": { "ja": "見張る、監視する", "en": "to watch, to guard" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "security", "b2"]
+  },
+  {
+    "id": "kontinuierlich",
+    "word": "kontinuierlich",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "継続的な、連続的な、持続的な",
+        "en": "continuous, ongoing, sustained"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die kontinuierliche Verbesserung ist wichtig.",
+        "ja": "継続的な改善が重要です。"
+      },
+      {
+        "de": "Er arbeitet kontinuierlich an dem Projekt.",
+        "ja": "彼はそのプロジェクトに継続的に取り組んでいる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-adjective",
+      "components": [
+        {
+          "form": "Kontinuum",
+          "meaning": { "ja": "連続体", "en": "continuum" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "-lich",
+          "meaning": { "ja": "〜的な", "en": "-ly, -al" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["adjective", "time", "b2"]
+  },
+  {
+    "id": "pferd",
+    "word": "Pferd",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Pferde",
+    "meanings": [
+      {
+        "ja": "馬",
+        "en": "horse"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Pferd galoppiert über die Wiese.",
+        "ja": "馬が草原を駆け抜けている。"
+      },
+      {
+        "de": "Sie reitet gerne auf Pferden.",
+        "ja": "彼女は馬に乗るのが好きです。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Pferd",
+          "meaning": { "ja": "馬", "en": "horse" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["animal", "nature", "b2"]
+  },
+  {
+    "id": "muhsam",
+    "word": "mühsam",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "骨の折れる、困難な、苦労の多い",
+        "en": "laborious, difficult, arduous"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das war eine mühsame Arbeit.",
+        "ja": "それは骨の折れる仕事でした。"
+      },
+      {
+        "de": "Der mühsame Weg lohnt sich am Ende.",
+        "ja": "困難な道のりも最後には報われる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-adjective",
+      "components": [
+        {
+          "form": "Mühe",
+          "meaning": { "ja": "苦労、努力", "en": "effort, trouble" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "-sam",
+          "meaning": {
+            "ja": "〜しやすい、〜に満ちた",
+            "en": "prone to, full of"
+          },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["adjective", "difficulty", "b2"]
+  },
+  {
+    "id": "kutsche",
+    "word": "Kutsche",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Kutschen",
+    "meanings": [
+      {
+        "ja": "馬車、四輪馬車",
+        "en": "carriage, coach"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Kutsche fährt durch die Stadt.",
+        "ja": "馬車が街を通り抜けている。"
+      },
+      {
+        "de": "Wir fuhren mit einer historischen Kutsche.",
+        "ja": "私たちは歴史的な馬車に乗った。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Kutsche",
+          "meaning": { "ja": "馬車", "en": "carriage" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["vehicle", "transport", "b2"]
+  },
+  {
+    "id": "allerdings",
+    "word": "allerdings",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "ただし、しかし、確かに",
+        "en": "however, but, indeed"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist teuer, allerdings sehr gut.",
+        "ja": "それは高いが、とても良い。"
+      },
+      {
+        "de": "Allerdings muss ich das noch überprüfen.",
+        "ja": "ただし、私はそれをまだ確認する必要がある。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "aller",
+          "meaning": { "ja": "すべての", "en": "all" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "dings",
+          "meaning": { "ja": "事柄", "en": "thing" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["adverb", "logic", "b2"]
+  },
+  {
+    "id": "dampf",
+    "word": "Dampf",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Dämpfe",
+    "meanings": [
+      {
+        "ja": "蒸気、湯気、スチーム",
+        "en": "steam, vapor, mist"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Dampf steigt aus dem Topf.",
+        "ja": "蒸気が鍋から立ち上っている。"
+      },
+      {
+        "de": "Die Lokomotive fährt mit Dampf.",
+        "ja": "蒸気機関車は蒸気で走る。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Dampf",
+          "meaning": { "ja": "蒸気", "en": "steam" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["physics", "nature", "b2"]
+  },
+  {
+    "id": "erfinden",
+    "word": "erfinden",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erfinden",
+      "preterite": "erfand",
+      "pastParticiple": "erfunden",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "発明する、考案する、作り出す",
+        "en": "to invent, to devise, to create"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er erfand das Telefon.",
+        "ja": "彼は電話を発明した。"
+      },
+      {
+        "de": "Sie erfindet immer neue Geschichten.",
+        "ja": "彼女はいつも新しい物語を作り出す。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "er",
+          "meaning": { "ja": "完全に", "en": "completely" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "finden",
+          "meaning": { "ja": "見つける", "en": "to find" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "creation", "b2"]
+  },
+  {
+    "id": "verdanken",
+    "word": "verdanken",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verdanken",
+      "preterite": "verdankte",
+      "pastParticiple": "verdankt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "〜のおかげで、〜に感謝する、〜に負う",
+        "en": "to owe to, to thank for, to be indebted to"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich verdanke ihm meinen Erfolg.",
+        "ja": "私は彼のおかげで成功した。"
+      },
+      {
+        "de": "Das verdanken wir deiner Hilfe.",
+        "ja": "それは君の助けのおかげです。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ver",
+          "meaning": { "ja": "完全に", "en": "completely" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "danken",
+          "meaning": { "ja": "感謝する", "en": "to thank" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "gratitude", "b2"]
+  },
+  {
+    "id": "brite",
+    "word": "Brite",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Briten",
+    "meanings": [
+      {
+        "ja": "イギリス人、英国人",
+        "en": "Briton, British person"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Er ist ein echter Brite.",
+        "ja": "彼は本物のイギリス人です。"
+      },
+      {
+        "de": "Die Briten trinken gerne Tee.",
+        "ja": "イギリス人は紅茶を飲むのが好きです。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Britannien",
+          "meaning": { "ja": "ブリタニア", "en": "Britannia" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["person", "nationality", "b2"]
+  },
+  {
+    "id": "blasmusik",
+    "word": "Blasmusik",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Blasmusiken",
+    "meanings": [
+      {
+        "ja": "吹奏楽、ブラス音楽",
+        "en": "brass music, wind music"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Blasmusik klingt sehr schön.",
+        "ja": "吹奏楽はとても美しく聞こえます。"
+      },
+      {
+        "de": "Er spielt in einer Blasmusikgruppe.",
+        "ja": "彼は吹奏楽団で演奏している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Blas",
+          "meaning": { "ja": "吹く", "en": "blow" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Musik",
+          "meaning": { "ja": "音楽", "en": "music" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["music", "art", "b2"]
+  },
+  {
+    "id": "belegen",
+    "word": "belegen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "belegen",
+      "preterite": "belegte",
+      "pastParticiple": "belegt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "証明する、裏付ける、予約する、覆う",
+        "en": "to prove, to substantiate, to book, to cover"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Daten belegen seine Theorie.",
+        "ja": "データは彼の理論を証明している。"
+      },
+      {
+        "de": "Ich belege einen Kurs an der Universität.",
+        "ja": "私は大学でコースを取っている。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "be",
+          "meaning": { "ja": "〜する", "en": "to do" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "legen",
+          "meaning": { "ja": "置く", "en": "to put" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "proof", "b2"]
+  },
+  {
+    "id": "brot",
+    "word": "Brot",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Brote",
+    "meanings": [
+      {
+        "ja": "パン、食パン",
+        "en": "bread, loaf"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Brot ist frisch gebacken.",
+        "ja": "パンは焼きたてです。"
+      },
+      {
+        "de": "Ich kaufe jeden Tag Brot.",
+        "ja": "私は毎日パンを買います。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Brot",
+          "meaning": { "ja": "パン", "en": "bread" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["food", "daily", "b2"]
+  },
+  {
+    "id": "pauschalreise",
+    "word": "Pauschalreise",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Pauschalreisen",
+    "meanings": [
+      {
+        "ja": "パッケージツアー、一括旅行",
+        "en": "package tour, all-inclusive trip"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir buchen eine Pauschalreise nach Spanien.",
+        "ja": "私たちはスペインへのパッケージツアーを予約します。"
+      },
+      {
+        "de": "Die Pauschalreise war sehr günstig.",
+        "ja": "パッケージツアーはとても安かった。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Pauschal",
+          "meaning": { "ja": "一括の", "en": "lump sum" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Reise",
+          "meaning": { "ja": "旅行", "en": "trip, journey" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["travel", "tourism", "b2"]
+  },
+  {
+    "id": "im_laufe_etw2",
+    "word": "im Laufe etw2",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "〜の過程で、〜の間に、〜の経過で",
+        "en": "in the course of, during, over the course of"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Im Laufe der Zeit hat sich viel verändert.",
+        "ja": "時間の経過とともに多くのことが変わった。"
+      },
+      {
+        "de": "Im Laufe des Gesprächs wurde alles klar.",
+        "ja": "会話の過程で全てが明らかになった。"
+      }
+    ],
+    "etymology": {
+      "type": "phrase",
+      "components": [
+        {
+          "form": "im",
+          "meaning": { "ja": "〜で", "en": "in the" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Laufe",
+          "meaning": { "ja": "経過、過程", "en": "course, process" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "etwas",
+          "meaning": { "ja": "何か", "en": "something" },
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    },
+    "tags": ["phrase", "time", "b2"]
+  },
+  {
+    "id": "lohn",
+    "word": "Lohn",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Löhne",
+    "meanings": [
+      {
+        "ja": "賃金、給料、報酬",
+        "en": "wage, salary, pay"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Lohn ist zu niedrig.",
+        "ja": "賃金が低すぎます。"
+      },
+      {
+        "de": "Sie bekommt einen guten Lohn.",
+        "ja": "彼女は良い給料をもらっている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Lohn",
+          "meaning": { "ja": "賃金、報酬", "en": "wage, reward" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["work", "money", "b2"]
+  },
+  {
+    "id": "sinken",
+    "word": "sinken",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "sinken",
+      "preterite": "sank",
+      "pastParticiple": "gesunken",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      {
+        "ja": "下がる、沈む、減少する",
+        "en": "to sink, to fall, to decrease"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Preise sind gesunken.",
+        "ja": "価格が下がった。"
+      },
+      {
+        "de": "Das Schiff sinkt langsam.",
+        "ja": "船がゆっくりと沈んでいる。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "sinken",
+          "meaning": { "ja": "下がる、沈む", "en": "to sink, to fall" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "movement", "b2"]
+  },
+  {
+    "id": "anzahl",
+    "word": "Anzahl",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Anzahlen",
+    "meanings": [
+      {
+        "ja": "数、数量、個数",
+        "en": "number, quantity, count"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Anzahl der Teilnehmer ist gestiegen.",
+        "ja": "参加者の数が増えた。"
+      },
+      {
+        "de": "Eine große Anzahl von Menschen kam.",
+        "ja": "多くの人々が来ました。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "an",
+          "meaning": { "ja": "〜に", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Zahl",
+          "meaning": { "ja": "数", "en": "number" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["quantity", "mathematics", "b2"]
+  },
+  {
+    "id": "steigen",
+    "word": "steigen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "steigen",
+      "preterite": "stieg",
+      "pastParticiple": "gestiegen",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      {
+        "ja": "上がる、登る、増加する",
+        "en": "to rise, to climb, to increase"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Preise steigen ständig.",
+        "ja": "価格が絶えず上がっている。"
+      },
+      {
+        "de": "Er steigt auf den Berg.",
+        "ja": "彼は山に登る。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "steigen",
+          "meaning": { "ja": "上がる、登る", "en": "to rise, to climb" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "movement", "b2"]
+  },
+  {
+    "id": "derzeit",
+    "word": "derzeit",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "現在、今のところ、目下",
+        "en": "currently, at present, at the moment"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Derzeit bin ich beschäftigt.",
+        "ja": "現在私は忙しいです。"
+      },
+      {
+        "de": "Derzeit gibt es keine Probleme.",
+        "ja": "今のところ問題はありません。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "der",
+          "meaning": { "ja": "その", "en": "the" },
+          "partOfSpeech": "article"
+        },
+        {
+          "form": "Zeit",
+          "meaning": { "ja": "時間、時期", "en": "time, period" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["adverb", "time", "b2"]
+  },
+  {
+    "id": "ziel",
+    "word": "Ziel",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Ziele",
+    "meanings": [
+      {
+        "ja": "目標、目的、目的地",
+        "en": "goal, aim, destination"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Mein Ziel ist es, Deutsch zu lernen.",
+        "ja": "私の目標はドイツ語を学ぶことです。"
+      },
+      {
+        "de": "Wir erreichen unser Ziel bald.",
+        "ja": "私たちはまもなく目標を達成する。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Ziel",
+          "meaning": { "ja": "目標、目的", "en": "goal, aim" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "purpose", "b2"]
+  },
+  {
+    "id": "insbesondere",
+    "word": "insbesondere",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "特に、とりわけ、特に",
+        "en": "especially, particularly, in particular"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Insbesondere die Kinder freuen sich.",
+        "ja": "特に子供たちが喜んでいる。"
+      },
+      {
+        "de": "Das ist insbesondere wichtig.",
+        "ja": "それは特に重要です。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "in",
+          "meaning": { "ja": "〜で", "en": "in" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "sonder",
+          "meaning": { "ja": "特別な", "en": "special" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "bare",
+          "meaning": { "ja": "裸の", "en": "bare" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adverb", "emphasis", "b2"]
+  },
+  {
+    "id": "entstehen",
+    "word": "entstehen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "entstehen",
+      "preterite": "entstand",
+      "pastParticiple": "entstanden",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      {
+        "ja": "生じる、発生する、作られる",
+        "en": "to arise, to emerge, to be created"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ein Problem ist entstanden.",
+        "ja": "問題が生じた。"
+      },
+      {
+        "de": "Neue Ideen entstehen oft im Gespräch.",
+        "ja": "新しいアイデアはしばしば会話から生まれる。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ent",
+          "meaning": { "ja": "取り除く、解放する", "en": "away, removal" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "stehen",
+          "meaning": { "ja": "立つ", "en": "to stand" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "creation", "b2"]
+  },
+  {
+    "id": "anwohner",
+    "word": "Anwohner",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Anwohner",
+    "meanings": [
+      {
+        "ja": "住民、近隣住民、地元の人",
+        "en": "resident, local resident, neighbor"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Anwohner beschweren sich über den Lärm.",
+        "ja": "住民は騒音について苦情を言っている。"
+      },
+      {
+        "de": "Die Anwohner sind sehr freundlich.",
+        "ja": "住民はとても親切です。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "an",
+          "meaning": { "ja": "〜に", "en": "at, to" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "wohnen",
+          "meaning": { "ja": "住む", "en": "to live" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["person", "place", "b2"]
+  },
+  {
+    "id": "dennoch",
+    "word": "dennoch",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "それにもかかわらず、それでも、しかし",
+        "en": "nevertheless, nonetheless, however"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es regnet, dennoch gehen wir spazieren.",
+        "ja": "雨が降っているが、それでも私たちは散歩に行く。"
+      },
+      {
+        "de": "Es ist schwierig, dennoch versuchen wir es.",
+        "ja": "それは困難だが、それでも私たちは試してみる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "den",
+          "meaning": { "ja": "その", "en": "the" },
+          "partOfSpeech": "article"
+        },
+        {
+          "form": "noch",
+          "meaning": { "ja": "まだ、さらに", "en": "still, yet" },
+          "partOfSpeech": "adverb"
+        }
+      ]
+    },
+    "tags": ["adverb", "logic", "b2"]
+  },
+  {
+    "id": "gesamtpreis",
+    "word": "Gesamtpreis",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Gesamtpreise",
+    "meanings": [
+      {
+        "ja": "総額、合計価格、全額",
+        "en": "total price, overall cost, sum total"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Gesamtpreis beträgt 100 Euro.",
+        "ja": "総額は100ユーロです。"
+      },
+      {
+        "de": "Der Gesamtpreis ist sehr hoch.",
+        "ja": "総額はとても高い。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "gesamt",
+          "meaning": { "ja": "全体の、総計の", "en": "total, entire" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Preis",
+          "meaning": { "ja": "価格", "en": "price" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["money", "business", "b2"]
+  },
+  {
+    "id": "vielerorts",
+    "word": "vielerorts",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      {
+        "ja": "多くの場所で、あちこちで、各地で",
+        "en": "in many places, here and there, in various locations"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Vielerorts gibt es Probleme.",
+        "ja": "多くの場所で問題がある。"
+      },
+      {
+        "de": "Vielerorts wird Deutsch gesprochen.",
+        "ja": "多くの場所でドイツ語が話されている。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "vieler",
+          "meaning": { "ja": "多くの", "en": "many" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Ort",
+          "meaning": { "ja": "場所", "en": "place" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["adverb", "place", "b2"]
+  },
+  {
+    "id": "pragen",
+    "word": "prägen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "prägen",
+      "preterite": "prägte",
+      "pastParticiple": "geprägt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "形作る、特徴づける、影響を与える",
+        "en": "to shape, to characterize, to influence"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Erfahrung prägt sein Leben.",
+        "ja": "その経験が彼の人生を形作っている。"
+      },
+      {
+        "de": "Die Kultur prägt die Gesellschaft.",
+        "ja": "文化が社会を特徴づけている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "prägen",
+          "meaning": {
+            "ja": "形作る、特徴づける",
+            "en": "to shape, to characterize"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "influence", "b2"]
   }
 ]

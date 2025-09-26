@@ -163,6 +163,7 @@ interface EtymologyComponent {
 - `sich3` = 再帰代名詞 3 格（Dativ）
 - `etw3` = etwas（何か）+ 3 格（Dativ）
 - `jdn4` = jemanden（誰か）+ 4 格（Akkusativ）
+  など
 
 **例**：
 
@@ -171,6 +172,22 @@ interface EtymologyComponent {
 - `sich4 für etw4 interessieren` → "〜に興味を持つ"
 
 この形式により、ドイツ語学習者は正しい格変化と語順を同時に学習できます。
+
+#### 見出し語の標準化ルール
+
+**テキストから見出し語への変換**：
+
+ユーザーが提供する単語はテキストに出てきた形であるため、B2 レベルに適切な見出し語に変更する必要があります：
+
+- **過去分詞 → 不定形**: `gegeben` → `geben`
+- **複数形 → 単数形**: `Sachen` → `Sache`, `Lücken` → `Lücke`
+- **不要な単語の削除**: 文脈に依存する修飾語は削除
+- **よく出てくる形への変更**: より一般的な語形を採用
+
+**分離動詞の表記ルール**：
+
+- **分離動詞**: `|` で区切り（例: `ab|geben`, `auf|stehen`）
+- **非分離動詞**: `|` は不要（例: `entsagen`, `verstehen`）
 
 #### タグシステム
 

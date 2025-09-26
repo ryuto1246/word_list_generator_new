@@ -63,6 +63,9 @@ export default function Home() {
   // 🔀 シャッフル操作のフラグ（useEffectでの上書きを防ぐ）
   const isShufflingRef = useRef<boolean>(false);
 
+  // 🔀 シャッフルされた元のデータを保持するref（フィルター切り替え時のシャッフル状態保持用）
+  const shuffledOriginalDataRef = useRef<WordEntry[]>([]);
+
   // ⭐️ 星つき単語数を計算する関数
   const getStarredCount = () => {
     return wordsData.filter((entry) => {
@@ -157,6 +160,10 @@ export default function Home() {
       setIsShuffled(true);
       // シャッフル状態を即座に更新して、useEffectでの上書きを防ぐ
       prevDisplayEntriesRef.current = shuffledData;
+      // フィルター切り替え時のシャッフル状態保持用に元データを保存
+      shuffledOriginalDataRef.current = showStarredOnly
+        ? sourceData
+        : shuffledData;
 
       // 次のレンダリングサイクルでフラグをリセット
       setTimeout(() => {
@@ -171,6 +178,9 @@ export default function Home() {
     setShowStarredOnly(false); // フィルターを解除
     setDisplayEntries(wordsData); // 元の順序に戻す
     setIsShuffled(false); // シャッフル状態をfalseに設定
+    // シャッフル関連のrefをリセット
+    prevDisplayEntriesRef.current = wordsData;
+    shuffledOriginalDataRef.current = [];
   };
 
   // 🚀 初期データ読み込み
@@ -195,20 +205,26 @@ export default function Home() {
         })
       : wordsData;
 
-    // シャッフル状態を保持するため、前回のdisplayEntriesから該当する単語のみを抽出
-    // ただし、wordsDataが更新された直後のシャッフル状態は保持しない
-    if (
-      isShuffled &&
-      prevDisplayEntriesRef.current.length > 0 &&
-      prevDisplayEntriesRef.current.length === filtered.length
-    ) {
+    // シャッフル状態を保持する処理
+    if (isShuffled && shuffledOriginalDataRef.current.length > 0) {
+      // シャッフルされた元データが存在する場合、フィルターを適用してシャッフル順序を保持
+      const sourceForShuffle = showStarredOnly
+        ? shuffledOriginalDataRef.current
+        : wordsData;
+      const newDisplayEntries = sourceForShuffle.filter((entry) =>
+        filtered.some((filteredEntry) => filteredEntry.id === entry.id)
+      );
+      setDisplayEntries(newDisplayEntries);
+    } else if (isShuffled && prevDisplayEntriesRef.current.length > 0) {
+      // フォールバック：前回のdisplayEntriesから該当する単語のみを抽出
       const currentOrder = prevDisplayEntriesRef.current;
       const newDisplayEntries = currentOrder.filter((entry) =>
         filtered.some((filteredEntry) => filteredEntry.id === entry.id)
       );
       setDisplayEntries(newDisplayEntries);
     } else {
-      setDisplayEntries(filtered); // シャッフルされていない場合は通常のフィルター結果をセット
+      // シャッフルされていない場合は通常のフィルター結果をセット
+      setDisplayEntries(filtered);
     }
   }, [showStarredOnly, wordsData, starredUpdateTrigger, isShuffled]);
 
