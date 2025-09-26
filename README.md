@@ -493,17 +493,50 @@ vercel --prod
     "components": [
       {
         "form": "ab",
-        "meaning": { "ja": "離れる、分離", "en": "away, off" },
+        "meaning": { "ja": "離れて、取り除いて", "en": "away, off, down" },
         "partOfSpeech": "prefix"
       },
       {
         "form": "geben",
-        "meaning": { "ja": "与える", "en": "to give" },
+        "meaning": { "ja": "与える、渡す", "en": "to give, to hand over" },
         "partOfSpeech": "verb"
       }
     ]
   },
   "tags": ["action", "submission", "b2"]
+}
+```
+
+### 語源タイプ別の例
+
+#### 派生名詞（derived-noun）の例
+
+```json
+{
+  "id": "gewerbe",
+  "word": "Gewerbe",
+  "partOfSpeech": "noun",
+  "gender": "neuter",
+  "plural": "Gewerbe",
+  "meanings": [
+    {
+      "ja": "営業、商売、職業",
+      "en": "trade, business, commerce"
+    }
+  ],
+  "etymology": {
+    "type": "derived-noun",
+    "components": [
+      {
+        "form": "werben",
+        "meaning": {
+          "ja": "勧誘する、求める、活動する",
+          "en": "to recruit, to seek, to be active"
+        },
+        "partOfSpeech": "verb"
+      }
+    ]
+  }
 }
 ```
 

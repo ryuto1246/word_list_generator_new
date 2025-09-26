@@ -25,6 +25,27 @@
         "ja": "その犬は一切音を立てない。"
       }
     ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ab",
+          "meaning": {
+            "ja": "離れて、取り除いて",
+            "en": "away, off, down"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "geben",
+          "meaning": {
+            "ja": "与える、渡す",
+            "en": "to give, to hand over"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "submission"]
   },
   {
@@ -6222,6 +6243,19 @@
         "ja": "彼は小さな商売をしている。"
       }
     ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "werben",
+          "meaning": {
+            "ja": "勧誘する、求める、活動する",
+            "en": "to recruit, to seek, to be active"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["business", "economy"]
   },
   {

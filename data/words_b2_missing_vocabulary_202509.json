@@ -1,0 +1,674 @@
+[
+  {
+    "id": "entschuldigen",
+    "word": "ent|schuldigen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "entschuldigen",
+      "preterite": "entschuldigte",
+      "pastParticiple": "entschuldigt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "許す、弁解する、謝罪の理由を説明する",
+        "en": "to excuse, to justify, to explain the reason for an apology"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Kannst du mich bitte entschuldigen? Ich bin zu spät gekommen.",
+        "ja": "私を許していただけますか？遅刻してしまいました。"
+      },
+      {
+        "de": "Er entschuldigte sein Verhalten mit Stress.",
+        "ja": "彼はストレスを理由に自分の行動を弁解した。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ent",
+          "meaning": { "ja": "取り除く、解放する", "en": "away, removal" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "schuldig",
+          "meaning": { "ja": "罪のある、借りがある", "en": "guilty, owing" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "usageNotes": "他動詞として「誰かを許す」、再帰動詞として「謝罪する」の両方の用法がある。",
+    "tags": ["action", "communication", "b2"]
+  },
+  {
+    "id": "sich_entschuldigen",
+    "word": "sich3 ent|schuldigen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "sich entschuldigen",
+      "preterite": "entschuldigte sich",
+      "pastParticiple": "sich entschuldigt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "謝罪する、お詫びする",
+        "en": "to apologize, to excuse oneself"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Ich entschuldige mich für die Verspätung.",
+        "ja": "遅刻についてお詫びします。"
+      },
+      {
+        "de": "Sie entschuldigte sich bei ihrem Kollegen.",
+        "ja": "彼女は同僚に謝罪した。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "sich",
+          "meaning": { "ja": "自分自身", "en": "oneself" },
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "form": "entschuldigen",
+          "meaning": { "ja": "許す、弁解する", "en": "to excuse, to justify" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "usageNotes": "再帰動詞として使用。ビジネスや日常会話で頻繁に使用される重要な表現。",
+    "tags": ["action", "communication", "b2", "reflexive"]
+  },
+  {
+    "id": "sich_erholen",
+    "word": "sich3 er|holen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "sich erholen",
+      "preterite": "erholte sich",
+      "pastParticiple": "sich erholt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "回復する、休養する、リフレッシュする",
+        "en": "to recover, to rest, to refresh oneself"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Nach der Krankheit erholt sie sich langsam.",
+        "ja": "病気の後、彼女はゆっくりと回復している。"
+      },
+      {
+        "de": "Ich erhole mich im Urlaub von der Arbeit.",
+        "ja": "休暇で仕事の疲れを癒している。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "er",
+          "meaning": { "ja": "完全に、〜しきる", "en": "completely, thoroughly" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "holen",
+          "meaning": { "ja": "取りに行く、持ってくる", "en": "to fetch, to get" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "usageNotes": "再帰動詞として使用。身体的・精神的回復の両方に使用される。",
+    "tags": ["action", "health", "b2", "reflexive"]
+  },
+  {
+    "id": "erholsam",
+    "word": "erholsam",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "回復効果のある、リフレッシュできる、休養に適した",
+        "en": "restorative, refreshing, conducive to recovery"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der erholsame Urlaub hat mir gut getan.",
+        "ja": "リフレッシュできる休暇は私にとって良かった。"
+      },
+      {
+        "de": "Ein Spaziergang im Park ist sehr erholsam.",
+        "ja": "公園での散歩はとてもリフレッシュできます。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "erholen",
+          "meaning": { "ja": "回復する", "en": "to recover" },
+          "partOfSpeech": "verb"
+        },
+        {
+          "form": "-sam",
+          "meaning": { "ja": "〜しやすい、〜に適した", "en": "prone to, suitable for" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["adjective", "health", "b2"]
+  },
+  {
+    "id": "oberstufe",
+    "word": "Oberstufe",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Oberstufen",
+    "meanings": [
+      {
+        "ja": "上級クラス、高校の上級学年",
+        "en": "upper level, senior high school grades"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Schüler der Oberstufe bereiten sich auf das Abitur vor.",
+        "ja": "上級学年の生徒たちは大学入学資格試験の準備をしている。"
+      },
+      {
+        "de": "In der Oberstufe werden die Fächer vertieft behandelt.",
+        "ja": "上級学年では科目がより深く扱われる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ober",
+          "meaning": { "ja": "上の、上位の", "en": "upper, higher" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Stufe",
+          "meaning": { "ja": "段階、レベル", "en": "level, stage" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["education", "b2"]
+  },
+  {
+    "id": "schnur",
+    "word": "Schnur",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Schnüre",
+    "meanings": [
+      {
+        "ja": "ひも、縄、コード",
+        "en": "string, cord, rope"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Schnur des Telefons ist sehr lang.",
+        "ja": "電話のコードはとても長い。"
+      },
+      {
+        "de": "Er band das Paket mit einer Schnur zusammen.",
+        "ja": "彼はひもで荷物を縛った。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Schnur",
+          "meaning": { "ja": "ひも、縄", "en": "string, rope" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "b2"]
+  },
+  {
+    "id": "klage",
+    "word": "Klage",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Klagen",
+    "meanings": [
+      {
+        "ja": "苦情、訴え、告訴",
+        "en": "complaint, lawsuit, legal action"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Klage gegen das Unternehmen wurde eingereicht.",
+        "ja": "その企業に対する訴訟が提起された。"
+      },
+      {
+        "de": "Er hat eine Klage wegen des Lärms erhoben.",
+        "ja": "彼は騒音について苦情を申し立てた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "klagen",
+          "meaning": { "ja": "苦情を言う、訴える", "en": "to complain, to sue" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["law", "communication", "b2"]
+  },
+  {
+    "id": "waage",
+    "word": "Waage",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Waagen",
+    "meanings": [
+      {
+        "ja": "秤、はかり、天秤",
+        "en": "scale, balance, weighing machine"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Waage zeigt 70 Kilogramm an.",
+        "ja": "秤は70キログラムを示している。"
+      },
+      {
+        "de": "Auf der Waage steht ein Paket.",
+        "ja": "秤の上に荷物が置かれている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Waage",
+          "meaning": { "ja": "秤、天秤", "en": "scale, balance" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "measurement", "b2"]
+  },
+  {
+    "id": "glühen",
+    "word": "glühen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "glühen",
+      "preterite": "glühte",
+      "pastParticiple": "geglüht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "赤く光る、熱く燃える、情熱的に燃える",
+        "en": "to glow, to burn red-hot, to burn with passion"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Kohlen glühen im Ofen.",
+        "ja": "石炭がストーブの中で赤く光っている。"
+      },
+      {
+        "de": "Seine Augen glühen vor Begeisterung.",
+        "ja": "彼の目は情熱で輝いている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "glühen",
+          "meaning": { "ja": "赤く光る、燃える", "en": "to glow, to burn" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "physical", "b2"]
+  },
+  {
+    "id": "kohlen",
+    "word": "Kohlen",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Kohlen",
+    "meanings": [
+      {
+        "ja": "石炭、炭",
+        "en": "coal, charcoal"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die Kohlen brennen langsam ab.",
+        "ja": "石炭はゆっくりと燃え尽きている。"
+      },
+      {
+        "de": "Wir heizen mit Kohlen.",
+        "ja": "私たちは石炭で暖房している。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Kohle",
+          "meaning": { "ja": "石炭", "en": "coal" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["material", "energy", "b2"]
+  },
+  {
+    "id": "donnern",
+    "word": "donnern",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "donnern",
+      "preterite": "donnerte",
+      "pastParticiple": "gedonnert",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "雷が鳴る、轟音を立てる",
+        "en": "to thunder, to make a loud noise"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es donnert und blitzt.",
+        "ja": "雷が鳴り、稲妻が光っている。"
+      },
+      {
+        "de": "Der Zug donnerte durch den Tunnel.",
+        "ja": "電車がトンネルを通り抜けて轟音を立てた。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Donner",
+          "meaning": { "ja": "雷", "en": "thunder" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["weather", "sound", "b2"]
+  },
+  {
+    "id": "verwenden",
+    "word": "ver|wenden",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verwenden",
+      "preterite": "verwandte",
+      "pastParticiple": "verwandt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "使用する、利用する、費やす",
+        "en": "to use, to utilize, to spend"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir verwenden moderne Technologie.",
+        "ja": "私たちは現代技術を使用している。"
+      },
+      {
+        "de": "Er verwandte viel Zeit für das Projekt.",
+        "ja": "彼はそのプロジェクトに多くの時間を費やした。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "ver",
+          "meaning": { "ja": "完全に、〜しきる", "en": "completely, thoroughly" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "wenden",
+          "meaning": { "ja": "向きを変える、振り向く", "en": "to turn, to turn around" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "usage", "b2"]
+  },
+  {
+    "id": "verwandtschaft",
+    "word": "Verwandtschaft",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Verwandtschaften",
+    "meanings": [
+      {
+        "ja": "親族、親戚関係、血縁関係",
+        "en": "relatives, kinship, family relationship"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die ganze Verwandtschaft kommt zu Weihnachten.",
+        "ja": "親戚全員がクリスマスに来る。"
+      },
+      {
+        "de": "Er hat eine große Verwandtschaft in Deutschland.",
+        "ja": "彼はドイツに多くの親戚がいる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "verwandt",
+          "meaning": { "ja": "親戚の、関連する", "en": "related, connected" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "-schaft",
+          "meaning": { "ja": "〜関係、〜状態", "en": "-ship, -hood" },
+          "partOfSpeech": "suffix"
+        }
+      ]
+    },
+    "tags": ["family", "relationship", "b2"]
+  },
+  {
+    "id": "geist",
+    "word": "Geist",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Geister",
+    "meanings": [
+      {
+        "ja": "精神、心、霊、幽霊",
+        "en": "spirit, mind, ghost, soul"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der menschliche Geist ist faszinierend.",
+        "ja": "人間の精神は魅力的だ。"
+      },
+      {
+        "de": "Sie glaubt an Geister.",
+        "ja": "彼女は幽霊を信じている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Geist",
+          "meaning": { "ja": "精神、霊", "en": "spirit, mind" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "philosophy", "b2"]
+  },
+  {
+    "id": "pflicht",
+    "word": "Pflicht",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Pflichten",
+    "meanings": [
+      {
+        "ja": "義務、責任、本分",
+        "en": "duty, obligation, responsibility"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es ist meine Pflicht, dir zu helfen.",
+        "ja": "君を助けるのは私の義務だ。"
+      },
+      {
+        "de": "Jeder Bürger hat Pflichten gegenüber dem Staat.",
+        "ja": "すべての市民は国家に対して義務を持っている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "pflichten",
+          "meaning": { "ja": "義務を負う", "en": "to be obliged" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "responsibility", "b2"]
+  },
+  {
+    "id": "recht",
+    "word": "Recht",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Rechte",
+    "meanings": [
+      {
+        "ja": "権利、正義、法、正当性",
+        "en": "right, justice, law, legitimacy"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Jeder Mensch hat das Recht auf Bildung.",
+        "ja": "すべての人は教育を受ける権利を持っている。"
+      },
+      {
+        "de": "Das Recht ist auf der Seite der Gerechtigkeit.",
+        "ja": "法は正義の側にある。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "recht",
+          "meaning": { "ja": "正しい、適切な", "en": "right, correct" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["law", "abstract", "b2"]
+  },
+  {
+    "id": "winkel",
+    "word": "Winkel",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Winkel",
+    "meanings": [
+      {
+        "ja": "角度、角、隅、コーナー",
+        "en": "angle, corner, nook"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der rechte Winkel beträgt 90 Grad.",
+        "ja": "直角は90度です。"
+      },
+      {
+        "de": "In dem Winkel steht ein alter Stuhl.",
+        "ja": "その隅に古い椅子が置かれている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Winkel",
+          "meaning": { "ja": "角度、隅", "en": "angle, corner" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["geometry", "mathematics", "b2"]
+  },
+  {
+    "id": "eimer",
+    "word": "Eimer",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Eimer",
+    "meanings": [
+      {
+        "ja": "バケツ、桶",
+        "en": "bucket, pail"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Der Eimer ist voll mit Wasser.",
+        "ja": "バケツは水で満杯だ。"
+      },
+      {
+        "de": "Sie trägt einen Eimer mit Sand.",
+        "ja": "彼女は砂の入ったバケツを持っている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "Eimer",
+          "meaning": { "ja": "バケツ", "en": "bucket" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["object", "container", "b2"]
+  }
+]

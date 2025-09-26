@@ -872,5 +872,127 @@
     ],
     "usageNotes": "正確な用語を知らないが概念を説明したいときに使用。語彙不足を補いながら会話を続ける重要な表現。",
     "tags": ["speaking", "b2", "explanation", "vocabulary", "circumlocution"]
+  },
+  {
+    "id": "oder_so",
+    "word": "oder so",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "とか、みたいな、そんな感じで",
+        "en": "or something like that, or so, kind of"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist ein Computer oder so.",
+        "ja": "それはコンピューターとかそんなものです。"
+      },
+      {
+        "de": "Wir könnten ins Kino gehen oder so.",
+        "ja": "映画館に行くとかできますね。"
+      }
+    ],
+    "usageNotes": "不正確さや曖昧さを表現するカジュアルなフィラー。例を挙げる際によく使用。",
+    "tags": ["filler", "speaking", "b2", "approximation", "casual"]
+  },
+  {
+    "id": "sagen_wir_mal",
+    "word": "sagen wir mal",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "例えば、仮に、そうしましょう",
+        "en": "let's say, suppose, for example"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Sagen wir mal, es kostet 100 Euro.",
+        "ja": "例えば、100ユーロかかるとしましょう。"
+      },
+      {
+        "de": "Sagen wir mal, du hast recht.",
+        "ja": "仮に、あなたが正しいとしましょう。"
+      }
+    ],
+    "usageNotes": "仮定や例を示すときに使用。議論や説明で頻繁に使われる表現。",
+    "tags": ["speaking", "b2", "hypothesis", "example", "discussion"]
+  },
+  {
+    "id": "irgend_so_was",
+    "word": "irgend so was",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "そんなようなもの、何かそんな感じの",
+        "en": "something like that, some such thing"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Es war irgend so was mit einem Auto.",
+        "ja": "車に関することでした、そんなような感じで。"
+      },
+      {
+        "de": "Ich brauche irgend so was wie einen Hammer.",
+        "ja": "ハンマーみたいなものが必要です。"
+      }
+    ],
+    "usageNotes": "具体的な名前や詳細が思い出せないときに使用。非常にカジュアルな表現。",
+    "tags": ["filler", "speaking", "b2", "vagueness", "casual", "memory"]
+  },
+  {
+    "id": "mehr_oder_weniger",
+    "word": "mehr oder weniger",
+    "partOfSpeech": "phrase",
+    "meanings": [
+      {
+        "ja": "だいたい、おおむね、多かれ少なかれ",
+        "en": "more or less, roughly, approximately"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das stimmt mehr oder weniger.",
+        "ja": "それはだいたい正しいです。"
+      },
+      {
+        "de": "Ich bin mehr oder weniger damit einverstanden.",
+        "ja": "私はおおむねそれに同意します。"
+      }
+    ],
+    "usageNotes": "完全な同意や確実性を避けながら、大まかな合意を表現するときに使用。",
+    "tags": ["filler", "speaking", "b2", "approximation", "agreement"]
+  },
+  {
+    "id": "halt_filler",
+    "word": "halt",
+    "partOfSpeech": "particle",
+    "meanings": [
+      {
+        "ja": "まあ、そういうもの、仕方ない、ただ",
+        "en": "just, simply, that's how it is"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das ist halt so.",
+        "ja": "まあ、そういうものです。"
+      },
+      {
+        "de": "Ich bin halt müde.",
+        "ja": "ただ疲れているだけです。"
+      }
+    ],
+    "usageNotes": "諦めや受容を表現するフィラー。状況を受け入れるときに使用。非常に頻繁に使われる。",
+    "tags": [
+      "filler",
+      "speaking",
+      "b2",
+      "acceptance",
+      "resignation",
+      "particle"
+    ]
   }
 ]

@@ -7,12 +7,17 @@ const AVAILABLE_WORDLISTS = [
   {
     id: "words_b2_german",
     name: "ドイツ語B2 Lesen",
-    filename: "words_b2_german.json",
+    filename: "words_b2_lesen.json",
   },
   {
     id: "words_b2_sprechen_fillers",
     name: "ドイツ語B2 Sprechen",
     filename: "words_b2_sprechen_fillers.json",
+  },
+  {
+    id: "words_b2_missing_vocabulary_202509",
+    name: "ドイツ語B2 抜け語彙（2025/9）",
+    filename: "words_b2_missing_vocabulary_202509.json",
   },
 ];
 
@@ -54,6 +59,9 @@ export default function Home() {
 
   // 🔀 前回のdisplayEntriesを保持するためのref
   const prevDisplayEntriesRef = useRef<WordEntry[]>([]);
+
+  // 🔀 シャッフル操作のフラグ（useEffectでの上書きを防ぐ）
+  const isShufflingRef = useRef<boolean>(false);
 
   // ⭐️ 星つき単語数を計算する関数
   const getStarredCount = () => {
@@ -130,8 +138,31 @@ export default function Home() {
 
   // 🔀 シャッフル機能
   const shuffleWords = () => {
-    setDisplayEntries(shuffleArray(displayEntries)); // 現在表示されている単語リストをシャッフル
-    setIsShuffled(true); // シャッフル状態をtrueに設定
+    // フィルター適用前の適切なデータソースを取得
+    const sourceData = showStarredOnly
+      ? wordsData.filter((entry) => {
+          const IS_NOCH_NICHT_GELERNT_KEY = `nochNichtGelernt_${entry.word}`;
+          const storedIsNochNichtGelernt = localStorage.getItem(
+            IS_NOCH_NICHT_GELERNT_KEY
+          );
+          return storedIsNochNichtGelernt === "true";
+        })
+      : wordsData;
+
+    // データが存在する場合のみシャッフルを実行
+    if (sourceData.length > 0) {
+      isShufflingRef.current = true; // シャッフル操作中フラグを設定
+      const shuffledData = shuffleArray(sourceData);
+      setDisplayEntries(shuffledData);
+      setIsShuffled(true);
+      // シャッフル状態を即座に更新して、useEffectでの上書きを防ぐ
+      prevDisplayEntriesRef.current = shuffledData;
+
+      // 次のレンダリングサイクルでフラグをリセット
+      setTimeout(() => {
+        isShufflingRef.current = false;
+      }, 0);
+    }
   };
 
   // 🔀 元の順序に戻す機能
@@ -149,6 +180,11 @@ export default function Home() {
 
   // ⭐️ フィルターされた単語リストの更新（showStarredOnly、wordsData、または星つき状態が変更された場合）
   useEffect(() => {
+    // シャッフル操作中の場合は処理をスキップ
+    if (isShufflingRef.current) {
+      return;
+    }
+
     const filtered = showStarredOnly
       ? wordsData.filter((entry) => {
           const IS_NOCH_NICHT_GELERNT_KEY = `nochNichtGelernt_${entry.word}`;
@@ -160,7 +196,12 @@ export default function Home() {
       : wordsData;
 
     // シャッフル状態を保持するため、前回のdisplayEntriesから該当する単語のみを抽出
-    if (isShuffled && prevDisplayEntriesRef.current.length > 0) {
+    // ただし、wordsDataが更新された直後のシャッフル状態は保持しない
+    if (
+      isShuffled &&
+      prevDisplayEntriesRef.current.length > 0 &&
+      prevDisplayEntriesRef.current.length === filtered.length
+    ) {
       const currentOrder = prevDisplayEntriesRef.current;
       const newDisplayEntries = currentOrder.filter((entry) =>
         filtered.some((filteredEntry) => filteredEntry.id === entry.id)
@@ -169,7 +210,7 @@ export default function Home() {
     } else {
       setDisplayEntries(filtered); // シャッフルされていない場合は通常のフィルター結果をセット
     }
-  }, [showStarredOnly, wordsData, starredUpdateTrigger, isShuffled]); // displayEntriesを依存配列から削除
+  }, [showStarredOnly, wordsData, starredUpdateTrigger, isShuffled]);
 
   // 🔀 displayEntriesが変更されたときにrefを更新
   useEffect(() => {
@@ -235,7 +276,15 @@ export default function Home() {
         </button>
 
         {/* 🔀 シャッフルボタン */}
-        <button className="floatbutton" onClick={shuffleWords}>
+        <button
+          className="floatbutton"
+          onClick={shuffleWords}
+          disabled={wordsData.length === 0}
+          style={{
+            opacity: wordsData.length === 0 ? 0.5 : 1,
+            cursor: wordsData.length === 0 ? "not-allowed" : "pointer",
+          }}
+        >
           シャッフル
         </button>
 
