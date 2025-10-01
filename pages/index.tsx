@@ -32,6 +32,22 @@ const shuffleArray = (array: WordEntry[]) => {
 };
 
 export default function Home() {
+  /**
+   * 概要:
+   * 単語帳の一覧表示、フィルタ（⭐️付きのみ）、シャッフルおよび表示状態の管理を行うトップページ。
+   *
+   * 機能:
+   * - 単語データの動的読み込み
+   * - 各カードの意味表示/非表示トグル
+   * - ⭐️付きのみ表示フィルタ
+   * - シャッフルと並び順の保持（星トグルやフィルタ切替時も順序維持）
+   * - 並びのリセット
+   *
+   * TODO:
+   * - フィルタ切替時におけるシャッフル順序の保持ロジックのユニットテスト追加
+   * - ローカルストレージアクセスの安全化（SSR回避ガードの共通化）
+   * - 並び順の永続化（必要であればセッション単位で保持）
+   */
   // 📂 選択された単語帳のstate
   const [selectedWordlist, setSelectedWordlist] =
     useState<string>("words_b2_german");
@@ -65,6 +81,8 @@ export default function Home() {
 
   // 🔀 シャッフルされた元のデータを保持するref（フィルター切り替え時のシャッフル状態保持用）
   const shuffledOriginalDataRef = useRef<WordEntry[]>([]);
+  // シャッフル時点のID順を保持（星トグルやフィルタ変動時の安定ソート用）
+  const shuffledOrderMapRef = useRef<Map<string, number> | null>(null);
 
   // ⭐️ 星つき単語数を計算する関数
   const getStarredCount = () => {
@@ -164,6 +182,10 @@ export default function Home() {
       shuffledOriginalDataRef.current = showStarredOnly
         ? sourceData
         : shuffledData;
+      // 安定ソート用の順序マップを構築
+      const orderMap = new Map<string, number>();
+      shuffledData.forEach((e, idx) => orderMap.set(e.id, idx));
+      shuffledOrderMapRef.current = orderMap;
 
       // 次のレンダリングサイクルでフラグをリセット
       setTimeout(() => {
@@ -205,33 +227,45 @@ export default function Home() {
         })
       : wordsData;
 
-    // シャッフル状態を保持する処理
-    if (isShuffled && shuffledOriginalDataRef.current.length > 0) {
-      // シャッフルされた元データが存在する場合、フィルターを適用してシャッフル順序を保持
-      const sourceForShuffle = showStarredOnly
-        ? shuffledOriginalDataRef.current
-        : wordsData;
-      const newDisplayEntries = sourceForShuffle.filter((entry) =>
-        filtered.some((filteredEntry) => filteredEntry.id === entry.id)
-      );
-      setDisplayEntries(newDisplayEntries);
-    } else if (isShuffled && prevDisplayEntriesRef.current.length > 0) {
-      // フォールバック：前回のdisplayEntriesから該当する単語のみを抽出
-      const currentOrder = prevDisplayEntriesRef.current;
-      const newDisplayEntries = currentOrder.filter((entry) =>
-        filtered.some((filteredEntry) => filteredEntry.id === entry.id)
-      );
-      setDisplayEntries(newDisplayEntries);
-    } else {
-      // シャッフルされていない場合は通常のフィルター結果をセット
-      setDisplayEntries(filtered);
+    // シャッフル状態を保持する処理（安定ソート）
+    if (isShuffled) {
+      const orderMap = shuffledOrderMapRef.current;
+      if (orderMap) {
+        const sorted = [...filtered].sort((a, b) => {
+          const ai = orderMap.get(a.id);
+          const bi = orderMap.get(b.id);
+          if (ai == null && bi == null) return 0;
+          if (ai == null) return 1;
+          if (bi == null) return -1;
+          return ai - bi;
+        });
+        setDisplayEntries(sorted);
+        return;
+      }
+      // マップが無い場合は前回の順序で可能な限り保持
+      if (prevDisplayEntriesRef.current.length > 0) {
+        const currentOrder = prevDisplayEntriesRef.current;
+        const newDisplayEntries = currentOrder.filter((entry) =>
+          filtered.some((filteredEntry) => filteredEntry.id === entry.id)
+        );
+        setDisplayEntries(newDisplayEntries);
+        return;
+      }
     }
+    // 非シャッフル時は通常のフィルター結果
+    setDisplayEntries(filtered);
   }, [showStarredOnly, wordsData, starredUpdateTrigger, isShuffled]);
 
   // 🔀 displayEntriesが変更されたときにrefを更新
   useEffect(() => {
     prevDisplayEntriesRef.current = displayEntries;
-  }, [displayEntries]);
+    // displayEntriesから順序マップを補完（初回シャッフル後の再構築用）
+    if (isShuffled && displayEntries.length > 0) {
+      const orderMap = new Map<string, number>();
+      displayEntries.forEach((e, idx) => orderMap.set(e.id, idx));
+      shuffledOrderMapRef.current = orderMap;
+    }
+  }, [displayEntries, isShuffled]);
 
   if (isLoading) {
     return (

@@ -1,7 +1,7 @@
 [
   {
     "id": "entschuldigen",
-    "word": "ent|schuldigen",
+    "word": "entschuldigen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "entschuldigen",
@@ -45,7 +45,7 @@
   },
   {
     "id": "sich_entschuldigen",
-    "word": "sich3 ent|schuldigen",
+    "word": "sich3 entschuldigen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "sich entschuldigen",
@@ -433,7 +433,7 @@
   },
   {
     "id": "verwenden",
-    "word": "ver|wenden",
+    "word": "verwenden",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "verwenden",
