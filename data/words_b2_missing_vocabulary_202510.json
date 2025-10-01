@@ -1,0 +1,815 @@
+[
+  {
+    "id": "tiefpunkt",
+    "word": "Tiefpunkt",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Tiefpunkte",
+    "meanings": [{ "ja": "底、どん底、最低点", "en": "low point, nadir" }],
+    "tags": ["abstract", "b2"]
+  },
+  {
+    "id": "zunächst",
+    "word": "zunächst",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      { "ja": "まず最初に、当面は", "en": "at first, initially, for now" }
+    ],
+    "tags": ["adverb", "discourse", "b2"]
+  },
+  {
+    "id": "jagd",
+    "word": "Jagd",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Jagden",
+    "meanings": [{ "ja": "狩り、追跡", "en": "hunt, hunting, pursuit" }],
+    "tags": ["nature", "activity", "b2"]
+  },
+  {
+    "id": "landwirtschaft",
+    "word": "Landwirtschaft",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Landwirtschaften",
+    "meanings": [{ "ja": "農業、農耕", "en": "agriculture, farming" }],
+    "tags": ["agriculture", "economy", "b2"]
+  },
+  {
+    "id": "belegt_adj",
+    "word": "belegt",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      {
+        "ja": "証明された、満席の/占有された",
+        "en": "documented, proven; occupied"
+      }
+    ],
+    "tags": ["adjective", "evidence", "b2"]
+  },
+  {
+    "id": "auftauchen",
+    "word": "auftauchen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "auftauchen",
+      "preterite": "tauchte auf",
+      "pastParticiple": "aufgetaucht",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      { "ja": "現れる、浮上する", "en": "to appear, to emerge, to surface" }
+    ],
+    "tags": ["action", "appearance", "b2"]
+  },
+  {
+    "id": "werkzeug",
+    "word": "Werkzeug",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Werkzeuge",
+    "meanings": [{ "ja": "工具、道具", "en": "tool, instrument" }],
+    "tags": ["object", "tool", "b2"]
+  },
+  {
+    "id": "kupfer",
+    "word": "Kupfer",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "meanings": [{ "ja": "銅", "en": "copper" }],
+    "tags": ["material", "chemistry", "b2"]
+  },
+  {
+    "id": "beil",
+    "word": "Beil",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Beile",
+    "meanings": [{ "ja": "手斧、鉞", "en": "hatchet, axe" }],
+    "tags": ["object", "tool", "b2"]
+  },
+  {
+    "id": "gletscher",
+    "word": "Gletscher",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Gletscher",
+    "meanings": [{ "ja": "氷河", "en": "glacier" }],
+    "tags": ["nature", "geography", "b2"]
+  },
+  {
+    "id": "borgen",
+    "word": "borgen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "borgen",
+      "preterite": "borgte",
+      "pastParticiple": "geborgt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "貸す/借りる（文脈で）",
+        "en": "to lend/borrow (context-dependent)"
+      }
+    ],
+    "tags": ["action", "finance", "b2"]
+  },
+  {
+    "id": "wiederum",
+    "word": "wiederum",
+    "partOfSpeech": "adverb",
+    "meanings": [
+      { "ja": "一方で、再び、逆に", "en": "in turn, again, conversely" }
+    ],
+    "tags": ["adverb", "discourse", "b2"]
+  },
+  {
+    "id": "bronze",
+    "word": "Bronze",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "meanings": [{ "ja": "青銅、ブロンズ", "en": "bronze" }],
+    "tags": ["material", "history", "b2"]
+  },
+  {
+    "id": "legierung",
+    "word": "Legierung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Legierungen",
+    "meanings": [{ "ja": "合金", "en": "alloy" }],
+    "tags": ["material", "chemistry", "b2"]
+  },
+  {
+    "id": "zinn",
+    "word": "Zinn",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "meanings": [{ "ja": "スズ", "en": "tin" }],
+    "tags": ["material", "chemistry", "b2"]
+  },
+  {
+    "id": "waffe",
+    "word": "Waffe",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Waffen",
+    "meanings": [{ "ja": "武器", "en": "weapon" }],
+    "tags": ["object", "history", "b2"]
+  },
+  {
+    "id": "zäsur",
+    "word": "Zäsur",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Zäsuren",
+    "meanings": [
+      { "ja": "画期、断絶、区切り", "en": "caesura, break, watershed" }
+    ],
+    "tags": ["abstract", "history", "b2"]
+  },
+  {
+    "id": "verweisen",
+    "word": "verweisen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verweisen",
+      "preterite": "verwies",
+      "pastParticiple": "verwiesen",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "参照する、指し示す；退学/退去を命じる",
+        "en": "to refer to, to point to; to expel"
+      }
+    ],
+    "tags": ["action", "reference", "b2"]
+  },
+  {
+    "id": "überragend",
+    "word": "überragend",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "卓越した、抜きんでた", "en": "outstanding, excellent" }
+    ],
+    "tags": ["adjective", "evaluation", "b2"]
+  },
+  {
+    "id": "ackerbau",
+    "word": "Ackerbau",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "meanings": [{ "ja": "耕作、農耕", "en": "crop farming, tillage" }],
+    "tags": ["agriculture", "b2"]
+  },
+  {
+    "id": "viehzucht",
+    "word": "Viehzucht",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "meanings": [
+      { "ja": "畜産、家畜飼育", "en": "animal husbandry, livestock breeding" }
+    ],
+    "tags": ["agriculture", "b2"]
+  },
+  {
+    "id": "sowie",
+    "word": "sowie",
+    "partOfSpeech": "conjunction",
+    "meanings": [{ "ja": "および、ならびに", "en": "as well as" }],
+    "tags": ["conjunction", "logic", "b2"]
+  },
+  {
+    "id": "verarbeiten",
+    "word": "verarbeiten",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "verarbeiten",
+      "preterite": "verarbeitete",
+      "pastParticiple": "verarbeitet",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "加工する、処理する、（情報を）消化する",
+        "en": "to process, to work, to digest (information)"
+      }
+    ],
+    "tags": ["action", "process", "b2"]
+  },
+  {
+    "id": "nachweisbar",
+    "word": "nachweisbar",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "証明可能な、立証できる", "en": "verifiable, demonstrable" }
+    ],
+    "tags": ["adjective", "evidence", "b2"]
+  },
+  {
+    "id": "verzögerung",
+    "word": "Verzögerung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Verzögerungen",
+    "meanings": [{ "ja": "遅延、遅れ", "en": "delay" }],
+    "tags": ["time", "process", "b2"]
+  },
+  {
+    "id": "aufgreifen",
+    "word": "auf|greifen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "aufgreifen",
+      "preterite": "griff auf",
+      "pastParticiple": "aufgegriffen",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "拾い上げる、取り上げる、（話題を）掬い上げる",
+        "en": "to pick up, to take up (a topic)"
+      }
+    ],
+    "tags": ["action", "communication", "b2"]
+  },
+  {
+    "id": "verhältnis",
+    "word": "Verhältnis",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Verhältnisse",
+    "meanings": [
+      { "ja": "関係、状況、比率", "en": "relationship, circumstances, ratio" }
+    ],
+    "tags": ["abstract", "b2"]
+  },
+  {
+    "id": "anpassen",
+    "word": "an|passen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "anpassen",
+      "preterite": "passte an",
+      "pastParticiple": "angepasst",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "適合させる、調整する、順応する", "en": "to adapt, to adjust" }
+    ],
+    "tags": ["action", "change", "b2"]
+  },
+  {
+    "id": "rahmenbedingung",
+    "word": "Rahmenbedingung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Rahmenbedingungen",
+    "meanings": [
+      {
+        "ja": "枠組み条件、前提条件",
+        "en": "framework condition, boundary condition"
+      }
+    ],
+    "tags": ["abstract", "policy", "b2"]
+  },
+  {
+    "id": "uberleben",
+    "word": "überleben",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "überleben",
+      "preterite": "überlebte",
+      "pastParticiple": "überlebt",
+      "auxiliary": "haben"
+    },
+    "meanings": [{ "ja": "生き延びる、存続する", "en": "to survive" }],
+    "tags": ["action", "life", "b2"]
+  },
+  {
+    "id": "ertrag",
+    "word": "Ertrag",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Erträge",
+    "meanings": [
+      { "ja": "収益、収量、利回り", "en": "yield, revenue, return" }
+    ],
+    "tags": ["economy", "b2"]
+  },
+  {
+    "id": "bei_tragen",
+    "word": "bei|tragen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "beitragen",
+      "preterite": "trug bei",
+      "pastParticiple": "beigetragen",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "貢献する、寄与する", "en": "to contribute" }
+    ],
+    "tags": ["action", "contribution", "b2"]
+  },
+  {
+    "id": "gefälle",
+    "word": "Gefälle",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Gefälle",
+    "meanings": [
+      { "ja": "勾配、傾斜；格差", "en": "slope, gradient; disparity" }
+    ],
+    "tags": ["geography", "math", "b2"]
+  },
+  {
+    "id": "verwaltung",
+    "word": "Verwaltung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Verwaltungen",
+    "meanings": [
+      { "ja": "行政、管理、事務", "en": "administration, management" }
+    ],
+    "tags": ["government", "organization", "b2"]
+  },
+  {
+    "id": "langfristig",
+    "word": "langfristig",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "長期的な、長期にわたる", "en": "long-term" }
+    ],
+    "tags": ["adjective", "time", "b2"]
+  },
+  {
+    "id": "zeuge",
+    "word": "Zeuge",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Zeugen",
+    "meanings": [
+      { "ja": "証人、目撃者", "en": "witness" }
+    ],
+    "tags": ["law", "person", "b2"]
+  },
+  {
+    "id": "beruhen_auf_etw3",
+    "word": "auf etw3 beruhen",
+    "partOfSpeech": "verb",
+    "meanings": [
+      { "ja": "〜に基づく", "en": "to be based on sth" }
+    ],
+    "tags": ["verb", "logic", "b2"]
+  },
+  {
+    "id": "quelle",
+    "word": "Quelle",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Quellen",
+    "meanings": [
+      { "ja": "情報源、出典；泉", "en": "source; spring" }
+    ],
+    "tags": ["information", "nature", "b2"]
+  },
+  {
+    "id": "ubergehen_insep",
+    "word": "übergehen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "übergehen",
+      "preterite": "überg
+ing",
+      "pastParticiple": "übergangen",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "（人・意見を）無視する、素通りする", "en": "to ignore, to pass over" }
+    ],
+    "tags": ["action", "communication", "b2"]
+  },
+  {
+    "id": "welcher_relative",
+    "word": "welcher/welche/welches",
+    "partOfSpeech": "pronoun",
+    "meanings": [
+      { "ja": "関係代名詞（〜するところの）", "en": "relative pronoun (which)" }
+    ],
+    "tags": ["pronoun", "grammar", "b2"]
+  },
+  {
+    "id": "erz",
+    "word": "Erz",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Erze",
+    "meanings": [
+      { "ja": "鉱石", "en": "ore" }
+    ],
+    "tags": ["geology", "material", "b2"]
+  },
+  {
+    "id": "vor_kommen",
+    "word": "vor|kommen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "vorkommen",
+      "preterite": "kam vor",
+      "pastParticiple": "vorgekommen",
+      "auxiliary": "sein"
+    },
+    "meanings": [
+      { "ja": "起こる、存在する、産出する", "en": "to occur, to be found" }
+    ],
+    "tags": ["action", "existence", "b2"]
+  },
+  {
+    "id": "edelmetall",
+    "word": "Edelmetall",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Edelmetalle",
+    "meanings": [
+      { "ja": "貴金属", "en": "precious metal" }
+    ],
+    "tags": ["material", "economy", "b2"]
+  },
+  {
+    "id": "schmuck",
+    "word": "Schmuck",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "meanings": [
+      { "ja": "宝飾品、装身具", "en": "jewelry, adornment" }
+    ],
+    "tags": ["object", "fashion", "b2"]
+  },
+  {
+    "id": "munze",
+    "word": "Münze",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Münzen",
+    "meanings": [
+      { "ja": "硬貨、コイン", "en": "coin" }
+    ],
+    "tags": ["money", "history", "b2"]
+  },
+  {
+    "id": "barren",
+    "word": "Barren",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Barren",
+    "meanings": [
+      { "ja": "インゴット、延べ棒", "en": "ingot, bar" }
+    ],
+    "tags": ["material", "money", "b2"]
+  },
+  {
+    "id": "bevolkerung",
+    "word": "Bevölkerung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "meanings": [
+      { "ja": "人口、住民", "en": "population" }
+    ],
+    "tags": ["society", "b2"]
+  },
+  {
+    "id": "zugang",
+    "word": "Zugang",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Zugänge",
+    "meanings": [
+      { "ja": "アクセス、入口、利用権", "en": "access, entry" }
+    ],
+    "tags": ["infrastructure", "b2"]
+  },
+  {
+    "id": "handel",
+    "word": "Handel",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "meanings": [
+      { "ja": "貿易、取引、商業", "en": "trade, commerce" }
+    ],
+    "tags": ["economy", "business", "b2"]
+  },
+  {
+    "id": "rohstoff",
+    "word": "Rohstoff",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Rohstoffe",
+    "meanings": [
+      { "ja": "原材料、資源", "en": "raw material, resource" }
+    ],
+    "tags": ["economy", "material", "b2"]
+  },
+  {
+    "id": "gebirgspass",
+    "word": "Gebirgspass",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Gebirgspässe",
+    "meanings": [
+      { "ja": "山岳峠", "en": "mountain pass" }
+    ],
+    "tags": ["geography", "transport", "b2"]
+  },
+  {
+    "id": "abgabe",
+    "word": "Abgabe",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Abgaben",
+    "meanings": [
+      { "ja": "税・手数料・徴収金", "en": "levy, fee, dues" }
+    ],
+    "tags": ["tax", "economy", "b2"]
+  },
+  {
+    "id": "erheben",
+    "word": "erheben",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erheben",
+      "preterite": "erhob",
+      "pastParticiple": "erhoben",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "（税・データを）課す、徴収する；上げる", "en": "to levy, to raise" }
+    ],
+    "tags": ["action", "economy", "b2"]
+  },
+  {
+    "id": "berauben",
+    "word": "berauben",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "berauben",
+      "preterite": "beraubte",
+      "pastParticiple": "beraubt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "奪う、強奪する", "en": "to deprive, to rob" }
+    ],
+    "tags": ["crime", "action", "b2"]
+  },
+  {
+    "id": "siedlung",
+    "word": "Siedlung",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Siedlungen",
+    "meanings": [
+      { "ja": "集落、居住地、入植地", "en": "settlement" }
+    ],
+    "tags": ["geography", "society", "b2"]
+  },
+  {
+    "id": "bernstein",
+    "word": "Bernstein",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Bernsteine",
+    "meanings": [
+      { "ja": "琥珀", "en": "amber" }
+    ],
+    "tags": ["material", "geology", "b2"]
+  },
+  {
+    "id": "hierarchie",
+    "word": "Hierarchie",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Hierarchien",
+    "meanings": [
+      { "ja": "階層、ヒエラルキー", "en": "hierarchy" }
+    ],
+    "tags": ["society", "organization", "b2"]
+  },
+  {
+    "id": "deutlich",
+    "word": "deutlich",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "明確な、はっきりした；明瞭に", "en": "clear, distinct; clearly" }
+    ],
+    "tags": ["adjective", "communication", "b2"]
+  },
+  {
+    "id": "abstand",
+    "word": "Abstand",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Abstände",
+    "meanings": [
+      { "ja": "間隔、距離、差", "en": "distance, interval, gap" }
+    ],
+    "tags": ["measurement", "space", "b2"]
+  },
+  {
+    "id": "grab",
+    "word": "Grab",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Gräber",
+    "meanings": [
+      { "ja": "墓、墓所", "en": "grave, tomb" }
+    ],
+    "tags": ["history", "culture", "b2"]
+  },
+  {
+    "id": "beigabe",
+    "word": "Beigabe",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Beigaben",
+    "meanings": [
+      { "ja": "副次的な添え物；（埋葬の）副葬品", "en": "addition, side item; grave good" }
+    ],
+    "tags": ["culture", "history", "b2"]
+  },
+  {
+    "id": "tote",
+    "word": "Tote",
+    "partOfSpeech": "noun",
+    "gender": "der/die",
+    "plural": "Toten",
+    "meanings": [
+      { "ja": "死者", "en": "dead person, deceased" }
+    ],
+    "tags": ["society", "b2"]
+  },
+  {
+    "id": "umfangreich",
+    "word": "umfangreich",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "広範な、大規模な、内容が豊富な", "en": "extensive, comprehensive" }
+    ],
+    "tags": ["adjective", "quantity", "b2"]
+  },
+  {
+    "id": "bei_setzen",
+    "word": "bei|setzen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "beisetzen",
+      "preterite": "setzte bei",
+      "pastParticiple": "beigesetzt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "埋葬する（墓に葬る）", "en": "to inter, to bury (in a grave)" }
+    ],
+    "tags": ["action", "culture", "b2"]
+  },
+  {
+    "id": "belegen",
+    "word": "belegen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "belegen",
+      "preterite": "belegte",
+      "pastParticiple": "belegt",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "証明する、裏付ける；予約する；覆う", "en": "to prove, to substantiate; to book; to cover" }
+    ],
+    "tags": ["action", "evidence", "b2"]
+  },
+  {
+    "id": "uberliefern",
+    "word": "überliefern",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "überliefern",
+      "preterite": "überlieferte",
+      "pastParticiple": "überliefert",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "伝承する、伝える（記録・口伝）", "en": "to hand down, to pass on" }
+    ],
+    "tags": ["action", "history", "b2"]
+  },
+  {
+    "id": "reichen",
+    "word": "reichen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "reichen",
+      "preterite": "reichte",
+      "pastParticiple": "gereicht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "届く、（量が）足りる；手渡す", "en": "to reach; to be enough; to hand (over)" }
+    ],
+    "tags": ["action", "quantity", "b2"]
+  },
+  {
+    "id": "gemeinsamkeit",
+    "word": "Gemeinsamkeit",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Gemeinsamkeiten",
+    "meanings": [
+      { "ja": "共通点、共通性", "en": "commonality, similarity" }
+    ],
+    "tags": ["abstract", "comparison", "b2"]
+  },
+  {
+    "id": "macht",
+    "word": "Macht",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Mächte",
+    "meanings": [
+      { "ja": "権力、支配力；大国", "en": "power, authority; great power" }
+    ],
+    "tags": ["politics", "society", "b2"]
+  },
+  {
+    "id": "umfassend",
+    "word": "umfassend",
+    "partOfSpeech": "adjective",
+    "meanings": [
+      { "ja": "包括的な、網羅的な", "en": "comprehensive, exhaustive" }
+    ],
+    "tags": ["adjective", "scope", "b2"]
+  },
+  {
+    "id": "epoche",
+    "word": "Epoche",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Epochen",
+    "meanings": [
+      { "ja": "時代、時期（歴史区分）", "en": "epoch, era" }
+    ],
+    "tags": ["history", "time", "b2"]
+  },
+  {
+    "id": "ereignis",
+    "word": "Ereignis",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Ereignisse",
+    "meanings": [
+      { "ja": "出来事、事件、行事", "en": "event, incident" }
+    ],
+    "tags": ["time", "news", "b2"]
+  }
+]

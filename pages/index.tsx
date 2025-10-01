@@ -19,6 +19,11 @@ const AVAILABLE_WORDLISTS = [
     name: "ドイツ語B2 抜け語彙（2025/9）",
     filename: "words_b2_missing_vocabulary_202509.json",
   },
+  {
+    id: "words_b2_missing_vocabulary_202510",
+    name: "ドイツ語B2 抜け語彙（2025/10）",
+    filename: "words_b2_missing_vocabulary_202510.json",
+  },
 ];
 
 // 配列をシャッフルするユーティリティ関数
