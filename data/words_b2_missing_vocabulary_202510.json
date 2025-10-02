@@ -6,6 +6,31 @@
     "gender": "der",
     "plural": "Tiefpunkte",
     "meanings": [{ "ja": "底、どん底、最低点", "en": "low point, nadir" }],
+    "examples": [
+      {
+        "de": "Die Wirtschaft hat ihren Tiefpunkt erreicht.",
+        "ja": "経済は底を打った。"
+      },
+      {
+        "de": "Nach dem Verlust seines Jobs war er am Tiefpunkt seines Lebens.",
+        "ja": "仕事を失った後、彼は人生のどん底にいた。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "tief",
+          "meaning": { "ja": "深い、低い", "en": "deep, low" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Punkt",
+          "meaning": { "ja": "点、地点", "en": "point, spot" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["abstract", "b2"]
   },
   {
@@ -15,6 +40,31 @@
     "meanings": [
       { "ja": "まず最初に、当面は", "en": "at first, initially, for now" }
     ],
+    "examples": [
+      {
+        "de": "Zunächst möchte ich mich bei Ihnen bedanken.",
+        "ja": "まず最初に、皆様に感謝申し上げます。"
+      },
+      {
+        "de": "Zunächst einmal müssen wir das Problem analysieren.",
+        "ja": "まず第一に、問題を分析する必要がある。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "zu",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "nächst",
+          "meaning": { "ja": "次の、最も近い", "en": "next, nearest" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["adverb", "discourse", "b2"]
   },
   {
@@ -24,6 +74,26 @@
     "gender": "die",
     "plural": "Jagden",
     "meanings": [{ "ja": "狩り、追跡", "en": "hunt, hunting, pursuit" }],
+    "examples": [
+      {
+        "de": "Die Jagd auf Wildschweine ist in diesem Gebiet erlaubt.",
+        "ja": "この地域ではイノシシの狩りが許可されている。"
+      },
+      {
+        "de": "Die Polizei ist auf der Jagd nach dem Verbrecher.",
+        "ja": "警察は犯罪者を追跡している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "jagen",
+          "meaning": { "ja": "狩る、追跡する", "en": "to hunt, to chase" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["nature", "activity", "b2"]
   },
   {
@@ -33,6 +103,31 @@
     "gender": "die",
     "plural": "Landwirtschaften",
     "meanings": [{ "ja": "農業、農耕", "en": "agriculture, farming" }],
+    "examples": [
+      {
+        "de": "Die moderne Landwirtschaft verwendet viele Maschinen.",
+        "ja": "現代の農業は多くの機械を使用している。"
+      },
+      {
+        "de": "Die Landwirtschaft ist ein wichtiger Wirtschaftszweig.",
+        "ja": "農業は重要な経済部門である。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Land",
+          "meaning": { "ja": "土地、国", "en": "land, country" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Wirtschaft",
+          "meaning": { "ja": "経済、経営", "en": "economy, management" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["agriculture", "economy", "b2"]
   },
   {
@@ -45,11 +140,31 @@
         "en": "documented, proven; occupied"
       }
     ],
+    "examples": [
+      {
+        "de": "Diese These ist wissenschaftlich belegt.",
+        "ja": "この仮説は科学的に証明されている。"
+      },
+      {
+        "de": "Alle Plätze im Restaurant sind belegt.",
+        "ja": "レストランの席はすべて埋まっている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "belegen",
+          "meaning": { "ja": "証明する、覆う", "en": "to prove, to cover" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["adjective", "evidence", "b2"]
   },
   {
     "id": "auftauchen",
-    "word": "auftauchen",
+    "word": "auf|tauchen",
     "partOfSpeech": "verb",
     "conjugation": {
       "infinitive": "auftauchen",
@@ -60,6 +175,31 @@
     "meanings": [
       { "ja": "現れる、浮上する", "en": "to appear, to emerge, to surface" }
     ],
+    "examples": [
+      {
+        "de": "Plötzlich tauchte ein Problem auf.",
+        "ja": "突然問題が現れた。"
+      },
+      {
+        "de": "Der Taucher tauchte aus dem Wasser auf.",
+        "ja": "ダイバーが水中から浮上した。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "auf",
+          "meaning": { "ja": "上へ、表面へ", "en": "up, to the surface" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "tauchen",
+          "meaning": { "ja": "潜る、現れる", "en": "to dive, to emerge" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "appearance", "b2"]
   },
   {
@@ -69,6 +209,31 @@
     "gender": "das",
     "plural": "Werkzeuge",
     "meanings": [{ "ja": "工具、道具", "en": "tool, instrument" }],
+    "examples": [
+      {
+        "de": "Der Handwerker braucht verschiedene Werkzeuge.",
+        "ja": "職人は様々な工具が必要だ。"
+      },
+      {
+        "de": "Das richtige Werkzeug macht die Arbeit leichter.",
+        "ja": "適切な道具があると作業が楽になる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Werk",
+          "meaning": { "ja": "作品、仕事", "en": "work, piece of work" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Zeug",
+          "meaning": { "ja": "道具、器具", "en": "stuff, equipment" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["object", "tool", "b2"]
   },
   {
@@ -77,6 +242,16 @@
     "partOfSpeech": "noun",
     "gender": "das",
     "meanings": [{ "ja": "銅", "en": "copper" }],
+    "examples": [
+      {
+        "de": "Kupfer ist ein guter elektrischer Leiter.",
+        "ja": "銅は優れた電気伝導体である。"
+      },
+      {
+        "de": "Die Statue ist aus Kupfer gefertigt.",
+        "ja": "その像は銅で作られている。"
+      }
+    ],
     "tags": ["material", "chemistry", "b2"]
   },
   {
@@ -86,6 +261,16 @@
     "gender": "das",
     "plural": "Beile",
     "meanings": [{ "ja": "手斧、鉞", "en": "hatchet, axe" }],
+    "examples": [
+      {
+        "de": "Der Holzfäller benutzt ein scharfes Beil.",
+        "ja": "木こりは鋭い手斧を使う。"
+      },
+      {
+        "de": "Mit dem Beil kann man Holz spalten.",
+        "ja": "手斧で木を割ることができる。"
+      }
+    ],
     "tags": ["object", "tool", "b2"]
   },
   {
@@ -95,6 +280,29 @@
     "gender": "der",
     "plural": "Gletscher",
     "meanings": [{ "ja": "氷河", "en": "glacier" }],
+    "examples": [
+      {
+        "de": "Der Gletscher schmilzt aufgrund des Klimawandels.",
+        "ja": "気候変動により氷河が溶けている。"
+      },
+      {
+        "de": "Wir wanderten über den Gletscher.",
+        "ja": "私たちは氷河の上をハイキングした。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "gleißen",
+          "meaning": {
+            "ja": "光る、輝く",
+            "en": "to shine, to gleam"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["nature", "geography", "b2"]
   },
   {
@@ -113,6 +321,16 @@
         "en": "to lend/borrow (context-dependent)"
       }
     ],
+    "examples": [
+      {
+        "de": "Kannst du mir Geld borgen?",
+        "ja": "お金を貸してもらえる？"
+      },
+      {
+        "de": "Ich borge dir gerne mein Auto.",
+        "ja": "喜んで車を貸してあげる。"
+      }
+    ],
     "tags": ["action", "finance", "b2"]
   },
   {
@@ -122,6 +340,34 @@
     "meanings": [
       { "ja": "一方で、再び、逆に", "en": "in turn, again, conversely" }
     ],
+    "examples": [
+      {
+        "de": "Er ist wiederum sehr beschäftigt.",
+        "ja": "彼はまたしてもとても忙しい。"
+      },
+      {
+        "de": "Das wiederum ist ein anderes Problem.",
+        "ja": "それは一方で別の問題だ。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "wieder",
+          "meaning": { "ja": "再び、また", "en": "again, once more" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "um",
+          "meaning": {
+            "ja": "〜について、〜に関して",
+            "en": "about, concerning"
+          },
+          "partOfSpeech": "preposition"
+        }
+      ]
+    },
     "tags": ["adverb", "discourse", "b2"]
   },
   {
@@ -130,6 +376,16 @@
     "partOfSpeech": "noun",
     "gender": "die",
     "meanings": [{ "ja": "青銅、ブロンズ", "en": "bronze" }],
+    "examples": [
+      {
+        "de": "Die Bronzestatue ist sehr alt.",
+        "ja": "その青銅像はとても古い。"
+      },
+      {
+        "de": "Bronze ist eine Legierung aus Kupfer und Zinn.",
+        "ja": "青銅は銅とスズの合金である。"
+      }
+    ],
     "tags": ["material", "history", "b2"]
   },
   {
@@ -139,6 +395,29 @@
     "gender": "die",
     "plural": "Legierungen",
     "meanings": [{ "ja": "合金", "en": "alloy" }],
+    "examples": [
+      {
+        "de": "Stahl ist eine wichtige Legierung.",
+        "ja": "鋼は重要な合金である。"
+      },
+      {
+        "de": "Diese Legierung ist sehr widerstandsfähig.",
+        "ja": "この合金は非常に耐性がある。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "legieren",
+          "meaning": {
+            "ja": "合金を作る、混ぜ合わせる",
+            "en": "to alloy, to mix metals"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["material", "chemistry", "b2"]
   },
   {
@@ -147,6 +426,16 @@
     "partOfSpeech": "noun",
     "gender": "das",
     "meanings": [{ "ja": "スズ", "en": "tin" }],
+    "examples": [
+      {
+        "de": "Zinn wird für Konservendosen verwendet.",
+        "ja": "スズは缶詰に使用される。"
+      },
+      {
+        "de": "Die Zinnfigur ist sehr schön.",
+        "ja": "そのスズの置物はとても美しい。"
+      }
+    ],
     "tags": ["material", "chemistry", "b2"]
   },
   {
@@ -156,6 +445,29 @@
     "gender": "die",
     "plural": "Waffen",
     "meanings": [{ "ja": "武器", "en": "weapon" }],
+    "examples": [
+      {
+        "de": "Die Waffe wurde sicher aufbewahrt.",
+        "ja": "武器は安全に保管された。"
+      },
+      {
+        "de": "Historische Waffen sind im Museum ausgestellt.",
+        "ja": "歴史的な武器が博物館に展示されている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "bewaffen",
+          "meaning": {
+            "ja": "武装する、武器を装備する",
+            "en": "to arm, to equip with weapons"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["object", "history", "b2"]
   },
   {
@@ -166,6 +478,16 @@
     "plural": "Zäsuren",
     "meanings": [
       { "ja": "画期、断絶、区切り", "en": "caesura, break, watershed" }
+    ],
+    "examples": [
+      {
+        "de": "Der Krieg war eine Zäsur in der Geschichte.",
+        "ja": "戦争は歴史の画期だった。"
+      },
+      {
+        "de": "Nach dieser Zäsur änderte sich alles.",
+        "ja": "この区切りを境にすべてが変わった。"
+      }
     ],
     "tags": ["abstract", "history", "b2"]
   },
@@ -185,6 +507,34 @@
         "en": "to refer to, to point to; to expel"
       }
     ],
+    "examples": [
+      {
+        "de": "Ich verweise auf die vorherige Diskussion.",
+        "ja": "前の議論を参照します。"
+      },
+      {
+        "de": "Der Schüler wurde von der Schule verwiesen.",
+        "ja": "その生徒は学校から退学させられた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "weisen",
+          "meaning": { "ja": "指し示す、案内する", "en": "to point, to guide" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "reference", "b2"]
   },
   {
@@ -194,6 +544,31 @@
     "meanings": [
       { "ja": "卓越した、抜きんでた", "en": "outstanding, excellent" }
     ],
+    "examples": [
+      {
+        "de": "Er hat überragende Leistungen erbracht.",
+        "ja": "彼は卓越した成果を上げた。"
+      },
+      {
+        "de": "Das war ein überragendes Konzert.",
+        "ja": "それは素晴らしいコンサートだった。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "〜を越えて、〜の上に", "en": "over, across" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "ragen",
+          "meaning": { "ja": "突き出る、高く立つ", "en": "to tower, to rise" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["adjective", "evaluation", "b2"]
   },
   {
@@ -202,6 +577,31 @@
     "partOfSpeech": "noun",
     "gender": "der",
     "meanings": [{ "ja": "耕作、農耕", "en": "crop farming, tillage" }],
+    "examples": [
+      {
+        "de": "Der Ackerbau ist in dieser Region wichtig.",
+        "ja": "この地域では耕作が重要だ。"
+      },
+      {
+        "de": "Moderne Technik revolutioniert den Ackerbau.",
+        "ja": "現代技術が農耕を革命化している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Acker",
+          "meaning": { "ja": "畑、耕地", "en": "field, arable land" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Bau",
+          "meaning": { "ja": "建設、栽培", "en": "construction, cultivation" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["agriculture", "b2"]
   },
   {
@@ -212,6 +612,31 @@
     "meanings": [
       { "ja": "畜産、家畜飼育", "en": "animal husbandry, livestock breeding" }
     ],
+    "examples": [
+      {
+        "de": "Die Viehzucht ist ein wichtiger Wirtschaftszweig.",
+        "ja": "畜産は重要な経済部門である。"
+      },
+      {
+        "de": "Moderne Viehzucht achtet auf Tierwohl.",
+        "ja": "現代の畜産は動物福祉に配慮している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Vieh",
+          "meaning": { "ja": "家畜、動物", "en": "livestock, cattle" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Zucht",
+          "meaning": { "ja": "飼育、育成", "en": "breeding, cultivation" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["agriculture", "b2"]
   },
   {
@@ -219,6 +644,31 @@
     "word": "sowie",
     "partOfSpeech": "conjunction",
     "meanings": [{ "ja": "および、ならびに", "en": "as well as" }],
+    "examples": [
+      {
+        "de": "Er spricht Deutsch sowie Englisch.",
+        "ja": "彼はドイツ語および英語を話す。"
+      },
+      {
+        "de": "Das Buch behandelt Geschichte sowie Politik.",
+        "ja": "その本は歴史ならびに政治を扱っている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "so",
+          "meaning": { "ja": "そのように、同様に", "en": "so, in such a way" },
+          "partOfSpeech": "adverb"
+        },
+        {
+          "form": "wie",
+          "meaning": { "ja": "〜のように、〜と同様に", "en": "as, like" },
+          "partOfSpeech": "conjunction"
+        }
+      ]
+    },
     "tags": ["conjunction", "logic", "b2"]
   },
   {
@@ -237,6 +687,34 @@
         "en": "to process, to work, to digest (information)"
       }
     ],
+    "examples": [
+      {
+        "de": "Die Fabrik verarbeitet Rohstoffe zu Fertigprodukten.",
+        "ja": "工場は原材料を完成品に加工する。"
+      },
+      {
+        "de": "Ich brauche Zeit, um diese Nachricht zu verarbeiten.",
+        "ja": "この知らせを消化するのに時間が必要だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "arbeiten",
+          "meaning": { "ja": "働く、作業する", "en": "to work, to labor" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "process", "b2"]
   },
   {
@@ -246,6 +724,29 @@
     "meanings": [
       { "ja": "証明可能な、立証できる", "en": "verifiable, demonstrable" }
     ],
+    "examples": [
+      {
+        "de": "Diese Behauptung ist wissenschaftlich nachweisbar.",
+        "ja": "この主張は科学的に証明可能だ。"
+      },
+      {
+        "de": "Der Zusammenhang ist eindeutig nachweisbar.",
+        "ja": "その関連性は明確に立証できる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "nachweisen",
+          "meaning": {
+            "ja": "証明する、立証する",
+            "en": "to prove, to demonstrate"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["adjective", "evidence", "b2"]
   },
   {
@@ -255,6 +756,37 @@
     "gender": "die",
     "plural": "Verzögerungen",
     "meanings": [{ "ja": "遅延、遅れ", "en": "delay" }],
+    "examples": [
+      {
+        "de": "Es gab eine Verzögerung beim Flug.",
+        "ja": "フライトに遅延があった。"
+      },
+      {
+        "de": "Die Verzögerung war unvermeidlich.",
+        "ja": "その遅れは避けられなかった。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "zögern",
+          "meaning": {
+            "ja": "躊躇する、遅れる",
+            "en": "to hesitate, to delay"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["time", "process", "b2"]
   },
   {
@@ -273,6 +805,31 @@
         "en": "to pick up, to take up (a topic)"
       }
     ],
+    "examples": [
+      {
+        "de": "Er griff das Thema in der Diskussion auf.",
+        "ja": "彼は議論でその話題を取り上げた。"
+      },
+      {
+        "de": "Die Zeitung griff den Skandal auf.",
+        "ja": "新聞はそのスキャンダルを取り上げた。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "auf",
+          "meaning": { "ja": "上へ、表面へ", "en": "up, to the surface" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "greifen",
+          "meaning": { "ja": "掴む、取る", "en": "to grab, to take" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "communication", "b2"]
   },
   {
@@ -284,6 +841,34 @@
     "meanings": [
       { "ja": "関係、状況、比率", "en": "relationship, circumstances, ratio" }
     ],
+    "examples": [
+      {
+        "de": "Das Verhältnis zwischen den beiden Ländern ist gut.",
+        "ja": "両国間の関係は良好だ。"
+      },
+      {
+        "de": "Die Verhältnisse haben sich geändert.",
+        "ja": "状況が変わった。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "halten",
+          "meaning": { "ja": "保つ、維持する", "en": "to hold, to maintain" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["abstract", "b2"]
   },
   {
@@ -299,6 +884,31 @@
     "meanings": [
       { "ja": "適合させる、調整する、順応する", "en": "to adapt, to adjust" }
     ],
+    "examples": [
+      {
+        "de": "Wir müssen uns an die neuen Verhältnisse anpassen.",
+        "ja": "新しい状況に順応する必要がある。"
+      },
+      {
+        "de": "Das System wurde an die Anforderungen angepasst.",
+        "ja": "システムは要件に適合させられた。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "an",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "passen",
+          "meaning": { "ja": "合う、適合する", "en": "to fit, to suit" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "change", "b2"]
   },
   {
@@ -313,6 +923,31 @@
         "en": "framework condition, boundary condition"
       }
     ],
+    "examples": [
+      {
+        "de": "Die Rahmenbedingungen für das Projekt sind klar.",
+        "ja": "プロジェクトの枠組み条件は明確だ。"
+      },
+      {
+        "de": "Wir müssen die Rahmenbedingungen beachten.",
+        "ja": "前提条件を考慮する必要がある。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Rahmen",
+          "meaning": { "ja": "枠組み、骨組み", "en": "frame, framework" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Bedingung",
+          "meaning": { "ja": "条件、前提", "en": "condition, requirement" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["abstract", "policy", "b2"]
   },
   {
@@ -326,6 +961,31 @@
       "auxiliary": "haben"
     },
     "meanings": [{ "ja": "生き延びる、存続する", "en": "to survive" }],
+    "examples": [
+      {
+        "de": "Er überlebte den Unfall.",
+        "ja": "彼は事故を生き延びた。"
+      },
+      {
+        "de": "Die Firma überlebte die Krise.",
+        "ja": "会社は危機を乗り越えた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "〜を越えて、〜の上に", "en": "over, across" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "leben",
+          "meaning": { "ja": "生きる、生活する", "en": "to live, to exist" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "life", "b2"]
   },
   {
@@ -337,6 +997,26 @@
     "meanings": [
       { "ja": "収益、収量、利回り", "en": "yield, revenue, return" }
     ],
+    "examples": [
+      {
+        "de": "Der Ertrag der Ernte war gut.",
+        "ja": "収穫の収量は良かった。"
+      },
+      {
+        "de": "Die Erträge des Unternehmens steigen.",
+        "ja": "企業の収益が増加している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ertragen",
+          "meaning": { "ja": "耐える、生み出す", "en": "to bear, to produce" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["economy", "b2"]
   },
   {
@@ -350,6 +1030,31 @@
       "auxiliary": "haben"
     },
     "meanings": [{ "ja": "貢献する、寄与する", "en": "to contribute" }],
+    "examples": [
+      {
+        "de": "Er trägt viel zum Projekt bei.",
+        "ja": "彼はプロジェクトに多く貢献している。"
+      },
+      {
+        "de": "Wir alle tragen zur Lösung bei.",
+        "ja": "私たち全員が解決に寄与している。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "bei",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "tragen",
+          "meaning": { "ja": "運ぶ、担う", "en": "to carry, to bear" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "contribution", "b2"]
   },
   {
@@ -361,6 +1066,26 @@
     "meanings": [
       { "ja": "勾配、傾斜；格差", "en": "slope, gradient; disparity" }
     ],
+    "examples": [
+      {
+        "de": "Das Gefälle der Straße ist steil.",
+        "ja": "道路の勾配が急だ。"
+      },
+      {
+        "de": "Es gibt ein großes Gefälle zwischen Arm und Reich.",
+        "ja": "貧富の格差が大きい。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "fallen",
+          "meaning": { "ja": "落ちる、下がる", "en": "to fall, to drop" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["geography", "math", "b2"]
   },
   {
@@ -372,6 +1097,34 @@
     "meanings": [
       { "ja": "行政、管理、事務", "en": "administration, management" }
     ],
+    "examples": [
+      {
+        "de": "Die Verwaltung ist effizient organisiert.",
+        "ja": "行政は効率的に組織されている。"
+      },
+      {
+        "de": "Die Verwaltung des Unternehmens ist modern.",
+        "ja": "企業の管理は現代的だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ver-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "walten",
+          "meaning": { "ja": "支配する、管理する", "en": "to rule, to manage" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["government", "organization", "b2"]
   },
   {
@@ -379,6 +1132,31 @@
     "word": "langfristig",
     "partOfSpeech": "adjective",
     "meanings": [{ "ja": "長期的な、長期にわたる", "en": "long-term" }],
+    "examples": [
+      {
+        "de": "Wir brauchen eine langfristige Lösung.",
+        "ja": "長期的な解決策が必要だ。"
+      },
+      {
+        "de": "Die langfristigen Auswirkungen sind schwer abzusehen.",
+        "ja": "長期的な影響は予測しにくい。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "lang",
+          "meaning": { "ja": "長い", "en": "long" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Frist",
+          "meaning": { "ja": "期限、期間", "en": "deadline, period" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["adjective", "time", "b2"]
   },
   {
@@ -388,6 +1166,29 @@
     "gender": "der",
     "plural": "Zeugen",
     "meanings": [{ "ja": "証人、目撃者", "en": "witness" }],
+    "examples": [
+      {
+        "de": "Der Zeuge wurde vor Gericht befragt.",
+        "ja": "証人は法廷で尋問された。"
+      },
+      {
+        "de": "Es gab mehrere Zeugen des Unfalls.",
+        "ja": "事故の目撃者が数人いた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "zeugen",
+          "meaning": {
+            "ja": "証言する、生み出す",
+            "en": "to testify, to produce"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["law", "person", "b2"]
   },
   {
@@ -395,6 +1196,29 @@
     "word": "auf etw3 beruhen",
     "partOfSpeech": "verb",
     "meanings": [{ "ja": "〜に基づく", "en": "to be based on sth" }],
+    "examples": [
+      {
+        "de": "Die Entscheidung beruht auf Fakten.",
+        "ja": "その決定は事実に基づいている。"
+      },
+      {
+        "de": "Seine Theorie beruht auf langjähriger Forschung.",
+        "ja": "彼の理論は長年の研究に基づいている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "beruhen",
+          "meaning": {
+            "ja": "基づく、依存する",
+            "en": "to be based on, to depend on"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["verb", "logic", "b2"]
   },
   {
@@ -404,6 +1228,29 @@
     "gender": "die",
     "plural": "Quellen",
     "meanings": [{ "ja": "情報源、出典；泉", "en": "source; spring" }],
+    "examples": [
+      {
+        "de": "Die Quelle der Information ist vertrauenswürdig.",
+        "ja": "その情報源は信頼できる。"
+      },
+      {
+        "de": "Die Quelle sprudelt klares Wasser.",
+        "ja": "その泉は澄んだ水を湧き出している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "quellen",
+          "meaning": {
+            "ja": "湧き出る、流れ出る",
+            "en": "to well up, to flow out"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["information", "nature", "b2"]
   },
   {
@@ -422,6 +1269,31 @@
         "en": "to ignore, to pass over"
       }
     ],
+    "examples": [
+      {
+        "de": "Er ging über meine Einwände hinweg.",
+        "ja": "彼は私の反対意見を無視した。"
+      },
+      {
+        "de": "Das Problem wurde übergangen.",
+        "ja": "その問題は素通りされた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "〜を越えて、〜の上に", "en": "over, across" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "gehen",
+          "meaning": { "ja": "行く、移動する", "en": "to go, to move" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "communication", "b2"]
   },
   {
@@ -431,6 +1303,29 @@
     "meanings": [
       { "ja": "関係代名詞（〜するところの）", "en": "relative pronoun (which)" }
     ],
+    "examples": [
+      {
+        "de": "Das Buch, welches ich gelesen habe, ist interessant.",
+        "ja": "私が読んだ本は面白い。"
+      },
+      {
+        "de": "Die Frau, welche dort steht, ist meine Schwester.",
+        "ja": "そこに立っている女性は私の姉です。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "welcher",
+          "meaning": {
+            "ja": "どの（古高ドイツ語welihから）",
+            "en": "which (from Old High German welih)"
+          },
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    },
     "tags": ["pronoun", "grammar", "b2"]
   },
   {
@@ -440,6 +1335,16 @@
     "gender": "das",
     "plural": "Erze",
     "meanings": [{ "ja": "鉱石", "en": "ore" }],
+    "examples": [
+      {
+        "de": "Das Erz wird in der Mine abgebaut.",
+        "ja": "鉱石は鉱山で採掘される。"
+      },
+      {
+        "de": "Eisen wird aus Eisenerz gewonnen.",
+        "ja": "鉄は鉄鉱石から得られる。"
+      }
+    ],
     "tags": ["geology", "material", "b2"]
   },
   {
@@ -455,6 +1360,31 @@
     "meanings": [
       { "ja": "起こる、存在する、産出する", "en": "to occur, to be found" }
     ],
+    "examples": [
+      {
+        "de": "Solche Fehler kommen häufig vor.",
+        "ja": "そのような間違いはよく起こる。"
+      },
+      {
+        "de": "Gold kommt in dieser Region vor.",
+        "ja": "この地域では金が産出される。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "vor",
+          "meaning": { "ja": "前に、前方に", "en": "before, in front" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "kommen",
+          "meaning": { "ja": "来る、現れる", "en": "to come, to appear" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "existence", "b2"]
   },
   {
@@ -464,6 +1394,31 @@
     "gender": "das",
     "plural": "Edelmetalle",
     "meanings": [{ "ja": "貴金属", "en": "precious metal" }],
+    "examples": [
+      {
+        "de": "Gold und Silber sind Edelmetalle.",
+        "ja": "金と銀は貴金属である。"
+      },
+      {
+        "de": "Edelmetalle werden als Wertanlage genutzt.",
+        "ja": "貴金属は投資として利用される。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "edel",
+          "meaning": { "ja": "高貴な、貴重な", "en": "noble, precious" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Metall",
+          "meaning": { "ja": "金属", "en": "metal" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["material", "economy", "b2"]
   },
   {
@@ -472,6 +1427,26 @@
     "partOfSpeech": "noun",
     "gender": "der",
     "meanings": [{ "ja": "宝飾品、装身具", "en": "jewelry, adornment" }],
+    "examples": [
+      {
+        "de": "Sie trägt wertvollen Schmuck.",
+        "ja": "彼女は高価な宝飾品を身に着けている。"
+      },
+      {
+        "de": "Der Schmuck ist sehr schön.",
+        "ja": "その装身具はとても美しい。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "schmücken",
+          "meaning": { "ja": "飾る、装飾する", "en": "to decorate, to adorn" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["object", "fashion", "b2"]
   },
   {
@@ -481,6 +1456,29 @@
     "gender": "die",
     "plural": "Münzen",
     "meanings": [{ "ja": "硬貨、コイン", "en": "coin" }],
+    "examples": [
+      {
+        "de": "Die Münze ist aus Gold.",
+        "ja": "その硬貨は金でできている。"
+      },
+      {
+        "de": "Ich sammle alte Münzen.",
+        "ja": "私は古いコインを収集している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "münzen",
+          "meaning": {
+            "ja": "硬貨を鋳造する、貨幣を作る",
+            "en": "to mint, to coin"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["money", "history", "b2"]
   },
   {
@@ -490,6 +1488,29 @@
     "gender": "der",
     "plural": "Barren",
     "meanings": [{ "ja": "インゴット、延べ棒", "en": "ingot, bar" }],
+    "examples": [
+      {
+        "de": "Der Goldbarren ist sehr wertvoll.",
+        "ja": "その金のインゴットはとても価値がある。"
+      },
+      {
+        "de": "Die Barren werden in der Bank aufbewahrt.",
+        "ja": "インゴットは銀行で保管されている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "barren",
+          "meaning": {
+            "ja": "裸の、むき出しの",
+            "en": "bare, naked"
+          },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["material", "money", "b2"]
   },
   {
@@ -498,6 +1519,29 @@
     "partOfSpeech": "noun",
     "gender": "die",
     "meanings": [{ "ja": "人口、住民", "en": "population" }],
+    "examples": [
+      {
+        "de": "Die Bevölkerung der Stadt wächst.",
+        "ja": "その都市の人口が増加している。"
+      },
+      {
+        "de": "Die Bevölkerung ist besorgt.",
+        "ja": "住民は心配している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "bevölkern",
+          "meaning": {
+            "ja": "住まわせる、植民する",
+            "en": "to populate, to settle"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["society", "b2"]
   },
   {
@@ -507,6 +1551,31 @@
     "gender": "der",
     "plural": "Zugänge",
     "meanings": [{ "ja": "アクセス、入口、利用権", "en": "access, entry" }],
+    "examples": [
+      {
+        "de": "Der Zugang zum Gebäude ist gesperrt.",
+        "ja": "建物への入口が封鎖されている。"
+      },
+      {
+        "de": "Ich habe Zugang zu den Daten.",
+        "ja": "私はデータにアクセスできる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "zu",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Gang",
+          "meaning": { "ja": "歩行、通路", "en": "walk, passage" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["infrastructure", "b2"]
   },
   {
@@ -515,6 +1584,26 @@
     "partOfSpeech": "noun",
     "gender": "der",
     "meanings": [{ "ja": "貿易、取引、商業", "en": "trade, commerce" }],
+    "examples": [
+      {
+        "de": "Der Handel zwischen den Ländern wächst.",
+        "ja": "国間の貿易が増加している。"
+      },
+      {
+        "de": "Der Handel ist wichtig für die Wirtschaft.",
+        "ja": "商業は経済にとって重要だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "handeln",
+          "meaning": { "ja": "取引する、行動する", "en": "to trade, to act" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["economy", "business", "b2"]
   },
   {
@@ -524,6 +1613,31 @@
     "gender": "der",
     "plural": "Rohstoffe",
     "meanings": [{ "ja": "原材料、資源", "en": "raw material, resource" }],
+    "examples": [
+      {
+        "de": "Öl ist ein wichtiger Rohstoff.",
+        "ja": "石油は重要な原材料だ。"
+      },
+      {
+        "de": "Die Rohstoffe werden knapp.",
+        "ja": "資源が不足している。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "roh",
+          "meaning": { "ja": "生の、未加工の", "en": "raw, unprocessed" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "Stoff",
+          "meaning": { "ja": "材料、物質", "en": "material, substance" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["economy", "material", "b2"]
   },
   {
@@ -533,6 +1647,31 @@
     "gender": "der",
     "plural": "Gebirgspässe",
     "meanings": [{ "ja": "山岳峠", "en": "mountain pass" }],
+    "examples": [
+      {
+        "de": "Der Gebirgspass ist im Winter gesperrt.",
+        "ja": "その山岳峠は冬に封鎖される。"
+      },
+      {
+        "de": "Wir überquerten den Gebirgspass.",
+        "ja": "私たちは山岳峠を越えた。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Gebirge",
+          "meaning": { "ja": "山脈、山地", "en": "mountain range, mountains" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "Pass",
+          "meaning": { "ja": "峠、通路", "en": "pass, passage" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["geography", "transport", "b2"]
   },
   {
@@ -542,6 +1681,31 @@
     "gender": "die",
     "plural": "Abgaben",
     "meanings": [{ "ja": "税・手数料・徴収金", "en": "levy, fee, dues" }],
+    "examples": [
+      {
+        "de": "Die Abgabe für die Müllabfuhr ist gestiegen.",
+        "ja": "ごみ収集の手数料が上がった。"
+      },
+      {
+        "de": "Die Abgaben belasten die Bürger.",
+        "ja": "税金が市民を負担させている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "ab-",
+          "meaning": { "ja": "離れて、取り除いて", "en": "away, off" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "geben",
+          "meaning": { "ja": "与える、支払う", "en": "to give, to pay" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["tax", "economy", "b2"]
   },
   {
@@ -560,6 +1724,34 @@
         "en": "to levy, to raise"
       }
     ],
+    "examples": [
+      {
+        "de": "Der Staat erhebt Steuern.",
+        "ja": "国家は税金を徴収する。"
+      },
+      {
+        "de": "Er erhob Einspruch gegen die Entscheidung.",
+        "ja": "彼は決定に対して異議を申し立てた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "er-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "heben",
+          "meaning": { "ja": "上げる、持ち上げる", "en": "to lift, to raise" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "economy", "b2"]
   },
   {
@@ -573,6 +1765,34 @@
       "auxiliary": "haben"
     },
     "meanings": [{ "ja": "奪う、強奪する", "en": "to deprive, to rob" }],
+    "examples": [
+      {
+        "de": "Der Dieb beraubte die Bank.",
+        "ja": "泥棒が銀行を強奪した。"
+      },
+      {
+        "de": "Die Krankheit beraubte ihn seiner Kräfte.",
+        "ja": "病気が彼の力を奪った。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "be-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "rauben",
+          "meaning": { "ja": "奪う、強奪する", "en": "to rob, to steal" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["crime", "action", "b2"]
   },
   {
@@ -582,6 +1802,29 @@
     "gender": "die",
     "plural": "Siedlungen",
     "meanings": [{ "ja": "集落、居住地、入植地", "en": "settlement" }],
+    "examples": [
+      {
+        "de": "Die Siedlung wurde im Mittelalter gegründet.",
+        "ja": "その集落は中世に設立された。"
+      },
+      {
+        "de": "Die neue Siedlung wächst schnell.",
+        "ja": "新しい居住地は急速に成長している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "siedeln",
+          "meaning": {
+            "ja": "定住する、植民する",
+            "en": "to settle, to colonize"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["geography", "society", "b2"]
   },
   {
@@ -591,6 +1834,31 @@
     "gender": "der",
     "plural": "Bernsteine",
     "meanings": [{ "ja": "琥珀", "en": "amber" }],
+    "examples": [
+      {
+        "de": "Der Bernstein enthält ein Insekt.",
+        "ja": "その琥珀には昆虫が含まれている。"
+      },
+      {
+        "de": "Bernstein wird als Schmuck verwendet.",
+        "ja": "琥珀は装身具として使用される。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Brennen",
+          "meaning": { "ja": "燃える、焼く", "en": "to burn, to burn" },
+          "partOfSpeech": "verb"
+        },
+        {
+          "form": "Stein",
+          "meaning": { "ja": "石", "en": "stone" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["material", "geology", "b2"]
   },
   {
@@ -600,6 +1868,37 @@
     "gender": "die",
     "plural": "Hierarchien",
     "meanings": [{ "ja": "階層、ヒエラルキー", "en": "hierarchy" }],
+    "examples": [
+      {
+        "de": "Die Hierarchie in der Firma ist klar.",
+        "ja": "会社の階層は明確だ。"
+      },
+      {
+        "de": "Er steht ganz oben in der Hierarchie.",
+        "ja": "彼は階層の最上位にいる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "hier",
+          "meaning": {
+            "ja": "神聖な、聖なる",
+            "en": "sacred, holy"
+          },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "archie",
+          "meaning": {
+            "ja": "支配、統治",
+            "en": "rule, governance"
+          },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["society", "organization", "b2"]
   },
   {
@@ -609,6 +1908,29 @@
     "meanings": [
       { "ja": "明確な、はっきりした；明瞭に", "en": "clear, distinct; clearly" }
     ],
+    "examples": [
+      {
+        "de": "Die Unterschiede sind deutlich sichtbar.",
+        "ja": "違いは明確に見える。"
+      },
+      {
+        "de": "Er spricht deutlich.",
+        "ja": "彼は明瞭に話す。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "deuten",
+          "meaning": {
+            "ja": "解釈する、意味する",
+            "en": "to interpret, to mean"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["adjective", "communication", "b2"]
   },
   {
@@ -618,6 +1940,31 @@
     "gender": "der",
     "plural": "Abstände",
     "meanings": [{ "ja": "間隔、距離、差", "en": "distance, interval, gap" }],
+    "examples": [
+      {
+        "de": "Der Abstand zwischen den Häusern ist groß.",
+        "ja": "家の間の距離は大きい。"
+      },
+      {
+        "de": "Es gibt einen großen Abstand zwischen den Meinungen.",
+        "ja": "意見の間に大きな差がある。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ab",
+          "meaning": { "ja": "離れて、取り除いて", "en": "away, off" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Stand",
+          "meaning": { "ja": "立つこと、位置", "en": "standing, position" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["measurement", "space", "b2"]
   },
   {
@@ -627,6 +1974,26 @@
     "gender": "das",
     "plural": "Gräber",
     "meanings": [{ "ja": "墓、墓所", "en": "grave, tomb" }],
+    "examples": [
+      {
+        "de": "Das Grab ist mit Blumen geschmückt.",
+        "ja": "その墓は花で飾られている。"
+      },
+      {
+        "de": "Die Gräber sind sehr alt.",
+        "ja": "その墓所はとても古い。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "graben",
+          "meaning": { "ja": "掘る、穴を掘る", "en": "to dig, to excavate" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["history", "culture", "b2"]
   },
   {
@@ -641,6 +2008,31 @@
         "en": "addition, side item; grave good"
       }
     ],
+    "examples": [
+      {
+        "de": "Die Beigaben im Grab sind wertvoll.",
+        "ja": "墓の副葬品は価値がある。"
+      },
+      {
+        "de": "Als Beigabe erhielt er ein Geschenk.",
+        "ja": "添え物として彼は贈り物をもらった。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "bei-",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "geben",
+          "meaning": { "ja": "与える、提供する", "en": "to give, to provide" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["culture", "history", "b2"]
   },
   {
@@ -650,6 +2042,26 @@
     "gender": "der/die",
     "plural": "Toten",
     "meanings": [{ "ja": "死者", "en": "dead person, deceased" }],
+    "examples": [
+      {
+        "de": "Die Toten wurden würdevoll bestattet.",
+        "ja": "死者は尊厳を持って埋葬された。"
+      },
+      {
+        "de": "Wir gedenken der Toten.",
+        "ja": "私たちは死者を偲ぶ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "tot",
+          "meaning": { "ja": "死んだ、亡くなった", "en": "dead, deceased" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["society", "b2"]
   },
   {
@@ -662,6 +2074,31 @@
         "en": "extensive, comprehensive"
       }
     ],
+    "examples": [
+      {
+        "de": "Das Projekt ist sehr umfangreich.",
+        "ja": "そのプロジェクトは非常に大規模だ。"
+      },
+      {
+        "de": "Die Studie ist umfangreich und detailliert.",
+        "ja": "その研究は広範で詳細だ。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Umfang",
+          "meaning": { "ja": "範囲、規模", "en": "scope, extent" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "reich",
+          "meaning": { "ja": "豊富な、豊かな", "en": "rich, abundant" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["adjective", "quantity", "b2"]
   },
   {
@@ -677,6 +2114,31 @@
     "meanings": [
       { "ja": "埋葬する（墓に葬る）", "en": "to inter, to bury (in a grave)" }
     ],
+    "examples": [
+      {
+        "de": "Der Verstorbene wurde beigesetzt.",
+        "ja": "故人は埋葬された。"
+      },
+      {
+        "de": "Die Urne wurde im Familiengrab beigesetzt.",
+        "ja": "骨壺は家族の墓に埋葬された。"
+      }
+    ],
+    "etymology": {
+      "type": "separable-verb",
+      "components": [
+        {
+          "form": "bei",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "setzen",
+          "meaning": { "ja": "置く、設置する", "en": "to put, to place" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "culture", "b2"]
   },
   {
@@ -695,6 +2157,34 @@
         "en": "to prove, to substantiate; to book; to cover"
       }
     ],
+    "examples": [
+      {
+        "de": "Die Daten belegen die These.",
+        "ja": "データがその仮説を証明している。"
+      },
+      {
+        "de": "Ich habe einen Platz belegt.",
+        "ja": "私は席を予約した。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "be-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "legen",
+          "meaning": { "ja": "置く、横たえる", "en": "to put, to lay" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "evidence", "b2"]
   },
   {
@@ -713,6 +2203,34 @@
         "en": "to hand down, to pass on"
       }
     ],
+    "examples": [
+      {
+        "de": "Die Geschichte wurde überliefert.",
+        "ja": "その物語は伝承された。"
+      },
+      {
+        "de": "Traditionen werden von Generation zu Generation überliefert.",
+        "ja": "伝統は世代から世代へと伝えられる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "〜を越えて、〜の上に", "en": "over, across" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "liefern",
+          "meaning": {
+            "ja": "提供する、届ける",
+            "en": "to deliver, to provide"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["action", "history", "b2"]
   },
   {
@@ -731,6 +2249,29 @@
         "en": "to reach; to be enough; to hand (over)"
       }
     ],
+    "examples": [
+      {
+        "de": "Das Geld reicht nicht aus.",
+        "ja": "お金が足りない。"
+      },
+      {
+        "de": "Kannst du mir das Buch reichen?",
+        "ja": "その本を手渡してもらえる？"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Reich",
+          "meaning": {
+            "ja": "王国、領域",
+            "en": "kingdom, realm"
+          },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
     "tags": ["action", "quantity", "b2"]
   },
   {
@@ -740,6 +2281,26 @@
     "gender": "die",
     "plural": "Gemeinsamkeiten",
     "meanings": [{ "ja": "共通点、共通性", "en": "commonality, similarity" }],
+    "examples": [
+      {
+        "de": "Wir haben viele Gemeinsamkeiten.",
+        "ja": "私たちには多くの共通点がある。"
+      },
+      {
+        "de": "Die Gemeinsamkeiten überwiegen die Unterschiede.",
+        "ja": "共通性が違いを上回っている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "gemeinsam",
+          "meaning": { "ja": "共通の、一緒の", "en": "common, together" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
     "tags": ["abstract", "comparison", "b2"]
   },
   {
@@ -751,6 +2312,29 @@
     "meanings": [
       { "ja": "権力、支配力；大国", "en": "power, authority; great power" }
     ],
+    "examples": [
+      {
+        "de": "Die Macht korrumpiert.",
+        "ja": "権力は腐敗させる。"
+      },
+      {
+        "de": "Deutschland ist eine wirtschaftliche Macht.",
+        "ja": "ドイツは経済大国だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "mögen",
+          "meaning": {
+            "ja": "〜できる、〜することができる",
+            "en": "to be able to, can"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["politics", "society", "b2"]
   },
   {
@@ -760,6 +2344,26 @@
     "meanings": [
       { "ja": "包括的な、網羅的な", "en": "comprehensive, exhaustive" }
     ],
+    "examples": [
+      {
+        "de": "Die Analyse ist sehr umfassend.",
+        "ja": "その分析は非常に包括的だ。"
+      },
+      {
+        "de": "Wir brauchen eine umfassende Lösung.",
+        "ja": "包括的な解決策が必要だ。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "umfassen",
+          "meaning": { "ja": "包む、含む", "en": "to encompass, to include" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["adjective", "scope", "b2"]
   },
   {
@@ -769,6 +2373,16 @@
     "gender": "die",
     "plural": "Epochen",
     "meanings": [{ "ja": "時代、時期（歴史区分）", "en": "epoch, era" }],
+    "examples": [
+      {
+        "de": "Das war eine wichtige Epoche in der Geschichte.",
+        "ja": "それは歴史における重要な時代だった。"
+      },
+      {
+        "de": "Die Renaissance war eine bedeutende Epoche.",
+        "ja": "ルネサンスは重要な時代だった。"
+      }
+    ],
     "tags": ["history", "time", "b2"]
   },
   {
@@ -778,6 +2392,729 @@
     "gender": "das",
     "plural": "Ereignisse",
     "meanings": [{ "ja": "出来事、事件、行事", "en": "event, incident" }],
+    "examples": [
+      {
+        "de": "Das war ein historisches Ereignis.",
+        "ja": "それは歴史的な出来事だった。"
+      },
+      {
+        "de": "Die Ereignisse überschlugen sich.",
+        "ja": "出来事が次々と起こった。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "er-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "eignen",
+          "meaning": {
+            "ja": "所有する、適している",
+            "en": "to own, to be suitable"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
     "tags": ["time", "news", "b2"]
+  },
+  {
+    "id": "ubergang",
+    "word": "Übergang",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Übergänge",
+    "meanings": [
+      { "ja": "移行、過渡期、橋渡し", "en": "transition, passage, bridge" }
+    ],
+    "examples": [
+      {
+        "de": "Der Übergang von der Schule zur Universität war schwierig.",
+        "ja": "学校から大学への移行は困難だった。"
+      },
+      {
+        "de": "Es gibt einen Übergang zwischen den beiden Gebäuden.",
+        "ja": "2つの建物の間に通路がある。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "über",
+          "meaning": { "ja": "〜を越えて、〜の上に", "en": "over, across" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "gehen",
+          "meaning": { "ja": "行く、移動する", "en": "to go, to move" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["abstract", "change", "b2"]
+  },
+  {
+    "id": "erreichen",
+    "word": "erreichen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "erreichen",
+      "preterite": "erreichte",
+      "pastParticiple": "erreicht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      {
+        "ja": "到達する、達成する、連絡が取れる",
+        "en": "to reach, to achieve, to get in touch with"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir haben das Ziel erreicht.",
+        "ja": "私たちは目標を達成した。"
+      },
+      {
+        "de": "Ich kann ihn telefonisch nicht erreichen.",
+        "ja": "電話で彼に連絡が取れない。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "er-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "reichen",
+          "meaning": { "ja": "届く、足りる", "en": "to reach, to be enough" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "achievement", "b2"]
+  },
+  {
+    "id": "eindruck",
+    "word": "Eindruck",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Eindrücke",
+    "meanings": [{ "ja": "印象、感銘", "en": "impression" }],
+    "examples": [
+      {
+        "de": "Die Stadt hat einen guten Eindruck auf mich gemacht.",
+        "ja": "その都市は私に良い印象を与えた。"
+      },
+      {
+        "de": "Der Vortrag hinterließ einen tiefen Eindruck.",
+        "ja": "講演は深い印象を残した。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "ein",
+          "meaning": { "ja": "〜の中に、〜へ", "en": "into, in" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Druck",
+          "meaning": { "ja": "圧力、印刷", "en": "pressure, print" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["abstract", "perception", "b2"]
+  },
+  {
+    "id": "ortsfeste",
+    "word": "ortsfest",
+    "partOfSpeech": "adjective",
+    "meanings": [{ "ja": "定住の、固定の", "en": "permanent, fixed in place" }],
+    "examples": [
+      {
+        "de": "Die Firma hat eine ortsfeste Niederlassung.",
+        "ja": "会社は固定の支社を持っている。"
+      },
+      {
+        "de": "Ortsfeste Installationen sind teuer.",
+        "ja": "固定の設備は高価だ。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "Ort",
+          "meaning": { "ja": "場所、位置", "en": "place, location" },
+          "partOfSpeech": "noun"
+        },
+        {
+          "form": "fest",
+          "meaning": { "ja": "固定の、確実な", "en": "fixed, firm" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "location", "b2"]
+  },
+  {
+    "id": "stamm",
+    "word": "Stamm",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Stämme",
+    "meanings": [{ "ja": "幹、一族、語幹", "en": "trunk, tribe, stem" }],
+    "examples": [
+      {
+        "de": "Der Stamm des Baumes ist sehr dick.",
+        "ja": "木の幹はとても太い。"
+      },
+      {
+        "de": "Er gehört zu einem alten Stamm.",
+        "ja": "彼は古い一族に属している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "stehen",
+          "meaning": { "ja": "立つ、存在する", "en": "to stand, to exist" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["nature", "family", "b2"]
+  },
+  {
+    "id": "beherrschen",
+    "word": "beherrschen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "beherrschen",
+      "preterite": "beherrschte",
+      "pastParticiple": "beherrscht",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "支配する、習得している", "en": "to rule, to master" }
+    ],
+    "examples": [
+      {
+        "de": "Er beherrscht mehrere Sprachen.",
+        "ja": "彼は複数の言語を習得している。"
+      },
+      {
+        "de": "Der König beherrschte das Land.",
+        "ja": "王はその国を支配していた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "be-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "herrschen",
+          "meaning": { "ja": "支配する、統治する", "en": "to rule, to govern" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "control", "b2"]
+  },
+  {
+    "id": "jeweils",
+    "word": "jeweils",
+    "partOfSpeech": "adverb",
+    "meanings": [{ "ja": "それぞれ、毎回", "en": "respectively, each time" }],
+    "examples": [
+      {
+        "de": "Die Preise sind jeweils unterschiedlich.",
+        "ja": "価格はそれぞれ異なる。"
+      },
+      {
+        "de": "Jeweils am Montag findet ein Meeting statt.",
+        "ja": "毎週月曜日にミーティングが開かれる。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "jeder",
+          "meaning": { "ja": "それぞれの、毎回の", "en": "each, every" },
+          "partOfSpeech": "pronoun"
+        }
+      ]
+    },
+    "tags": ["adverb", "frequency", "b2"]
+  },
+  {
+    "id": "anspruch",
+    "word": "Anspruch",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Ansprüche",
+    "meanings": [{ "ja": "要求、権利、請求", "en": "claim, right, demand" }],
+    "examples": [
+      {
+        "de": "Er hat einen Anspruch auf Entschädigung.",
+        "ja": "彼は補償を受ける権利がある。"
+      },
+      {
+        "de": "Die Ansprüche sind zu hoch.",
+        "ja": "要求が高すぎる。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "an",
+          "meaning": { "ja": "〜に、〜へ", "en": "to, at" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "Spruch",
+          "meaning": { "ja": "言葉、判決", "en": "word, verdict" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["law", "right", "b2"]
+  },
+  {
+    "id": "ungewiss",
+    "word": "ungewiss",
+    "partOfSpeech": "adjective",
+    "meanings": [{ "ja": "不確実な、不明な", "en": "uncertain, unclear" }],
+    "examples": [
+      {
+        "de": "Die Zukunft ist ungewiss.",
+        "ja": "将来は不確実だ。"
+      },
+      {
+        "de": "Das Ergebnis ist noch ungewiss.",
+        "ja": "結果はまだ不明だ。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "un-",
+          "meaning": { "ja": "否定を表す接頭辞", "en": "negative prefix" },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "gewiss",
+          "meaning": { "ja": "確実な、確かな", "en": "certain, sure" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "uncertainty", "b2"]
+  },
+  {
+    "id": "bisweilen",
+    "word": "bisweilen",
+    "partOfSpeech": "adverb",
+    "meanings": [{ "ja": "時々、ときたま", "en": "sometimes, occasionally" }],
+    "examples": [
+      {
+        "de": "Bisweilen besuche ich das Museum.",
+        "ja": "時々博物館を訪れる。"
+      },
+      {
+        "de": "Bisweilen macht er Fehler.",
+        "ja": "ときたま彼は間違いをする。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "bis",
+          "meaning": { "ja": "〜まで", "en": "until, up to" },
+          "partOfSpeech": "preposition"
+        },
+        {
+          "form": "weilen",
+          "meaning": {
+            "ja": "時を過ごす、滞在する",
+            "en": "to stay, to linger"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["adverb", "time", "b2"]
+  },
+  {
+    "id": "streben",
+    "word": "streben",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "streben",
+      "preterite": "strebte",
+      "pastParticiple": "gestrebt",
+      "auxiliary": "haben"
+    },
+    "meanings": [{ "ja": "努力する、目指す", "en": "to strive, to aim for" }],
+    "examples": [
+      {
+        "de": "Sie strebt nach Erfolg.",
+        "ja": "彼女は成功を目指している。"
+      },
+      {
+        "de": "Wir streben eine bessere Zukunft an.",
+        "ja": "私たちはより良い未来を目指している。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Streben",
+          "meaning": { "ja": "努力、志向", "en": "striving, aspiration" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["action", "goal", "b2"]
+  },
+  {
+    "id": "herrschaft",
+    "word": "Herrschaft",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "meanings": [{ "ja": "支配、統治、権力", "en": "rule, dominion, power" }],
+    "examples": [
+      {
+        "de": "Die Herrschaft des Königs dauerte lange.",
+        "ja": "王の統治は長く続いた。"
+      },
+      {
+        "de": "Unter seiner Herrschaft blühte das Land.",
+        "ja": "彼の支配下で国は栄えた。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "herrschen",
+          "meaning": { "ja": "支配する、統治する", "en": "to rule, to govern" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["politics", "power", "b2"]
+  },
+  {
+    "id": "etablieren",
+    "word": "etablieren",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "etablieren",
+      "preterite": "etablierte",
+      "pastParticiple": "etabliert",
+      "auxiliary": "haben"
+    },
+    "meanings": [
+      { "ja": "確立する、設立する", "en": "to establish, to set up" }
+    ],
+    "examples": [
+      {
+        "de": "Sie haben ein neues Geschäft etabliert.",
+        "ja": "彼らは新しい事業を設立した。"
+      },
+      {
+        "de": "Die Tradition hat sich etabliert.",
+        "ja": "その伝統は確立されている。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "établir",
+          "meaning": {
+            "ja": "設立する（フランス語由来）",
+            "en": "to establish (from French)"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "establishment", "b2"]
+  },
+  {
+    "id": "garnison",
+    "word": "Garnison",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "plural": "Garnisonen",
+    "meanings": [{ "ja": "駐屯地、守備隊", "en": "garrison" }],
+    "examples": [
+      {
+        "de": "Die Garnison ist in der Stadt stationiert.",
+        "ja": "守備隊は都市に駐屯している。"
+      },
+      {
+        "de": "Die Garnison wurde verstärkt.",
+        "ja": "駐屯地は強化された。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "garnir",
+          "meaning": {
+            "ja": "装備する、供給する（フランス語由来）",
+            "en": "to equip, to supply (from French)"
+          },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["military", "location", "b2"]
+  },
+  {
+    "id": "gericht",
+    "word": "Gericht",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Gerichte",
+    "meanings": [{ "ja": "料理、法廷", "en": "dish, court" }],
+    "examples": [
+      {
+        "de": "Das Gericht schmeckt sehr gut.",
+        "ja": "その料理はとても美味しい。"
+      },
+      {
+        "de": "Das Gericht fällte ein Urteil.",
+        "ja": "法廷は判決を下した。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "richten",
+          "meaning": { "ja": "正す、判断する", "en": "to correct, to judge" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["food", "law", "b2"]
+  },
+  {
+    "id": "barbar",
+    "word": "Barbar",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "plural": "Barbaren",
+    "meanings": [{ "ja": "野蛮人、未開人", "en": "barbarian" }],
+    "examples": [
+      {
+        "de": "Die Römer nannten die Germanen Barbaren.",
+        "ja": "ローマ人はゲルマン人を野蛮人と呼んだ。"
+      },
+      {
+        "de": "Er benahm sich wie ein Barbar.",
+        "ja": "彼は野蛮人のように振る舞った。"
+      }
+    ],
+    "etymology": {
+      "type": "other",
+      "components": [
+        {
+          "form": "βάρβαρος",
+          "meaning": {
+            "ja": "野蛮人（ギリシャ語由来）",
+            "en": "barbarian (from Greek)"
+          },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["history", "culture", "b2"]
+  },
+  {
+    "id": "großzugig",
+    "word": "großzügig",
+    "partOfSpeech": "adjective",
+    "meanings": [{ "ja": "気前の良い、寛大な", "en": "generous, magnanimous" }],
+    "examples": [
+      {
+        "de": "Er ist sehr großzügig mit seinem Geld.",
+        "ja": "彼はお金に非常に気前が良い。"
+      },
+      {
+        "de": "Das war eine großzügige Geste.",
+        "ja": "それは寛大な行為だった。"
+      }
+    ],
+    "etymology": {
+      "type": "compound",
+      "components": [
+        {
+          "form": "groß",
+          "meaning": { "ja": "大きい、偉大な", "en": "big, great" },
+          "partOfSpeech": "adjective"
+        },
+        {
+          "form": "zügig",
+          "meaning": { "ja": "素早い、流れの良い", "en": "quick, flowing" },
+          "partOfSpeech": "adjective"
+        }
+      ]
+    },
+    "tags": ["adjective", "character", "b2"]
+  },
+  {
+    "id": "steinern",
+    "word": "steinern",
+    "partOfSpeech": "adjective",
+    "meanings": [{ "ja": "石の、石造りの", "en": "made of stone, stony" }],
+    "examples": [
+      {
+        "de": "Die steinerne Brücke ist sehr alt.",
+        "ja": "その石橋はとても古い。"
+      },
+      {
+        "de": "Er hat ein steinernes Gesicht.",
+        "ja": "彼は石のような顔をしている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Stein",
+          "meaning": { "ja": "石", "en": "stone" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["adjective", "material", "b2"]
+  },
+  {
+    "id": "tor",
+    "word": "Tor",
+    "partOfSpeech": "noun",
+    "gender": "das",
+    "plural": "Tore",
+    "meanings": [{ "ja": "門、ゴール", "en": "gate, goal" }],
+    "examples": [
+      {
+        "de": "Das Tor ist geschlossen.",
+        "ja": "門は閉じられている。"
+      },
+      {
+        "de": "Er hat ein Tor geschossen.",
+        "ja": "彼はゴールを決めた。"
+      }
+    ],
+    "tags": ["architecture", "sports", "b2"]
+  },
+  {
+    "id": "beheizen",
+    "word": "beheizen",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "beheizen",
+      "preterite": "beheizte",
+      "pastParticiple": "beheizt",
+      "auxiliary": "haben"
+    },
+    "meanings": [{ "ja": "暖房する、加熱する", "en": "to heat, to warm" }],
+    "examples": [
+      {
+        "de": "Das Haus wird mit Gas beheizt.",
+        "ja": "その家はガスで暖房されている。"
+      },
+      {
+        "de": "Die Wohnung ist gut beheizt.",
+        "ja": "アパートはよく暖房されている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "be-",
+          "meaning": {
+            "ja": "完了、変化を表す接頭辞",
+            "en": "completion, change prefix"
+          },
+          "partOfSpeech": "prefix"
+        },
+        {
+          "form": "heizen",
+          "meaning": { "ja": "暖房する、加熱する", "en": "to heat, to warm" },
+          "partOfSpeech": "verb"
+        }
+      ]
+    },
+    "tags": ["action", "temperature", "b2"]
+  },
+  {
+    "id": "pflastern",
+    "word": "pflastern",
+    "partOfSpeech": "verb",
+    "conjugation": {
+      "infinitive": "pflastern",
+      "preterite": "pflasterte",
+      "pastParticiple": "gepflastert",
+      "auxiliary": "haben"
+    },
+    "meanings": [{ "ja": "舗装する、石畳にする", "en": "to pave, to cobble" }],
+    "examples": [
+      {
+        "de": "Die Straße wurde gepflastert.",
+        "ja": "道路は舗装された。"
+      },
+      {
+        "de": "Der Platz ist mit Steinen gepflastert.",
+        "ja": "広場は石で舗装されている。"
+      }
+    ],
+    "etymology": {
+      "type": "derived-noun",
+      "components": [
+        {
+          "form": "Pflaster",
+          "meaning": { "ja": "舗装、石畳", "en": "paving, cobblestones" },
+          "partOfSpeech": "noun"
+        }
+      ]
+    },
+    "tags": ["action", "construction", "b2"]
   }
 ]
